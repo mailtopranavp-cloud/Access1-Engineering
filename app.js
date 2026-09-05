@@ -63,20 +63,36 @@
 
   /**
    * Initializes data from localStorage or default seed
+   * Bypasses stale localStorage if in review mode or if DATA_VERSION changed
    */
   function initData() {
-    try {
-      const saved = localStorage.getItem('company_dashboard_projects');
-      if (saved) {
-        projects = JSON.parse(saved);
-      }
-    } catch (e) {
-      console.warn('Could not read from localStorage', e);
-    }
+    const urlParams = new URLSearchParams(window.location.search);
+    const isReviewMode = document.body.classList.contains('review-mode') || 
+      urlParams.get('mode') === 'review' || 
+      urlParams.get('review') === 'true';
 
-    if (!projects || Object.keys(projects).length === 0) {
-      projects = window.DEFAULT_PROJECTS || {};
-      saveData();
+    const currentVersion = window.DATA_VERSION || '1.0';
+    const storedVersion = localStorage.getItem('dashboard_data_version');
+
+    // If review mode is active OR data version changed, load fresh data from sampleData.js
+    if (isReviewMode || storedVersion !== currentVersion) {
+      projects = JSON.parse(JSON.stringify(window.DEFAULT_PROJECTS || {}));
+      localStorage.setItem('company_dashboard_projects', JSON.stringify(projects));
+      localStorage.setItem('dashboard_data_version', currentVersion);
+    } else {
+      try {
+        const saved = localStorage.getItem('company_dashboard_projects');
+        if (saved) {
+          projects = JSON.parse(saved);
+        }
+      } catch (e) {
+        console.warn('Could not read from localStorage', e);
+      }
+
+      if (!projects || Object.keys(projects).length === 0) {
+        projects = JSON.parse(JSON.stringify(window.DEFAULT_PROJECTS || {}));
+        saveData();
+      }
     }
 
     if (!projects[currentProjectKey]) {
@@ -1093,6 +1109,27 @@
     if (modal) modal.classList.remove('active');
   }
 
+  // --- Export sampleData.js for GitHub Publishing ---
+  function exportSampleDataJs() {
+    const versionStamp = new Date().toISOString().replace(/[:.]/g, '-');
+    const content = `/**
+ * Updated Seed & Default Projects for GitHub Pages
+ * Generated on: ${new Date().toLocaleString()}
+ */
+
+window.DATA_VERSION = "${versionStamp}";
+
+window.DEFAULT_PROJECTS = ${JSON.stringify(projects, null, 2)};
+`;
+    const blob = new Blob([content], { type: 'application/javascript;charset=utf-8' });
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = 'sampleData.js';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+
   // --- Export to CSV ---
   function exportDrawingsToCsv() {
     const rawProj = projects[currentProjectKey];
@@ -1183,8 +1220,13 @@
       renderDrawingsTable(proj);
     });
 
+    // Export CSV
     document.getElementById('btn-export-csv')?.addEventListener('click', exportDrawingsToCsv);
 
+    // Export sampleData.js for GitHub
+    document.getElementById('btn-export-sample-data')?.addEventListener('click', exportSampleDataJs);
+
+    // Print Button
     document.getElementById('btn-print-report')?.addEventListener('click', () => {
       window.print();
     });

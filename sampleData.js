@@ -1,7 +1,9 @@
-﻿/**
+/**
  * Default Seed & Sample Data
  * Extracted directly from company Excel files: PH497_2026-08-05.xlsx & PH497_2026-09-05.xlsx
  */
+
+window.DATA_VERSION = "2026-09-05-v3";
 
 window.DEFAULT_PROJECTS = {
   "PH497-SG1": {
