@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design Department Weekly Report Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📊</text></svg>">
+</head>
+<body>
+
+  <div class="app-container">
+
+    <!-- Top Application Header -->
+    <header class="app-header">
+      <div class="header-titles">
+        <h1 id="heading-main-title" class="editable-heading" title="Click to edit title">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#1E3A8A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" class="no-print"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+          Design Department Weekly Report
+        </h1>
+        <div id="heading-subtitle" class="subtitle editable-heading" title="Click to edit subtitle">
+          Projects Overview &amp; Performance Tracking
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <div class="report-date-badge">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>
+          <span>Reporting Period: <strong>Sep, 26</strong></span>
+        </div>
+
+        <!-- Add Project Button (Point 1) -->
+        <button id="btn-add-project" class="btn btn-success" title="Add a new project to the dashboard">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          Add Project
+        </button>
+
+        <!-- Dedicated Refresh / Upload Button -->
+        <button id="btn-refresh-data" class="btn btn-primary" title="Upload new Excel weekly reports">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/><path d="M3 12a9 9 0 0 0 9 9 9.75 9.75 0 0 0 6.74-2.74L21 16"/><path d="M16 16h5v5"/></svg>
+          Refresh / Upload Excel
+        </button>
+
+        <!-- Print / Export Report (Point 4) -->
+        <button id="btn-print-report" class="btn btn-outline" title="Print or save as executive PDF without file paths">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect width="12" height="8" x="6" y="14"/></svg>
+          Print PDF
+        </button>
+      </div>
+    </header>
+
+    <!-- ====================================================================
+         VIEW 1: PROJECTS OVERVIEW (PAGE 1)
+         ==================================================================== -->
+    <main id="view-overview" class="view-section active">
+      <div class="overview-toolbar">
+        <div class="toolbar-left">
+          <div class="search-input-wrapper">
+            <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" x2="16.65" y1="21" y2="16.65"/></svg>
+            <input type="text" id="search-projects" class="search-input" placeholder="Search projects or Project Leads...">
+          </div>
+        </div>
+        <div style="font-size: 13.5px; color: #64748B;">
+          Click any project card to open its detailed breakdown • Click headings to edit title
+        </div>
+      </div>
+
+      <!-- Responsive Grid of Project Cards -->
+      <div id="projects-grid" class="projects-grid">
+        <!-- Injected dynamically by app.js -->
+      </div>
+    </main>
+
+    <!-- ====================================================================
+         VIEW 2: PROJECT IN-DEPTH OVERVIEW (PAGE 2)
+         ==================================================================== -->
+    <main id="view-detail" class="view-section">
+      <!-- Breadcrumb & Top Controls -->
+      <div class="nav-bar">
+        <button id="back-to-overview" class="back-link">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg>
+          Back to Projects Overview
+        </button>
+
+        <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+          <label for="detail-date-select" style="font-size: 13px; font-weight: 600; color: #475569;">Report Date:</label>
+          <select id="detail-date-select" class="filter-select">
+            <!-- Populated dynamically -->
+          </select>
+
+          <button id="btn-upload-more" class="btn btn-outline" style="padding: 6px 12px; font-size: 13px;">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" x2="12" y1="3" y2="15"/></svg>
+            Update Report
+          </button>
+
+          <!-- Remove Project from Detail View (Point 1) -->
+          <button id="btn-delete-current-project" class="btn btn-danger" style="padding: 6px 12px; font-size: 13px;">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>
+            Remove Project
+          </button>
+        </div>
+      </div>
+
+      <!-- Detail Top Banner: Personnel, Modelers, Schedule -->
+      <section class="detail-banner">
+        <div class="detail-banner-title">
+          <span id="detail-project-title">Project Overview (PH497 - SG1)</span>
+          <span class="badge badge-approved" style="font-size: 13px; padding: 5px 12px;">Active Project</span>
+        </div>
+
+        <div class="banner-grid">
+          <!-- Column 1: Management & Key Personnel -->
+          <div class="banner-column">
+            <h3>Key Personnel</h3>
+            <table class="info-table">
+              <tr><td class="label">Project In-Charge</td><td class="val">: <span id="val-incharge">Rejoe</span></td></tr>
+              <tr><td class="label">Project Lead</td><td class="val">: <span id="val-lead">Pranav</span></td></tr>
+              <tr><td class="label">BIM/Design Coordinator</td><td class="val">: <span id="val-bim">Ajmal</span></td></tr>
+              <tr><td class="label">Project DC</td><td class="val">: <span id="val-dc">Romeo</span></td></tr>
+              <tr><td class="label">Procurement</td><td class="val">: <span id="val-procurement">Osama</span></td></tr>
+              <tr><td class="label">Estimation</td><td class="val">: <span id="val-estimation">Abdul</span></td></tr>
+            </table>
+          </div>
+
+          <!-- Column 2: OSR Modelers List (Column C) -->
+          <div class="banner-column">
+            <h3>List of OSR Modelers</h3>
+            <div id="detail-modelers-list" class="modelers-list">
+              <!-- Populated dynamically from Column C -->
+            </div>
+          </div>
+
+          <!-- Column 3: Project Schedule & Progress -->
+          <div class="banner-column">
+            <h3>Project Details &amp; Schedule</h3>
+            <table class="info-table">
+              <tr><td class="label">Planned Start Date</td><td class="val">: <span id="val-plan-start">01/01/2026</span></td></tr>
+              <tr><td class="label">Planned End Date</td><td class="val">: <span id="val-plan-end">06/06/2026</span></td></tr>
+              <tr><td class="label">Actual Start Date</td><td class="val">: <span id="val-act-start">04/04/2026</span></td></tr>
+              <tr><td class="label">Present Date</td><td class="val">: <span id="val-present-date">05/09/2026</span></td></tr>
+              <tr><td class="label">Period of Extension</td><td class="val">: <span id="val-extension" style="color: #EA580C; font-weight: 700;">3 Months</span></td></tr>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2x2 Charts & Notes Grid -->
+      <section class="detail-charts-grid">
+        <!-- 1. Monthly Report (Point 6: X: Excel Date "Sep, 26", Y: Total DWG) -->
+        <div class="chart-card">
+          <div class="chart-card-header">
+            <h2 id="heading-monthly-report" class="editable-heading" title="Click to edit heading">Monthly Report</h2>
+          </div>
+          <div class="chart-canvas-wrapper">
+            <canvas id="chart-monthly-report"></canvas>
+          </div>
+        </div>
+
+        <!-- 2. OSR Resource Utilization (Point 7: X: Date "Sep, 26", Y: Column C resources, bar tip count) -->
+        <div class="chart-card">
+          <div class="chart-card-header">
+            <h2 id="heading-utilization" class="editable-heading" title="Click to edit heading">OSR Resource Utilization</h2>
+          </div>
+          <div class="chart-canvas-wrapper">
+            <canvas id="chart-utilization"></canvas>
+          </div>
+        </div>
+
+        <!-- 3. Engineering Programme Line Chart (Point 8: Planned/Actual Date, Extension in different color) -->
+        <div class="chart-card">
+          <div class="chart-card-header">
+            <h2 id="heading-programme" class="editable-heading" title="Click to edit heading">Engineering Programme</h2>
+          </div>
+          <div class="chart-canvas-wrapper">
+            <canvas id="chart-programme"></canvas>
+          </div>
+        </div>
+
+        <!-- 4. Notes Section (Point 2: Carried from Column I) -->
+        <div class="notes-card">
+          <h2 id="heading-notes" class="editable-heading" title="Click to edit heading">Notes &amp; Observations</h2>
+          <ol id="detail-notes-list" class="notes-list">
+            <!-- Populated dynamically from Column I -->
+          </ol>
+        </div>
+      </section>
+
+      <!-- Drawing Register Table (Searchable & Filterable) -->
+      <section class="drawings-section">
+        <div class="drawings-header">
+          <div>
+            <h2 id="heading-drawings" class="editable-heading" title="Click to edit heading">Drawing Register</h2>
+            <span id="drawings-count-badge" style="font-size: 13px; color: #64748B;">Showing 194 drawings</span>
+          </div>
+
+          <div class="table-controls">
+            <input type="text" id="search-drawings" class="filter-select" placeholder="Filter Drawing No..." style="width: 200px;">
+            <select id="filter-drawing-status" class="filter-select">
+              <option value="ALL">All Statuses</option>
+              <option value="Approved">Approved</option>
+              <option value="Approved with Resub.">Approved with Resub.</option>
+              <option value="Submitted/Under Review">Submitted/Under Review</option>
+              <option value="Rejected">Rejected</option>
+              <option value="Under Preparation">Under Preparation</option>
+              <option value="Pending(Notes)">Pending(Notes)</option>
+              <option value="Not Started">Not Started</option>
+            </select>
+            <button id="btn-export-csv" class="btn btn-outline" style="padding: 7px 12px; font-size: 13px;">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+              Export CSV
+            </button>
+          </div>
+        </div>
+
+        <div class="table-responsive">
+          <table class="drawings-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Drawing Number</th>
+                <th>Current Status</th>
+              </tr>
+            </thead>
+            <tbody id="drawings-table-body">
+              <!-- Populated dynamically -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <!-- ====================================================================
+         MODAL 1: ADD NEW PROJECT (Point 1)
+         ==================================================================== -->
+    <div id="add-project-modal" class="modal-overlay">
+      <div class="modal-box">
+        <div class="modal-header">
+          <h2>Add New Project</h2>
+          <button id="add-modal-close-btn" class="close-btn">&times;</button>
+        </div>
+
+        <div class="form-group">
+          <label for="input-project-num">Project Number *</label>
+          <input type="text" id="input-project-num" class="form-input" placeholder="e.g. PH515" required>
+        </div>
+
+        <div class="form-group">
+          <label for="input-project-name">Project Name *</label>
+          <input type="text" id="input-project-name" class="form-input" placeholder="e.g. Metro Station South" required>
+        </div>
+
+        <div class="form-group">
+          <label for="input-project-pm">Project Lead / PL</label>
+          <input type="text" id="input-project-pm" class="form-input" placeholder="e.g. Pranav" value="Pranav">
+        </div>
+
+        <div class="form-group">
+          <label for="input-project-dwg">Estimated Total Drawings</label>
+          <input type="number" id="input-project-dwg" class="form-input" placeholder="e.g. 120" value="80">
+        </div>
+
+        <p style="font-size: 12.5px; color: #64748B; margin-top: 8px;">
+          Tip: You can also add a project automatically by clicking <strong>Refresh / Upload Excel</strong> and uploading the project's <code>.xlsx</code> file.
+        </p>
+
+        <div class="modal-footer">
+          <button id="add-modal-cancel-btn" class="btn btn-outline">Cancel</button>
+          <button id="btn-confirm-add-project" class="btn btn-primary">Create Project</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ====================================================================
+         MODAL 2: UPLOAD & REFRESH EXCEL DATA
+         ==================================================================== -->
+    <div id="upload-modal" class="modal-overlay">
+      <div class="modal-box">
+        <div class="modal-header">
+          <h2>Refresh Dashboard Data</h2>
+          <button id="modal-close-btn" class="close-btn">&times;</button>
+        </div>
+
+        <div id="drop-zone" class="drop-zone">
+          <div class="drop-zone-icon">📁</div>
+          <p><strong>Drag and drop Excel files here</strong></p>
+          <p>or click to browse your folders</p>
+          <span>Supports multiple standardized weekly report files (*.xlsx)</span>
+          <input type="file" id="file-input" accept=".xlsx" multiple style="display: none;">
+        </div>
+
+        <div id="upload-status-msg" class="upload-status"></div>
+
+        <div class="modal-footer">
+          <button id="modal-cancel-btn" class="btn btn-outline">Cancel</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Offline-capable Vendor Scripts with CDN fallbacks -->
+  <script src="assets/vendor/xlsx.full.min.js"></script>
+  <script>
+    if (typeof XLSX === 'undefined') {
+      document.write('<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"><\/script>');
+    }
+  </script>
+
+  <script src="assets/vendor/chart.umd.min.js"></script>
+  <script>
+    if (typeof Chart === 'undefined') {
+      document.write('<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"><\/script>');
+    }
+  </script>
+
+  <!-- Application Logic -->
+  <script src="sampleData.js"></script>
+  <script src="parser.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
