@@ -62,6 +62,64 @@
   };
 
   /**
+   * Cleans dummy placeholder records if real report data exists,
+   * and synchronizes top-level project properties to the latest real snapshot.
+   */
+  function syncProjectToLatest(proj) {
+    if (!proj) return;
+    if (!proj.history || Object.keys(proj.history).length === 0) return;
+
+    const histDates = Object.keys(proj.history);
+    // Check if real entries with drawings exist
+    const hasRealDrawings = histDates.some(
+      (d) => proj.history[d].drawings && proj.history[d].drawings.length > 0
+    );
+
+    // If there are real uploaded reports, purge auto-generated dummy placeholder entries (e.g. 0 drawings and totalDwg 300)
+    if (hasRealDrawings) {
+      histDates.forEach((d) => {
+        const h = proj.history[d];
+        if (h && (!h.drawings || h.drawings.length === 0) && h.totalDwg === 300 && h.statusSummary?.approved === 120) {
+          delete proj.history[d];
+        }
+      });
+    }
+
+    const remainingDates = Object.keys(proj.history).sort();
+    if (remainingDates.length === 0) return;
+
+    const latestDate = remainingDates[remainingDates.length - 1];
+    const latest = proj.history[latestDate];
+    if (!latest) return;
+
+    // Synchronize top-level fields to the latest snapshot
+    proj.dateOfReport = latest.dateOfReport || proj.dateOfReport;
+    proj.presentDate = latest.presentDate || latest.dateOfReport || proj.presentDate;
+    proj.plannedEndDate = latest.plannedEndDate || proj.plannedEndDate;
+    proj.plannedStartDate = latest.plannedStartDate || proj.plannedStartDate;
+    proj.actualStartDate = latest.actualStartDate || proj.actualStartDate;
+    proj.periodOfExtension = latest.periodOfExtension || proj.periodOfExtension;
+    proj.totalDwg = latest.totalDwg !== undefined ? latest.totalDwg : proj.totalDwg;
+    proj.statusSummary = latest.statusSummary || proj.statusSummary;
+    proj.completionPct = latest.completionPct !== undefined ? latest.completionPct : proj.completionPct;
+    if (latest.modelers && latest.modelers.length > 0) {
+      proj.modelers = latest.modelers;
+    }
+    if (latest.notes && latest.notes.length > 0) {
+      proj.notes = latest.notes;
+    }
+    if (latest.drawings && latest.drawings.length > 0) {
+      proj.drawings = latest.drawings;
+    }
+    if (latest.projectLead) proj.projectLead = latest.projectLead;
+    if (latest.projectInCharge) proj.projectInCharge = latest.projectInCharge;
+    if (latest.bimCoordinator) proj.bimCoordinator = latest.bimCoordinator;
+    if (latest.projectDc) proj.projectDc = latest.projectDc;
+    if (latest.procurement) proj.procurement = latest.procurement;
+    if (latest.estimation) proj.estimation = latest.estimation;
+  }
+
+  /**
    * Initializes data from localStorage or default seed
    * Bypasses stale localStorage if in review mode or if DATA_VERSION changed
    */
@@ -94,6 +152,11 @@
         saveData();
       }
     }
+
+    // Synchronize all projects to their latest report data
+    Object.keys(projects).forEach((k) => {
+      syncProjectToLatest(projects[k]);
+    });
 
     if (!projects[currentProjectKey]) {
       currentProjectKey = Object.keys(projects)[0] || 'PH497-SG1';
@@ -308,7 +371,7 @@
       grid.innerHTML = `
         <div style="grid-column: 1/-1; text-align: center; padding: 48px; background: #FFF; border-radius: 16px; border: 1px dashed #CBD5E1;">
           <h3 style="color: #64748B;">No matching projects found</h3>
-          <p style="color: #94A3B8; font-size: 14px; margin-top: 6px;">Use "+ Add Project" or "Refresh / Upload Excel" to create one.</p>
+          <p style="color: #94A3B8; font-size: 14px; margin-top: 6px;">Use "+ Add Project" or open a project to upload its weekly Excel report.</p>
         </div>
       `;
       return;
@@ -316,7 +379,8 @@
 
     projectKeys.forEach((key) => {
       const rawProj = projects[key];
-      const proj = getProjectReport(rawProj, currentDateKey);
+      // Display each project's own latest report state
+      const proj = getProjectReport(rawProj);
       const summary = proj.statusSummary || {
         approved: 0,
         approvedWithResub: 0,
@@ -499,6 +563,16 @@
     if (!rawProj) {
       navigateToOverview();
       return;
+    }
+
+    // Ensure currentDateKey is valid for this specific project
+    if (rawProj.history) {
+      const dates = Object.keys(rawProj.history).sort();
+      if (!currentDateKey || !rawProj.history[currentDateKey]) {
+        if (dates.length > 0) {
+          currentDateKey = dates[dates.length - 1];
+        }
+      }
     }
 
     const proj = getProjectReport(rawProj, currentDateKey);
@@ -987,6 +1061,40 @@
     renderProjectDetail();
   }
 
+  // --- Excel Upload Modal Scoped to Current Project ---
+
+  function openProjectUploadModal(projectKey) {
+    const pKey = projectKey || currentProjectKey;
+    const proj = projects[pKey];
+    if (!proj) {
+      alert('Please select a valid project first.');
+      return;
+    }
+
+    const modalTitle = document.getElementById('upload-modal-title');
+    if (modalTitle) {
+      modalTitle.textContent = `Upload Excel for ${proj.displayName || pKey}`;
+    }
+
+    const targetInfo = document.getElementById('upload-modal-target-info');
+    if (targetInfo) {
+      targetInfo.innerHTML = `
+        <div style="font-weight: 700; margin-bottom: 4px; color: #1E3A8A;">Target Project: ${proj.projectNumber} - ${proj.projectName}</div>
+        <div style="font-size: 12.5px; color: #334155; line-height: 1.4;">
+          Upload the weekly <code>.xlsx</code> file for this project (e.g. <code>${proj.projectNumber}_YYYY-MM-DD.xlsx</code>). The report date, OSR modelers, schedule, and drawings will be extracted automatically.
+        </div>
+      `;
+    }
+
+    const statusMsg = document.getElementById('upload-status-msg');
+    if (statusMsg) {
+      statusMsg.style.display = 'none';
+      statusMsg.textContent = '';
+    }
+
+    openModal('upload-modal');
+  }
+
   // --- Excel Upload & Refresh Handler ---
 
   async function handleFilesUpload(files) {
@@ -1007,13 +1115,30 @@
         const buffer = await file.arrayBuffer();
         const parsed = await window.ExcelParser.parseWorkbookBuffer(buffer, file.name);
 
-        let pKey = parsed.displayName;
-        const matchedKey = Object.keys(projects).find((k) => 
-          k.toLowerCase() === pKey.toLowerCase() ||
-          projects[k].projectNumber?.toLowerCase() === parsed.projectNumber?.toLowerCase()
+        // Determine target project:
+        // 1. If currently viewing a project in detail, check if the file matches current project
+        let pKey = currentProjectKey;
+        const currProj = projects[currentProjectKey];
+
+        const matchesCurrent = currProj && (
+          file.name.toLowerCase().startsWith(currProj.projectNumber?.toLowerCase() || '---') ||
+          (parsed.projectNumber && parsed.projectNumber.toLowerCase() === currProj.projectNumber?.toLowerCase()) ||
+          (parsed.displayName && parsed.displayName.toLowerCase() === currProj.displayName?.toLowerCase())
         );
-        if (matchedKey) {
-          pKey = matchedKey;
+
+        if (!matchesCurrent) {
+          // If not matching current project, check if any other existing project matches
+          const matchedKey = Object.keys(projects).find((k) =>
+            file.name.toLowerCase().startsWith(projects[k].projectNumber?.toLowerCase() || '---') ||
+            k.toLowerCase() === parsed.displayName?.toLowerCase() ||
+            projects[k].projectNumber?.toLowerCase() === parsed.projectNumber?.toLowerCase()
+          );
+
+          if (matchedKey) {
+            pKey = matchedKey;
+          } else {
+            pKey = parsed.displayName;
+          }
         }
 
         if (!projects[pKey]) {
@@ -1026,22 +1151,22 @@
         }
 
         // Live update all project properties
-        projects[pKey].projectNumber = parsed.projectNumber;
-        projects[pKey].projectName = parsed.projectName;
-        projects[pKey].displayName = pKey;
-        projects[pKey].projectLead = parsed.projectLead;
-        projects[pKey].projectInCharge = parsed.projectInCharge;
-        projects[pKey].bimCoordinator = parsed.bimCoordinator;
-        projects[pKey].projectDc = parsed.projectDc;
-        projects[pKey].procurement = parsed.procurement;
-        projects[pKey].estimation = parsed.estimation;
-        projects[pKey].plannedStartDate = parsed.plannedStartDate;
-        projects[pKey].plannedEndDate = parsed.plannedEndDate;
-        projects[pKey].actualStartDate = parsed.actualStartDate;
-        projects[pKey].presentDate = parsed.presentDate;
-        projects[pKey].periodOfExtension = parsed.periodOfExtension;
-        projects[pKey].modelers = parsed.modelers;
-        projects[pKey].notes = parsed.notes;
+        projects[pKey].projectNumber = parsed.projectNumber || projects[pKey].projectNumber;
+        projects[pKey].projectName = parsed.projectName || projects[pKey].projectName;
+        projects[pKey].displayName = projects[pKey].displayName || pKey;
+        projects[pKey].projectLead = parsed.projectLead || projects[pKey].projectLead;
+        projects[pKey].projectInCharge = parsed.projectInCharge || projects[pKey].projectInCharge;
+        projects[pKey].bimCoordinator = parsed.bimCoordinator || projects[pKey].bimCoordinator;
+        projects[pKey].projectDc = parsed.projectDc || projects[pKey].projectDc;
+        projects[pKey].procurement = parsed.procurement || projects[pKey].procurement;
+        projects[pKey].estimation = parsed.estimation || projects[pKey].estimation;
+        projects[pKey].plannedStartDate = parsed.plannedStartDate || projects[pKey].plannedStartDate;
+        projects[pKey].plannedEndDate = parsed.plannedEndDate || projects[pKey].plannedEndDate;
+        projects[pKey].actualStartDate = parsed.actualStartDate || projects[pKey].actualStartDate;
+        projects[pKey].presentDate = parsed.presentDate || projects[pKey].presentDate;
+        projects[pKey].periodOfExtension = parsed.periodOfExtension || projects[pKey].periodOfExtension;
+        projects[pKey].modelers = (parsed.modelers && parsed.modelers.length > 0) ? parsed.modelers : (projects[pKey].modelers || []);
+        projects[pKey].notes = (parsed.notes && parsed.notes.length > 0) ? parsed.notes : (projects[pKey].notes || []);
 
         // Store file-specific snapshot in history
         const dateKey = parsed.dateKey || 'latest';
@@ -1050,6 +1175,9 @@
         projects[pKey].history[dateKey] = {
           fileName: file.name,
           dateOfReport: parsed.dateOfReport,
+          presentDate: parsed.presentDate,
+          plannedEndDate: parsed.plannedEndDate,
+          periodOfExtension: parsed.periodOfExtension,
           monthYearLabel: parsed.monthYearLabel,
           totalDwg: parsed.totalDwg,
           resourceCount: parsed.resourceCount,
@@ -1064,12 +1192,12 @@
           procurement: parsed.procurement,
           estimation: parsed.estimation,
           plannedStartDate: parsed.plannedStartDate,
-          plannedEndDate: parsed.plannedEndDate,
           actualStartDate: parsed.actualStartDate,
-          presentDate: parsed.presentDate,
-          periodOfExtension: parsed.periodOfExtension,
           drawings: parsed.drawings
         };
+
+        // Synchronize and clean dummy placeholder records
+        syncProjectToLatest(projects[pKey]);
 
         currentProjectKey = pKey;
         currentDateKey = dateKey;
@@ -1082,7 +1210,7 @@
     saveData();
 
     if (statusMsg) {
-      statusMsg.textContent = `Successfully updated ${loadedCount} project report(s)!`;
+      statusMsg.textContent = `Successfully updated report for ${projects[currentProjectKey]?.displayName || currentProjectKey}!`;
       statusMsg.style.color = '#16A34A';
     }
 
@@ -1094,7 +1222,7 @@
       } else {
         renderProjectDetail();
       }
-    }, 1000);
+    }, 1200);
   }
 
   // --- Modal Helpers ---
@@ -1110,17 +1238,43 @@
   }
 
   // --- Export sampleData.js for GitHub Publishing ---
+  // Consolidates latest data from ALL projects, preserves history, reflects additions & removals
   function exportSampleDataJs() {
-    const versionStamp = new Date().toISOString().replace(/[:.]/g, '-');
+    const projectKeys = Object.keys(projects);
+    if (projectKeys.length === 0) {
+      alert('No projects available to export.');
+      return;
+    }
+
+    // Ensure every project in memory is synchronized to its latest snapshot and purged of dummy records
+    const consolidatedProjects = {};
+    projectKeys.forEach((key) => {
+      const proj = projects[key];
+      if (!proj) return;
+      syncProjectToLatest(proj);
+      consolidatedProjects[key] = proj;
+    });
+
+    const now = new Date();
+    const versionStamp = now.toISOString().replace(/[:.]/g, '-');
+
+    // Update in-memory state and localStorage with consolidated clean data
+    projects = consolidatedProjects;
+    saveData();
+    localStorage.setItem('dashboard_data_version', versionStamp);
+    window.DATA_VERSION = versionStamp;
+
     const content = `/**
- * Updated Seed & Default Projects for GitHub Pages
- * Generated on: ${new Date().toLocaleString()}
+ * Consolidated Projects for GitHub Pages
+ * Generated on: ${now.toLocaleString()}
+ * Total Projects: ${Object.keys(consolidatedProjects).length}
  */
 
 window.DATA_VERSION = "${versionStamp}";
 
-window.DEFAULT_PROJECTS = ${JSON.stringify(projects, null, 2)};
+window.DEFAULT_PROJECTS = ${JSON.stringify(consolidatedProjects, null, 2)};
 `;
+
     const blob = new Blob([content], { type: 'application/javascript;charset=utf-8' });
     const link = document.createElement('a');
     link.href = URL.createObjectURL(blob);
@@ -1128,6 +1282,12 @@ window.DEFAULT_PROJECTS = ${JSON.stringify(projects, null, 2)};
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
+
+    const projectNamesList = Object.keys(consolidatedProjects)
+      .map((k) => `• ${consolidatedProjects[k].displayName || k}`)
+      .join('\n');
+
+    alert(`sampleData.js exported successfully!\n\nConsolidated data for ${Object.keys(consolidatedProjects).length} project(s):\n${projectNamesList}\n\nAll weekly Excel updates, added projects, and removals are preserved.`);
   }
 
   // --- Export to CSV ---
@@ -1163,8 +1323,17 @@ window.DEFAULT_PROJECTS = ${JSON.stringify(projects, null, 2)};
       renderOverview();
     });
 
-    document.getElementById('btn-refresh-data')?.addEventListener('click', () => openModal('upload-modal'));
-    document.getElementById('btn-upload-more')?.addEventListener('click', () => openModal('upload-modal'));
+    // Page 2 Per-Project Upload Button
+    document.getElementById('btn-upload-project-excel')?.addEventListener('click', () => {
+      openProjectUploadModal(currentProjectKey);
+    });
+
+    // Page 2 Consolidated Export Button
+    document.getElementById('btn-export-sample-data-page2')?.addEventListener('click', exportSampleDataJs);
+
+    // Modal Export Button
+    document.getElementById('btn-export-sample-data')?.addEventListener('click', exportSampleDataJs);
+
     document.getElementById('modal-close-btn')?.addEventListener('click', () => closeModal('upload-modal'));
     document.getElementById('modal-cancel-btn')?.addEventListener('click', () => closeModal('upload-modal'));
 

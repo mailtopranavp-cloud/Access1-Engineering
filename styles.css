@@ -82,8 +82,12 @@ body {
 body.review-mode #btn-add-project,
 body.review-mode #btn-refresh-data,
 body.review-mode #btn-upload-more,
+body.review-mode #btn-upload-project-excel,
+body.review-mode #btn-export-sample-data-page2,
+body.review-mode #btn-export-sample-data,
 body.review-mode #btn-delete-current-project,
-body.review-mode .delete-project-btn {
+body.review-mode .delete-project-btn,
+body.review-mode .modal-overlay {
   display: none !important;
 }
 

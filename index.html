@@ -35,12 +35,6 @@
           Add Project
         </button>
 
-        <!-- Dedicated Refresh / Upload Button -->
-        <button id="btn-refresh-data" class="btn btn-primary" title="Upload new Excel weekly reports">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/><path d="M3 12a9 9 0 0 0 9 9 9.75 9.75 0 0 0 6.74-2.74L21 16"/><path d="M16 16h5v5"/></svg>
-          Refresh / Upload Excel
-        </button>
-
         <!-- Print / Export Report (Point 4) -->
         <button id="btn-print-report" class="btn btn-outline" title="Print or save as executive PDF without file paths">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect width="12" height="8" x="6" y="14"/></svg>
@@ -88,9 +82,16 @@
             <!-- Populated dynamically -->
           </select>
 
-          <button id="btn-upload-more" class="btn btn-outline" style="padding: 6px 12px; font-size: 13px;">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" x2="12" y1="3" y2="15"/></svg>
-            Update Report
+          <!-- Per-Project Refresh / Upload Button (Page 2) -->
+          <button id="btn-upload-project-excel" class="btn btn-primary" style="padding: 6px 14px; font-size: 13px;" title="Upload Excel weekly report for this project">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/><path d="M3 12a9 9 0 0 0 9 9 9.75 9.75 0 0 0 6.74-2.74L21 16"/><path d="M16 16h5v5"/></svg>
+            Refresh / Upload Excel
+          </button>
+
+          <!-- Consolidated Export for GitHub (All Projects) -->
+          <button id="btn-export-sample-data-page2" class="btn btn-success" style="padding: 6px 14px; font-size: 13px;" title="Download consolidated sampleData.js containing latest data for all projects">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+            Export sampleData.js for GitHub
           </button>
 
           <!-- Remove Project from Detail View (Point 1) -->
@@ -271,21 +272,25 @@
     </div>
 
     <!-- ====================================================================
-         MODAL 2: UPLOAD & REFRESH EXCEL DATA
+         MODAL 2: UPLOAD & REFRESH EXCEL DATA (PAGE 2 PER-PROJECT)
          ==================================================================== -->
     <div id="upload-modal" class="modal-overlay">
       <div class="modal-box">
         <div class="modal-header">
-          <h2>Refresh Dashboard Data</h2>
+          <h2 id="upload-modal-title">Upload Project Excel Report</h2>
           <button id="modal-close-btn" class="close-btn">&times;</button>
+        </div>
+
+        <div id="upload-modal-target-info" style="font-size: 13px; color: #1E3A8A; background: #EFF6FF; padding: 10px 14px; border-radius: 8px; margin-bottom: 14px; font-weight: 500; border: 1px solid #BFDBFE;">
+          <!-- Populated dynamically with target project name & expected filename format -->
         </div>
 
         <div id="drop-zone" class="drop-zone">
           <div class="drop-zone-icon">📁</div>
-          <p><strong>Drag and drop Excel files here</strong></p>
+          <p><strong>Drag and drop project Excel file here</strong></p>
           <p>or click to browse your folders</p>
-          <span>Supports multiple standardized weekly report files (*.xlsx)</span>
-          <input type="file" id="file-input" accept=".xlsx" multiple style="display: none;">
+          <span id="upload-modal-hint">Supports standardized weekly report (*.xlsx)</span>
+          <input type="file" id="file-input" accept=".xlsx" style="display: none;">
         </div>
 
         <div id="upload-status-msg" class="upload-status"></div>
