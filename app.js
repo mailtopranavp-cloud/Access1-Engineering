@@ -198,27 +198,33 @@
     }
 
     // Page 1: find the most-recent dateOfReport across all projects
-    let latestDate = '';
+    let maxIso = '';
+    let maxOriginal = '';
     Object.values(projects).forEach((proj) => {
       const h = proj.history || {};
-      Object.values(h).forEach((entry) => {
-        if (entry.dateOfReport) {
-          // Parse DD/MM/YYYY for comparison
-          const parts = entry.dateOfReport.split('/');
-          const iso = parts.length === 3
-            ? `${parts[2]}-${parts[1].padStart(2,'0')}-${parts[0].padStart(2,'0')}`
-            : entry.dateOfReport;
-          if (!latestDate || iso > latestDate) {
-            latestDate = iso;
+      Object.keys(h).forEach((dk) => {
+        const entry = h[dk];
+        const dateStr = entry.dateOfReport || dk;
+        if (dateStr) {
+          let iso = '';
+          if (dateStr.includes('/')) {
+            const parts = dateStr.split('/');
+            if (parts.length === 3) {
+              iso = `${parts[2]}-${parts[1].padStart(2, '0')}-${parts[0].padStart(2, '0')}`;
+            }
+          } else if (dateStr.includes('-')) {
+            iso = dateStr;
+          }
+          if (iso && (!maxIso || iso > maxIso)) {
+            maxIso = iso;
+            maxOriginal = entry.dateOfReport || (iso.split('-').length === 3 ? `${iso.split('-')[2]}/${iso.split('-')[1]}/${iso.split('-')[0]}` : iso);
           }
         }
       });
     });
 
-    if (latestDate) {
-      // Convert back from YYYY-MM-DD to DD/MM/YYYY for display
-      const [y, m, d] = latestDate.split('-');
-      badge.textContent = `${d}/${m}/${y}`;
+    if (maxOriginal) {
+      badge.textContent = maxOriginal;
     } else {
       badge.textContent = '—';
     }
@@ -392,6 +398,7 @@
   // --- Rendering: Overview (Page 1) ---
 
   function renderOverview() {
+    updateReportingDateBadge(null);
     destroyAllCharts();
     const grid = document.getElementById('projects-grid');
     if (!grid) return;
@@ -619,6 +626,7 @@
     }
 
     const proj = getProjectReport(rawProj, currentDateKey);
+    updateReportingDateBadge(proj.dateOfReport || currentDateKey);
 
     // Update Title Banner
     const titleElem = document.getElementById('detail-project-title');
@@ -641,7 +649,7 @@
         if (d === currentDateKey) opt.selected = true;
         dateSelect.appendChild(opt);
       });
-      dateSelect.style.display = dates.length > 1 ? 'inline-block' : 'none';
+      dateSelect.style.display = dates.length >= 1 ? 'inline-block' : 'none';
     }
 
     // Key Personnel Block
@@ -801,7 +809,20 @@
           },
           tooltip: {
             mode: 'index',
-            intersect: false
+            intersect: false,
+            callbacks: {
+              afterBody: function (items) {
+                if (!items || items.length === 0) return '';
+                const dataIndex = items[0].dataIndex;
+                const dk = sortedDates[dataIndex];
+                const h = historyObj[dk] || {};
+                let total = h.totalDwg;
+                if (total === undefined || total === null) {
+                  total = items.reduce((sum, item) => sum + (Number(item.raw) || 0), 0);
+                }
+                return `\nTotal Drawings: ${total}`;
+              }
+            }
           }
         },
         scales: {
