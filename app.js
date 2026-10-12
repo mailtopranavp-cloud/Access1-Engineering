@@ -173,6 +173,7 @@
     loadSavedHeadings();
   }
 
+
   function saveData() {
     try {
       localStorage.setItem('company_dashboard_projects', JSON.stringify(projects));
@@ -181,7 +182,49 @@
     }
   }
 
-  // --- Editable Headings Persistence ---
+  /**
+   * Updates the header "Reporting Date" badge.
+   * On Page 1 (overview): shows the latest dateOfReport across ALL projects.
+   * On Page 2 (detail):   shows the dateOfReport of the currently selected snapshot.
+   * @param {string|null} specificDate  Pass a date string for Page 2, or null for Page 1.
+   */
+  function updateReportingDateBadge(specificDate) {
+    const badge = document.getElementById('header-reporting-date');
+    if (!badge) return;
+
+    if (specificDate) {
+      badge.textContent = specificDate;
+      return;
+    }
+
+    // Page 1: find the most-recent dateOfReport across all projects
+    let latestDate = '';
+    Object.values(projects).forEach((proj) => {
+      const h = proj.history || {};
+      Object.values(h).forEach((entry) => {
+        if (entry.dateOfReport) {
+          // Parse DD/MM/YYYY for comparison
+          const parts = entry.dateOfReport.split('/');
+          const iso = parts.length === 3
+            ? `${parts[2]}-${parts[1].padStart(2,'0')}-${parts[0].padStart(2,'0')}`
+            : entry.dateOfReport;
+          if (!latestDate || iso > latestDate) {
+            latestDate = iso;
+          }
+        }
+      });
+    });
+
+    if (latestDate) {
+      // Convert back from YYYY-MM-DD to DD/MM/YYYY for display
+      const [y, m, d] = latestDate.split('-');
+      badge.textContent = `${d}/${m}/${y}`;
+    } else {
+      badge.textContent = '—';
+    }
+  }
+
+
 
   function loadSavedHeadings() {
     try {
