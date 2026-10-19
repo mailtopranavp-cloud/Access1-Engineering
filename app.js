@@ -264,6 +264,22 @@
     }
   }
 
+  /**
+   * Sets the inner canvas container width based on data count to allow horizontal scrolling
+   * without compressing labels or changing chart height / visual presentation.
+   */
+  function setChartScrollWidth(innerId, itemCount, minColWidth) {
+    const inner = document.getElementById(innerId);
+    if (!inner) return;
+    const colWidth = minColWidth || 95;
+    const neededWidth = itemCount * colWidth;
+    if (neededWidth > 500) {
+      inner.style.width = `${neededWidth}px`;
+    } else {
+      inner.style.width = '100%';
+    }
+  }
+
   function destroyAllCharts() {
     Object.keys(chartInstances).forEach((key) => {
       chartInstances[key].destroy();
@@ -727,9 +743,11 @@
     const historyObj = rawProj.history || {};
     const sortedDates = Object.keys(historyObj).sort();
 
+    setChartScrollWidth('chart-inner-monthly', sortedDates.length, 110);
+
     const labels = sortedDates.map((dk) => {
       const h = historyObj[dk];
-      return h.monthYearLabel || window.ExcelParser.formatMonthYear(h.dateOfReport || dk);
+      return window.ExcelParser.formatDayMonthYear(h.dateOfReport || dk) || h.monthYearLabel || dk;
     });
 
     const approvedData = [];
@@ -859,9 +877,11 @@
     const historyObj = rawProj.history || {};
     const sortedDates = Object.keys(historyObj).sort();
 
+    setChartScrollWidth('chart-inner-utilization', sortedDates.length, 90);
+
     const labels = sortedDates.map((dk) => {
       const h = historyObj[dk];
-      return h.monthYearLabel || window.ExcelParser.formatMonthYear(h.dateOfReport || dk);
+      return window.ExcelParser.formatDayMonthYear(h.dateOfReport || dk) || h.monthYearLabel || dk;
     });
 
     const resourceCounts = sortedDates.map((dk) => {
@@ -940,23 +960,25 @@
       "Jul, 26", "Aug, 26", "Sep, 26", "Oct, 26"
     ];
 
+    setChartScrollWidth('chart-inner-programme', months.length, 75);
+
     const plannedData = [
       0, 20, 40, 60, 80, 100, null, null, null, null
     ];
 
     const historyObj = rawProj.history || {};
     const actualData = new Array(months.length).fill(null);
-
-    actualData[3] = 0;
+	
+	actualData[3] = 0;
     actualData[4] = 25;
     actualData[5] = 50;
     actualData[6] = 68;
-
+    
     Object.keys(historyObj).forEach((dk) => {
       const h = historyObj[dk];
       const mLabel = h.monthYearLabel || window.ExcelParser.formatMonthYear(h.dateOfReport || dk);
       const mIdx = months.indexOf(mLabel);
-      if (mIdx !== -1) {
+	  if (mIdx !== -1) {
         const approved = h.statusSummary?.approved || 0;
         const total = h.totalDwg || 1;
         const pct = Math.round((approved / total) * 100);
@@ -1462,6 +1484,22 @@ window.DEFAULT_PROJECTS = ${JSON.stringify(consolidatedProjects, null, 2)};
     // Print Button
     document.getElementById('btn-print-report')?.addEventListener('click', () => {
       window.print();
+    });
+
+    // Horizontal Chart Navigation Buttons (Scroll forward/backward)
+    document.querySelectorAll('.chart-nav-btn').forEach((btn) => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        const wrapperId = btn.getAttribute('data-chart-scroll');
+        const dir = parseInt(btn.getAttribute('data-dir'), 10) || 1;
+        const wrapper = document.getElementById(wrapperId);
+        if (wrapper) {
+          wrapper.scrollBy({
+            left: dir * 220,
+            behavior: 'smooth'
+          });
+        }
+      });
     });
 
     const dropZone = document.getElementById('drop-zone');

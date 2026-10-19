@@ -14,8 +14,8 @@
     <!-- Top Application Header -->
     <header class="app-header">
       <div class="header-titles">
-        <div class="header-brand" style="display:flex;align-items:center;gap:14px;">
-          <img id="app-logo" src="Access1%20Logo.png" alt="Access1 Logo" class="header-logo" style="height:44px;width:auto;max-height:48px;object-fit:contain;flex-shrink:0;display:inline-block;" onerror="this.onerror=null;this.src='Access1 Logo.png';">
+        <div class="header-brand">
+          <img id="app-logo" src="Access1%20Logo.png" alt="Access1 Logo" class="header-logo" onerror="this.onerror=null;this.src='Access1 Logo.png';">
           <div>
             <h1 id="heading-main-title" class="editable-heading" title="Click to edit title">
               Design Department Weekly Report
@@ -151,23 +151,43 @@
 
       <!-- 2x2 Charts & Notes Grid -->
       <section class="detail-charts-grid">
-        <!-- 1. Monthly Report (Point 6: X: Excel Date "Sep, 26", Y: Total DWG) -->
+        <!-- 1. Monthly Report (Point 6: X: Excel Date "DD Mmm, YY", Y: Total DWG) -->
         <div class="chart-card">
           <div class="chart-card-header">
             <h2 id="heading-monthly-report" class="editable-heading" title="Click to edit heading">Monthly Report</h2>
+            <div class="chart-nav-controls" title="Navigate timeline">
+              <button type="button" class="chart-nav-btn" data-chart-scroll="chart-wrapper-monthly" data-dir="-1" title="Scroll earlier">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+              </button>
+              <button type="button" class="chart-nav-btn" data-chart-scroll="chart-wrapper-monthly" data-dir="1" title="Scroll later">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+              </button>
+            </div>
           </div>
-          <div class="chart-canvas-wrapper">
-            <canvas id="chart-monthly-report"></canvas>
+          <div id="chart-wrapper-monthly" class="chart-canvas-wrapper">
+            <div id="chart-inner-monthly" class="chart-canvas-inner">
+              <canvas id="chart-monthly-report"></canvas>
+            </div>
           </div>
         </div>
 
-        <!-- 2. OSR Resource Utilization (Point 7: X: Date "Sep, 26", Y: Column C resources, bar tip count) -->
+        <!-- 2. OSR Resource Utilization (Point 7: X: Date "DD Mmm, YY", Y: Column C resources, bar tip count) -->
         <div class="chart-card">
           <div class="chart-card-header">
             <h2 id="heading-utilization" class="editable-heading" title="Click to edit heading">OSR Resource Utilization</h2>
+            <div class="chart-nav-controls" title="Navigate timeline">
+              <button type="button" class="chart-nav-btn" data-chart-scroll="chart-wrapper-utilization" data-dir="-1" title="Scroll earlier">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+              </button>
+              <button type="button" class="chart-nav-btn" data-chart-scroll="chart-wrapper-utilization" data-dir="1" title="Scroll later">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+              </button>
+            </div>
           </div>
-          <div class="chart-canvas-wrapper">
-            <canvas id="chart-utilization"></canvas>
+          <div id="chart-wrapper-utilization" class="chart-canvas-wrapper">
+            <div id="chart-inner-utilization" class="chart-canvas-inner">
+              <canvas id="chart-utilization"></canvas>
+            </div>
           </div>
         </div>
 
@@ -175,9 +195,19 @@
         <div class="chart-card">
           <div class="chart-card-header">
             <h2 id="heading-programme" class="editable-heading" title="Click to edit heading">Engineering Programme</h2>
+            <div class="chart-nav-controls" title="Navigate timeline">
+              <button type="button" class="chart-nav-btn" data-chart-scroll="chart-wrapper-programme" data-dir="-1" title="Scroll earlier">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+              </button>
+              <button type="button" class="chart-nav-btn" data-chart-scroll="chart-wrapper-programme" data-dir="1" title="Scroll later">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+              </button>
+            </div>
           </div>
-          <div class="chart-canvas-wrapper">
-            <canvas id="chart-programme"></canvas>
+          <div id="chart-wrapper-programme" class="chart-canvas-wrapper">
+            <div id="chart-inner-programme" class="chart-canvas-inner">
+              <canvas id="chart-programme"></canvas>
+            </div>
           </div>
         </div>
 

@@ -115,18 +115,18 @@ body.review-mode .editable-heading:hover {
 
 .header-brand {
   display: flex;
-  align-items: center;
-  gap: 14px;
+  align-items: flex-start;
+  gap: 16px;
 }
 
 .header-logo {
-  height: 44px;
+  height: 77.5px;
+  max-height: 78px;
   width: auto;
-  max-height: 48px;
   object-fit: contain;
   flex-shrink: 0;
-  display: inline-block;
-  vertical-align: middle;
+  display: block;
+  margin-top: -2px;
 }
 
 .header-titles h1 {
@@ -650,6 +650,66 @@ body.review-mode .editable-heading:hover {
   position: relative;
   height: 280px;
   width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Custom sleek horizontal scrollbar for chart wrappers */
+.chart-canvas-wrapper::-webkit-scrollbar {
+  height: 6px;
+}
+
+.chart-canvas-wrapper::-webkit-scrollbar-track {
+  background: #F1F5F9;
+  border-radius: 4px;
+}
+
+.chart-canvas-wrapper::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+
+.chart-canvas-wrapper::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+.chart-nav-controls {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.chart-nav-btn {
+  background: #F8FAFC;
+  border: 1px solid var(--border-subtle);
+  border-radius: 6px;
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #475569;
+  transition: all 0.15s ease;
+  padding: 0;
+}
+
+.chart-nav-btn:hover {
+  background: #EEF2FF;
+  border-color: #C7D2FE;
+  color: var(--primary);
+}
+
+.chart-nav-btn:active {
+  transform: scale(0.95);
+}
+
+.chart-canvas-inner {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  min-width: 100%;
 }
 
 /* Notes Section (Point 2) */
@@ -944,9 +1004,10 @@ body.review-mode .editable-heading:hover {
   }
 
   .header-logo {
-    height: 38px !important;
+    height: 60px !important;
     width: auto !important;
-    max-height: 40px !important;
+    max-height: 65px !important;
+    margin-top: -2px !important;
   }
   
   /* Suppress interactive buttons, toolbars, search, and modals */
@@ -1004,11 +1065,21 @@ body.review-mode .editable-heading:hover {
     gap: 16px !important;
   }
 
+  .chart-nav-controls {
+    display: none !important;
+  }
+
   .chart-canvas-wrapper {
     height: 260px !important;
     position: relative !important;
+    overflow: visible !important;
     page-break-inside: avoid;
     break-inside: avoid;
+  }
+
+  .chart-canvas-inner {
+    width: 100% !important;
+    min-width: 100% !important;
   }
 
   canvas {

@@ -57,6 +57,22 @@ const ExcelParser = {
   },
 
   /**
+   * Converts date to "DD Mmm, YY" format (e.g. "14 Sep, 26")
+   */
+  formatDayMonthYear(val) {
+    if (!val) return "";
+    const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    const d = this.parseToDate(val);
+    if (d) {
+      const dd = String(d.getDate()).padStart(2, '0');
+      const m = monthNames[d.getMonth()];
+      const y = String(d.getFullYear()).slice(-2);
+      return `${dd} ${m}, ${y}`;
+    }
+    return String(val);
+  },
+
+  /**
    * Correction 2: Extract date stamp from Excel file name
    * Supports:
    * - YYYY-MM-DD or YYYY_MM_DD (e.g. PH497_2026-09-05.xlsx)
