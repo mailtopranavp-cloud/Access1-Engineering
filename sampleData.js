@@ -1,10 +1,10 @@
 /**
  * Consolidated Projects for GitHub Pages
- * Generated on: 11/3/2026, 2:47:07 PM
+ * Generated on: 11/11/2026, 12:07:42 PM
  * Total Projects: 13
  */
 
-window.DATA_VERSION = "2026-11-03T10-47-07-066Z";
+window.DATA_VERSION = "2026-11-11T08-07-42-716Z";
 
 window.DEFAULT_PROJECTS = {
   "PH416-Qiddiya Water Theme Park": {
@@ -4806,7 +4806,7 @@ window.DEFAULT_PROJECTS = {
     "plannedStartDate": "10/04/2024",
     "plannedEndDate": "28/03/2025",
     "actualStartDate": "08/01/2025",
-    "presentDate": "30/10/2026",
+    "presentDate": "06/11/2026",
     "periodOfExtension": "19 Months",
     "modelers": [
       {
@@ -4817,8 +4817,7 @@ window.DEFAULT_PROJECTS = {
       }
     ],
     "notes": [
-      "VARI1:New Instructions ALEC-ALC23006-AMI-SLO-MN-05026, ALEC-ALC23006-AMI-SLO-MN-4780, ALEC-ALC23006-AMI-SLO-MN-05780, ALEC-ALC23006-AMI-SLO-MN-05026, ALEC-ALC23006-AMI-SLO-MN-05869, ALEC-ALC23006-AMI-SLO-MN-05998 are under Preparation",
-      "Zone 1, Ground Drain Gratings Instruction pending"
+      "VARI1:New Instructions ALEC-ALC23006-AMI-SLO-MN-05026, ALEC-ALC23006-AMI-SLO-MN-4780, ALEC-ALC23006-AMI-SLO-MN-05780 & ALEC-ALC23006-AMI-SLO-MN-05869 are under Preparation"
     ],
     "history": {
       "2026-09-14": {
@@ -16575,21 +16574,1588 @@ window.DEFAULT_PROJECTS = {
             "status": "Under Preparation"
           }
         ]
+      },
+      "2026-11-06": {
+        "fileName": "PH462_2026-11-06.xlsx",
+        "dateOfReport": "06/11/2026",
+        "presentDate": "06/11/2026",
+        "plannedEndDate": "28/03/2025",
+        "periodOfExtension": "19 Months",
+        "monthYearLabel": "Nov, 26",
+        "totalDwg": 305,
+        "resourceCount": 1,
+        "statusSummary": {
+          "approved": 295,
+          "approvedWithResub": 0,
+          "submitted": 9,
+          "rejected": 1,
+          "underPrep": 0,
+          "pending": 0,
+          "notStarted": 0,
+          "other": 0
+        },
+        "completionPct": 96.7,
+        "modelers": [
+          {
+            "name": "OSR8 (Prabeen)",
+            "role": "BIM Modeler",
+            "dateOfJoin": "[06/10/2025]",
+            "active": true
+          }
+        ],
+        "notes": [
+          "VARI1:New Instructions ALEC-ALC23006-AMI-SLO-MN-05026, ALEC-ALC23006-AMI-SLO-MN-4780, ALEC-ALC23006-AMI-SLO-MN-05780 & ALEC-ALC23006-AMI-SLO-MN-05869 are under Preparation"
+        ],
+        "projectInCharge": "Dibin Davis",
+        "projectLead": "Muhasil Muhammed",
+        "bimCoordinator": "Ajmal/Shibily",
+        "projectDc": "Romeo",
+        "procurement": "NA",
+        "estimation": "NA",
+        "plannedStartDate": "10/04/2024",
+        "actualStartDate": "08/01/2025",
+        "drawings": [
+          {
+            "row": 2,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDVL-B2-50001",
+            "status": "Approved"
+          },
+          {
+            "row": 3,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDVL-B2-50002",
+            "status": "Approved"
+          },
+          {
+            "row": 4,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDVL-B2-50003",
+            "status": "Approved"
+          },
+          {
+            "row": 5,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDVL-B2-50004",
+            "status": "Approved"
+          },
+          {
+            "row": 6,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDVL-B2-50005",
+            "status": "Approved"
+          },
+          {
+            "row": 7,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDVL-B2-50006",
+            "status": "Approved"
+          },
+          {
+            "row": 8,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDVL-B2-50007",
+            "status": "Approved"
+          },
+          {
+            "row": 9,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDVL-B2-50008",
+            "status": "Approved"
+          },
+          {
+            "row": 10,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDVL-B2-50011",
+            "status": "Approved"
+          },
+          {
+            "row": 11,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ3-GL-50012",
+            "status": "Approved"
+          },
+          {
+            "row": 12,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-TWVL-GL-50013",
+            "status": "Approved"
+          },
+          {
+            "row": 13,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-ALVL-PL-50014",
+            "status": "Approved"
+          },
+          {
+            "row": 14,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDVL-B2-50015",
+            "status": "Approved"
+          },
+          {
+            "row": 15,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-B2-10010",
+            "status": "Approved"
+          },
+          {
+            "row": 16,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-B1-10010",
+            "status": "Approved"
+          },
+          {
+            "row": 17,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ4-B2-10010",
+            "status": "Approved"
+          },
+          {
+            "row": 18,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-TWVL-B2-40001",
+            "status": "Approved"
+          },
+          {
+            "row": 19,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-TWVL-B2-40002",
+            "status": "Approved"
+          },
+          {
+            "row": 20,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-B2-40003",
+            "status": "Approved"
+          },
+          {
+            "row": 21,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-GL-40004",
+            "status": "Approved"
+          },
+          {
+            "row": 22,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-GL-40005",
+            "status": "Approved"
+          },
+          {
+            "row": 23,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-GL-40006",
+            "status": "Approved"
+          },
+          {
+            "row": 24,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-GL-40007",
+            "status": "Approved"
+          },
+          {
+            "row": 25,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-GL-40008",
+            "status": "Approved"
+          },
+          {
+            "row": 26,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-GL-40009",
+            "status": "Approved"
+          },
+          {
+            "row": 27,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-PL-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 28,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-PL-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 29,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-GL-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 30,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-GL-40013",
+            "status": "Approved"
+          },
+          {
+            "row": 31,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-GL-40014",
+            "status": "Approved"
+          },
+          {
+            "row": 32,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-GL-40015",
+            "status": "Approved"
+          },
+          {
+            "row": 33,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-GL-40016",
+            "status": "Approved"
+          },
+          {
+            "row": 34,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ6-PL-40017",
+            "status": "Approved"
+          },
+          {
+            "row": 35,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-01-40018",
+            "status": "Approved"
+          },
+          {
+            "row": 36,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-B1-40019",
+            "status": "Approved"
+          },
+          {
+            "row": 37,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-B1-40020",
+            "status": "Approved"
+          },
+          {
+            "row": 38,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-B1-40021",
+            "status": "Approved"
+          },
+          {
+            "row": 39,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-B1-40022",
+            "status": "Approved"
+          },
+          {
+            "row": 40,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-B1-40023",
+            "status": "Approved"
+          },
+          {
+            "row": 41,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-B1-40024",
+            "status": "Approved"
+          },
+          {
+            "row": 42,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-B1-40025",
+            "status": "Approved"
+          },
+          {
+            "row": 43,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-B1-40026",
+            "status": "Approved"
+          },
+          {
+            "row": 44,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-VL-40027",
+            "status": "Approved"
+          },
+          {
+            "row": 45,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-GL-40028",
+            "status": "Approved"
+          },
+          {
+            "row": 46,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-GL-40029",
+            "status": "Approved"
+          },
+          {
+            "row": 47,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-GL-40030",
+            "status": "Approved"
+          },
+          {
+            "row": 48,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-PL-40031",
+            "status": "Approved"
+          },
+          {
+            "row": 49,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-GL-40032",
+            "status": "Approved"
+          },
+          {
+            "row": 50,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-VL-40033",
+            "status": "Approved"
+          },
+          {
+            "row": 51,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-VL-40034",
+            "status": "Approved"
+          },
+          {
+            "row": 52,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-B2-40035",
+            "status": "Approved"
+          },
+          {
+            "row": 53,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-B2-40036",
+            "status": "Approved"
+          },
+          {
+            "row": 54,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-B2-40037",
+            "status": "Approved"
+          },
+          {
+            "row": 55,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-B2-40038",
+            "status": "Approved"
+          },
+          {
+            "row": 56,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-GL-40039",
+            "status": "Approved"
+          },
+          {
+            "row": 57,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-B2-40040",
+            "status": "Approved"
+          },
+          {
+            "row": 58,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-VL-40041",
+            "status": "Approved"
+          },
+          {
+            "row": 59,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-VL-40042",
+            "status": "Approved"
+          },
+          {
+            "row": 60,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-VL-40043",
+            "status": "Approved"
+          },
+          {
+            "row": 61,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-VL-40044",
+            "status": "Approved"
+          },
+          {
+            "row": 62,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-VL-40045",
+            "status": "Approved"
+          },
+          {
+            "row": 63,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-VL-40046",
+            "status": "Approved"
+          },
+          {
+            "row": 64,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-VL-40047",
+            "status": "Approved"
+          },
+          {
+            "row": 65,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-VL-40048",
+            "status": "Approved"
+          },
+          {
+            "row": 66,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-VL-40049",
+            "status": "Approved"
+          },
+          {
+            "row": 67,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-PL-40050",
+            "status": "Approved"
+          },
+          {
+            "row": 68,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-PL-40051",
+            "status": "Approved"
+          },
+          {
+            "row": 69,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-B2-40052",
+            "status": "Approved"
+          },
+          {
+            "row": 70,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-B1-40053",
+            "status": "Approved"
+          },
+          {
+            "row": 71,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-GL-40054",
+            "status": "Approved"
+          },
+          {
+            "row": 72,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-GL-40055",
+            "status": "Approved"
+          },
+          {
+            "row": 73,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-GL-40056",
+            "status": "Approved"
+          },
+          {
+            "row": 74,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-GL-40057",
+            "status": "Approved"
+          },
+          {
+            "row": 75,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-GL-40058",
+            "status": "Approved"
+          },
+          {
+            "row": 76,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-B1-40059",
+            "status": "Approved"
+          },
+          {
+            "row": 77,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-B1-40060",
+            "status": "Approved"
+          },
+          {
+            "row": 78,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-GF-40061",
+            "status": "Approved"
+          },
+          {
+            "row": 79,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-ML-40062",
+            "status": "Approved"
+          },
+          {
+            "row": 80,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ6-01-40063",
+            "status": "Approved"
+          },
+          {
+            "row": 81,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ6-ML-40064",
+            "status": "Approved"
+          },
+          {
+            "row": 82,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ4-B2-40065",
+            "status": "Approved"
+          },
+          {
+            "row": 83,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ4-B2-40066",
+            "status": "Approved"
+          },
+          {
+            "row": 84,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ4-B2-40067",
+            "status": "Approved"
+          },
+          {
+            "row": 85,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ4-B2-40068",
+            "status": "Approved"
+          },
+          {
+            "row": 86,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ4-B2-40069",
+            "status": "Approved"
+          },
+          {
+            "row": 87,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ4-B2-40070",
+            "status": "Approved"
+          },
+          {
+            "row": 88,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ4-B2-40071",
+            "status": "Approved"
+          },
+          {
+            "row": 89,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ4-B2-40072",
+            "status": "Approved"
+          },
+          {
+            "row": 90,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ4-VL-40072",
+            "status": "Approved"
+          },
+          {
+            "row": 91,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ4-B2-40073",
+            "status": "Approved"
+          },
+          {
+            "row": 92,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ4-B2-40074",
+            "status": "Approved"
+          },
+          {
+            "row": 93,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ4-GL-40074",
+            "status": "Approved"
+          },
+          {
+            "row": 94,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ4-GL-40075",
+            "status": "Approved"
+          },
+          {
+            "row": 95,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ4-GL-40076",
+            "status": "Approved"
+          },
+          {
+            "row": 96,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ5-GL-40077",
+            "status": "Approved"
+          },
+          {
+            "row": 97,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ5-GL-40078",
+            "status": "Approved"
+          },
+          {
+            "row": 98,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ5-GL-40079",
+            "status": "Approved"
+          },
+          {
+            "row": 99,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ6-GL-40080",
+            "status": "Approved"
+          },
+          {
+            "row": 100,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ5-GL-40081",
+            "status": "Approved"
+          },
+          {
+            "row": 101,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ5-GL-40082",
+            "status": "Approved"
+          },
+          {
+            "row": 102,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-PL-40083",
+            "status": "Approved"
+          },
+          {
+            "row": 103,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-TWVL-GL-40084",
+            "status": "Approved"
+          },
+          {
+            "row": 104,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-TWVL-GL-40085",
+            "status": "Approved"
+          },
+          {
+            "row": 105,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ6-B1-40086",
+            "status": "Approved"
+          },
+          {
+            "row": 106,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ6-B1-40087",
+            "status": "Approved"
+          },
+          {
+            "row": 107,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ6-GL-40088",
+            "status": "Approved"
+          },
+          {
+            "row": 108,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ6-GL-40089",
+            "status": "Approved"
+          },
+          {
+            "row": 109,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ6-GL-40090",
+            "status": "Approved"
+          },
+          {
+            "row": 110,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ6-B1-40091",
+            "status": "Approved"
+          },
+          {
+            "row": 111,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ6-B1-40092",
+            "status": "Approved"
+          },
+          {
+            "row": 112,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ6-GL-40093",
+            "status": "Approved"
+          },
+          {
+            "row": 113,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ6-GL-40094",
+            "status": "Approved"
+          },
+          {
+            "row": 114,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ6-GL-40095",
+            "status": "Approved"
+          },
+          {
+            "row": 115,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ6-GL-40096",
+            "status": "Approved"
+          },
+          {
+            "row": 116,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ6-GL-40097",
+            "status": "Approved"
+          },
+          {
+            "row": 117,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ6-GL-40098",
+            "status": "Approved"
+          },
+          {
+            "row": 118,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ6-GL-40099",
+            "status": "Approved"
+          },
+          {
+            "row": 119,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ3-GL-40100",
+            "status": "Approved"
+          },
+          {
+            "row": 120,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ6-B1-40101",
+            "status": "Approved"
+          },
+          {
+            "row": 121,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-B1-40102",
+            "status": "Approved"
+          },
+          {
+            "row": 122,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-B1-40103",
+            "status": "Approved"
+          },
+          {
+            "row": 123,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ7-B1-40104",
+            "status": "Approved"
+          },
+          {
+            "row": 124,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-01-40105",
+            "status": "Approved"
+          },
+          {
+            "row": 125,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-01-40106",
+            "status": "Approved"
+          },
+          {
+            "row": 126,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-B2-40107",
+            "status": "Approved"
+          },
+          {
+            "row": 127,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-B2-40108",
+            "status": "Approved"
+          },
+          {
+            "row": 128,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ4-TU-40109",
+            "status": "Approved"
+          },
+          {
+            "row": 129,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ4-GL-40110",
+            "status": "Approved"
+          },
+          {
+            "row": 130,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-GL-40111",
+            "status": "Approved"
+          },
+          {
+            "row": 131,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-B2-40112",
+            "status": "Approved"
+          },
+          {
+            "row": 132,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-B2-40113",
+            "status": "Approved"
+          },
+          {
+            "row": 133,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ4-VL-40114",
+            "status": "Approved"
+          },
+          {
+            "row": 134,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ4-VL-40115",
+            "status": "Approved"
+          },
+          {
+            "row": 135,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ4-GL-40116",
+            "status": "Approved"
+          },
+          {
+            "row": 136,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ4-GL-40117",
+            "status": "Approved"
+          },
+          {
+            "row": 137,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ1-GL-40118",
+            "status": "Approved"
+          },
+          {
+            "row": 138,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-B2-40119",
+            "status": "Approved"
+          },
+          {
+            "row": 139,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-B1-40120",
+            "status": "Approved"
+          },
+          {
+            "row": 140,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-ML-40121",
+            "status": "Approved"
+          },
+          {
+            "row": 141,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-01-40122",
+            "status": "Approved"
+          },
+          {
+            "row": 142,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-01-40123",
+            "status": "Approved"
+          },
+          {
+            "row": 143,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-GL-40124",
+            "status": "Approved"
+          },
+          {
+            "row": 144,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-GL-40125",
+            "status": "Approved"
+          },
+          {
+            "row": 145,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-ML-40126",
+            "status": "Approved"
+          },
+          {
+            "row": 146,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-GL-40127",
+            "status": "Approved"
+          },
+          {
+            "row": 147,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-GL-40128",
+            "status": "Approved"
+          },
+          {
+            "row": 148,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-GL-40129",
+            "status": "Approved"
+          },
+          {
+            "row": 149,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-GL-40130",
+            "status": "Approved"
+          },
+          {
+            "row": 150,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ6-B1-40131",
+            "status": "Approved"
+          },
+          {
+            "row": 151,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ6-01-40132",
+            "status": "Approved"
+          },
+          {
+            "row": 152,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-01-40133",
+            "status": "Approved"
+          },
+          {
+            "row": 153,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-GL-40134",
+            "status": "Approved"
+          },
+          {
+            "row": 154,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-GL-40135",
+            "status": "Approved"
+          },
+          {
+            "row": 155,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-GL-40136",
+            "status": "Approved"
+          },
+          {
+            "row": 156,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-GL-40137",
+            "status": "Approved"
+          },
+          {
+            "row": 157,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-GL-40138",
+            "status": "Approved"
+          },
+          {
+            "row": 158,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-GL-40137",
+            "status": "Approved"
+          },
+          {
+            "row": 159,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ4-01-40138",
+            "status": "Approved"
+          },
+          {
+            "row": 160,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-GL-40140",
+            "status": "Approved"
+          },
+          {
+            "row": 161,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-GL-40141",
+            "status": "Approved"
+          },
+          {
+            "row": 162,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-GL-40142",
+            "status": "Approved"
+          },
+          {
+            "row": 163,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ4-01-40143",
+            "status": "Approved"
+          },
+          {
+            "row": 164,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-TWVL-02-40144",
+            "status": "Approved"
+          },
+          {
+            "row": 165,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-01-40145",
+            "status": "Approved"
+          },
+          {
+            "row": 166,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-ML-40146",
+            "status": "Approved"
+          },
+          {
+            "row": 167,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-B2-40148",
+            "status": "Approved"
+          },
+          {
+            "row": 168,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-B1-40149",
+            "status": "Approved"
+          },
+          {
+            "row": 169,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-GL-40150",
+            "status": "Approved"
+          },
+          {
+            "row": 170,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-VL-40151",
+            "status": "Approved"
+          },
+          {
+            "row": 171,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ4-B2-40152",
+            "status": "Approved"
+          },
+          {
+            "row": 172,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ4-B1-40153",
+            "status": "Approved"
+          },
+          {
+            "row": 173,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ4-GL-40154",
+            "status": "Approved"
+          },
+          {
+            "row": 174,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ4-VL-40155",
+            "status": "Approved"
+          },
+          {
+            "row": 175,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-VL-40156",
+            "status": "Approved"
+          },
+          {
+            "row": 176,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ4-ML-40157",
+            "status": "Approved"
+          },
+          {
+            "row": 177,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ4-ML-40158",
+            "status": "Approved"
+          },
+          {
+            "row": 178,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-TWVL-GL-40159",
+            "status": "Approved"
+          },
+          {
+            "row": 179,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-TWVL-GL-40160",
+            "status": "Approved"
+          },
+          {
+            "row": 180,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-GL-40161",
+            "status": "Approved"
+          },
+          {
+            "row": 181,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-GL-40162",
+            "status": "Approved"
+          },
+          {
+            "row": 182,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-GL-40163",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 183,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ3-GL-40164",
+            "status": "Approved"
+          },
+          {
+            "row": 184,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-PL-40165",
+            "status": "Approved"
+          },
+          {
+            "row": 185,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ6-GL-40166",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 186,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ6-GL-40167",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 187,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ6-PL-40168",
+            "status": "Approved"
+          },
+          {
+            "row": 188,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ6-PL-40169",
+            "status": "Approved"
+          },
+          {
+            "row": 189,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-TWVL-GL-40170",
+            "status": "Approved"
+          },
+          {
+            "row": 190,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-TWVL-GL-40171",
+            "status": "Approved"
+          },
+          {
+            "row": 191,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-TWVL-GL-40172",
+            "status": "Approved"
+          },
+          {
+            "row": 192,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-GL-40173",
+            "status": "Approved"
+          },
+          {
+            "row": 193,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-PL-40174",
+            "status": "Approved"
+          },
+          {
+            "row": 194,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-PL-40175",
+            "status": "Approved"
+          },
+          {
+            "row": 195,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-ML-40176",
+            "status": "Approved"
+          },
+          {
+            "row": 196,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-01-40177",
+            "status": "Approved"
+          },
+          {
+            "row": 197,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-ML-40178",
+            "status": "Approved"
+          },
+          {
+            "row": 198,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-ML-40179",
+            "status": "Approved"
+          },
+          {
+            "row": 199,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ3-GL-40180",
+            "status": "Approved"
+          },
+          {
+            "row": 200,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-VL-40181",
+            "status": "Approved"
+          },
+          {
+            "row": 201,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-GL-40182",
+            "status": "Approved"
+          },
+          {
+            "row": 202,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-PL-40183",
+            "status": "Approved"
+          },
+          {
+            "row": 203,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-PL-40184",
+            "status": "Approved"
+          },
+          {
+            "row": 204,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-PL-40185",
+            "status": "Approved"
+          },
+          {
+            "row": 205,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-PL-40186",
+            "status": "Approved"
+          },
+          {
+            "row": 206,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-PL-40187",
+            "status": "Approved"
+          },
+          {
+            "row": 207,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-TWVL-GL-40188",
+            "status": "Approved"
+          },
+          {
+            "row": 208,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ4-GL-40189",
+            "status": "Approved"
+          },
+          {
+            "row": 209,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ4-VL-40190",
+            "status": "Approved"
+          },
+          {
+            "row": 210,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-GL-40191",
+            "status": "Approved"
+          },
+          {
+            "row": 211,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ4-GL-40192",
+            "status": "Approved"
+          },
+          {
+            "row": 212,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-01-40193",
+            "status": "Approved"
+          },
+          {
+            "row": 213,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-GL-40194",
+            "status": "Approved"
+          },
+          {
+            "row": 214,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ2-B1-40195",
+            "status": "Approved"
+          },
+          {
+            "row": 215,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-P300-PL-40204",
+            "status": "Approved"
+          },
+          {
+            "row": 216,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ3-GL-40197",
+            "status": "Approved"
+          },
+          {
+            "row": 217,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ3-PL-40198",
+            "status": "Approved"
+          },
+          {
+            "row": 218,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-TWVL-GL-40199",
+            "status": "Approved"
+          },
+          {
+            "row": 219,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ2-B1-40200",
+            "status": "Approved"
+          },
+          {
+            "row": 220,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ2-B1-40201",
+            "status": "Approved"
+          },
+          {
+            "row": 221,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ2-B1-40202",
+            "status": "Approved"
+          },
+          {
+            "row": 222,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-P300-PL-40203",
+            "status": "Approved"
+          },
+          {
+            "row": 223,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-P300-PL-40204",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 224,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-P300-PL-40205",
+            "status": "Approved"
+          },
+          {
+            "row": 225,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-P300-PL-40206",
+            "status": "Approved"
+          },
+          {
+            "row": 226,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-P300-PL-40207",
+            "status": "Approved"
+          },
+          {
+            "row": 227,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-P300-PL-40208",
+            "status": "Approved"
+          },
+          {
+            "row": 228,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-P300-PL-40209",
+            "status": "Approved"
+          },
+          {
+            "row": 229,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-P300-PL-40210",
+            "status": "Approved"
+          },
+          {
+            "row": 230,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-P300-PL-40211",
+            "status": "Approved"
+          },
+          {
+            "row": 231,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-P300-PL-40212",
+            "status": "Approved"
+          },
+          {
+            "row": 232,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-P300-PL-40213",
+            "status": "Approved"
+          },
+          {
+            "row": 233,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-P300-PL-40214",
+            "status": "Approved"
+          },
+          {
+            "row": 234,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ6-GL-40215",
+            "status": "Approved"
+          },
+          {
+            "row": 235,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ6-GL-40216",
+            "status": "Approved"
+          },
+          {
+            "row": 236,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ6-GL-40217",
+            "status": "Approved"
+          },
+          {
+            "row": 237,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ6-GL-40218",
+            "status": "Approved"
+          },
+          {
+            "row": 238,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-P300-PL-40219",
+            "status": "Approved"
+          },
+          {
+            "row": 239,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ3-PL-40220",
+            "status": "Approved"
+          },
+          {
+            "row": 240,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ6-PL-40221",
+            "status": "Approved"
+          },
+          {
+            "row": 241,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ5-PL-40222",
+            "status": "Approved"
+          },
+          {
+            "row": 242,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ5-GL-40223",
+            "status": "Approved"
+          },
+          {
+            "row": 243,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-TWVL-GL-40224",
+            "status": "Approved"
+          },
+          {
+            "row": 244,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-TWVL-GL-40225",
+            "status": "Approved"
+          },
+          {
+            "row": 245,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-01-40226",
+            "status": "Approved"
+          },
+          {
+            "row": 246,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ4-01-40227",
+            "status": "Approved"
+          },
+          {
+            "row": 247,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-P412-RL-50001",
+            "status": "Approved"
+          },
+          {
+            "row": 248,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-P412-RL-50002",
+            "status": "Approved"
+          },
+          {
+            "row": 249,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-P412-GL-40001",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 250,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-P412-GL-40002",
+            "status": "Approved"
+          },
+          {
+            "row": 251,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-P412-GL-40003",
+            "status": "Approved"
+          },
+          {
+            "row": 252,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-P412-GL-40004",
+            "status": "Approved"
+          },
+          {
+            "row": 253,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-P412-GL-40005",
+            "status": "Approved"
+          },
+          {
+            "row": 254,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-P412-GL-40006",
+            "status": "Approved"
+          },
+          {
+            "row": 255,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ6-01-40228",
+            "status": "Approved"
+          },
+          {
+            "row": 256,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ6-ML-40229",
+            "status": "Approved"
+          },
+          {
+            "row": 257,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-ML-40230",
+            "status": "Approved"
+          },
+          {
+            "row": 258,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ2-PL-40231",
+            "status": "Approved"
+          },
+          {
+            "row": 259,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-P300-PL-40232",
+            "status": "Approved"
+          },
+          {
+            "row": 260,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-GL-40233",
+            "status": "Approved"
+          },
+          {
+            "row": 261,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-GL-40234",
+            "status": "Approved"
+          },
+          {
+            "row": 262,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-TWVL-21-40234",
+            "status": "Approved"
+          },
+          {
+            "row": 263,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-ML-40235",
+            "status": "Approved"
+          },
+          {
+            "row": 264,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ3-PL-40236",
+            "status": "Approved"
+          },
+          {
+            "row": 265,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-TWVL-70-40237",
+            "status": "Approved"
+          },
+          {
+            "row": 266,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ2-B1-40238",
+            "status": "Approved"
+          },
+          {
+            "row": 267,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ3-PL-40239",
+            "status": "Approved"
+          },
+          {
+            "row": 268,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-TWVL-GL-40240",
+            "status": "Approved"
+          },
+          {
+            "row": 269,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-TWVL-VL-40241",
+            "status": "Approved"
+          },
+          {
+            "row": 270,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-TWVL-VL-40242",
+            "status": "Approved"
+          },
+          {
+            "row": 271,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-01-40243",
+            "status": "Approved"
+          },
+          {
+            "row": 272,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ3-GL-40244",
+            "status": "Approved"
+          },
+          {
+            "row": 273,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ5-GL-40245",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 274,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ7-B1-40246",
+            "status": "Approved"
+          },
+          {
+            "row": 275,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ7-B1-40247",
+            "status": "Approved"
+          },
+          {
+            "row": 276,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ6-01-40248",
+            "status": "Approved"
+          },
+          {
+            "row": 277,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-P300-PL-40249",
+            "status": "Approved"
+          },
+          {
+            "row": 278,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ5-GL-40250",
+            "status": "Approved"
+          },
+          {
+            "row": 279,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-TWVL-GL-40251",
+            "status": "Approved"
+          },
+          {
+            "row": 280,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-GL-40252",
+            "status": "Approved"
+          },
+          {
+            "row": 281,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ3-PL-40253",
+            "status": "Approved"
+          },
+          {
+            "row": 282,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-TWVL-ML-40254",
+            "status": "Approved"
+          },
+          {
+            "row": 283,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-TWVL-ML-40255",
+            "status": "Approved"
+          },
+          {
+            "row": 284,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-GL-40256",
+            "status": "Approved"
+          },
+          {
+            "row": 285,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-ML-40257",
+            "status": "Rejected"
+          },
+          {
+            "row": 286,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ1-GL-40258",
+            "status": "Approved"
+          },
+          {
+            "row": 287,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-MVVL-GL-40001",
+            "status": "Approved"
+          },
+          {
+            "row": 288,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-MVVL-GL-40002",
+            "status": "Approved"
+          },
+          {
+            "row": 289,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-GL-40259",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 290,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-GL-40260",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 291,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-GL-40261",
+            "status": "Approved"
+          },
+          {
+            "row": 292,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-GL-40263",
+            "status": "Approved"
+          },
+          {
+            "row": 293,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-B2-40264",
+            "status": "Approved"
+          },
+          {
+            "row": 294,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-B2-40265",
+            "status": "Approved"
+          },
+          {
+            "row": 295,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-GL-40266",
+            "status": "Approved"
+          },
+          {
+            "row": 296,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ3-01-40267",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 297,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ3-PL-40268",
+            "status": "Approved"
+          },
+          {
+            "row": 298,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-GL-40269",
+            "status": "Approved"
+          },
+          {
+            "row": 299,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-GL-40270",
+            "status": "Approved"
+          },
+          {
+            "row": 300,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-01-40271",
+            "status": "Approved"
+          },
+          {
+            "row": 301,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ2-GL-40272",
+            "status": "Approved"
+          },
+          {
+            "row": 302,
+            "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ6-ML-40273",
+            "status": "Approved"
+          },
+          {
+            "row": 303,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ1-01-40274",
+            "status": "Approved"
+          },
+          {
+            "row": 304,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ2-ML-40275",
+            "status": "Approved"
+          },
+          {
+            "row": 305,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ3-ML-40276",
+            "status": "Approved"
+          },
+          {
+            "row": 306,
+            "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ4-ML-40277",
+            "status": "Approved"
+          }
+        ]
       }
     },
-    "dateOfReport": "30/10/2026",
+    "dateOfReport": "06/11/2026",
     "totalDwg": 305,
     "statusSummary": {
-      "approved": 290,
+      "approved": 295,
       "approvedWithResub": 0,
-      "submitted": 13,
+      "submitted": 9,
       "rejected": 1,
-      "underPrep": 1,
+      "underPrep": 0,
       "pending": 0,
       "notStarted": 0,
       "other": 0
     },
-    "completionPct": 95.1,
+    "completionPct": 96.7,
     "drawings": [
       {
         "row": 2,
@@ -17829,7 +19395,7 @@ window.DEFAULT_PROJECTS = {
       {
         "row": 249,
         "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-P412-GL-40001",
-        "status": "Approved"
+        "status": "Submitted/Under Review"
       },
       {
         "row": 250,
@@ -18028,93 +19594,93 @@ window.DEFAULT_PROJECTS = {
       },
       {
         "row": 289,
-        "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-GL-40260",
+        "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-GL-40259",
         "status": "Submitted/Under Review"
       },
       {
         "row": 290,
+        "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-GL-40260",
+        "status": "Submitted/Under Review"
+      },
+      {
+        "row": 291,
         "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-GL-40261",
         "status": "Approved"
       },
       {
-        "row": 291,
+        "row": 292,
         "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-GL-40263",
         "status": "Approved"
       },
       {
-        "row": 292,
+        "row": 293,
         "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-B2-40264",
         "status": "Approved"
       },
       {
-        "row": 293,
+        "row": 294,
         "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-B2-40265",
         "status": "Approved"
       },
       {
-        "row": 294,
+        "row": 295,
         "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ2-GL-40266",
         "status": "Approved"
       },
       {
-        "row": 295,
+        "row": 296,
         "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ3-01-40267",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 296,
+        "row": 297,
         "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ3-PL-40268",
         "status": "Approved"
       },
       {
-        "row": 297,
-        "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-GL-40269",
-        "status": "Submitted/Under Review"
-      },
-      {
         "row": 298,
-        "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-GL-40270",
-        "status": "Submitted/Under Review"
+        "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-GL-40269",
+        "status": "Approved"
       },
       {
         "row": 299,
-        "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-01-40271",
+        "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ3-GL-40270",
         "status": "Approved"
       },
       {
         "row": 300,
-        "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ2-GL-40272",
+        "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-01-40271",
         "status": "Approved"
       },
       {
         "row": 301,
-        "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ6-ML-40273",
+        "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ2-GL-40272",
         "status": "Approved"
       },
       {
         "row": 302,
-        "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ1-01-40274",
-        "status": "Submitted/Under Review"
+        "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ6-ML-40273",
+        "status": "Approved"
       },
       {
         "row": 303,
-        "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ2-ML-40275",
-        "status": "Submitted/Under Review"
+        "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ1-01-40274",
+        "status": "Approved"
       },
       {
         "row": 304,
-        "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ3-ML-40276",
-        "status": "Submitted/Under Review"
+        "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ2-ML-40275",
+        "status": "Approved"
       },
       {
         "row": 305,
-        "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ4-ML-40277",
-        "status": "Submitted/Under Review"
+        "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ3-ML-40276",
+        "status": "Approved"
       },
       {
         "row": 306,
-        "drawingNo": "WAMI-MC13-AC1-SDW-AR-MW-PDZ1-GL-40278",
-        "status": "Under Preparation"
+        "drawingNo": "WAMI-MC13-AC1-SDW-SS-MW-PDZ4-ML-40277",
+        "status": "Approved"
       }
     ]
   },
@@ -22870,6 +24436,664 @@ window.DEFAULT_PROJECTS = {
             "row": 55,
             "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428055",
             "status": "Approved"
+          },
+          {
+            "row": 56,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428056",
+            "status": "Approved"
+          },
+          {
+            "row": 57,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428057",
+            "status": "Approved"
+          },
+          {
+            "row": 58,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428058",
+            "status": "Approved"
+          },
+          {
+            "row": 59,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428059",
+            "status": "Approved"
+          },
+          {
+            "row": 60,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428060",
+            "status": "Approved"
+          },
+          {
+            "row": 61,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428061",
+            "status": "Approved"
+          },
+          {
+            "row": 62,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428062",
+            "status": "Approved"
+          },
+          {
+            "row": 63,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428063",
+            "status": "Approved"
+          },
+          {
+            "row": 64,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428064",
+            "status": "Approved"
+          },
+          {
+            "row": 65,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428065",
+            "status": "Approved"
+          },
+          {
+            "row": 66,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428066",
+            "status": "Approved"
+          },
+          {
+            "row": 67,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428067",
+            "status": "Approved"
+          },
+          {
+            "row": 68,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428068",
+            "status": "Approved"
+          },
+          {
+            "row": 69,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428069",
+            "status": "Approved"
+          },
+          {
+            "row": 70,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428070",
+            "status": "Approved"
+          },
+          {
+            "row": 71,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428071",
+            "status": "Approved"
+          },
+          {
+            "row": 72,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428072",
+            "status": "Approved"
+          },
+          {
+            "row": 73,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428073",
+            "status": "Approved"
+          },
+          {
+            "row": 74,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428074",
+            "status": "Approved"
+          },
+          {
+            "row": 75,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428075",
+            "status": "Approved"
+          },
+          {
+            "row": 76,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428076",
+            "status": "Approved"
+          },
+          {
+            "row": 77,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428077",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 78,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428078",
+            "status": "Approved"
+          },
+          {
+            "row": 79,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428079",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 80,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428080",
+            "status": "Approved"
+          },
+          {
+            "row": 81,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428081",
+            "status": "Approved"
+          },
+          {
+            "row": 82,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428082",
+            "status": "Approved"
+          },
+          {
+            "row": 83,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428083",
+            "status": "Approved"
+          },
+          {
+            "row": 84,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428085",
+            "status": "Approved"
+          },
+          {
+            "row": 85,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428086",
+            "status": "Approved"
+          },
+          {
+            "row": 86,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428087",
+            "status": "Approved"
+          },
+          {
+            "row": 87,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-528020",
+            "status": "Approved"
+          },
+          {
+            "row": 88,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428088",
+            "status": "Approved"
+          },
+          {
+            "row": 89,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428089",
+            "status": "Approved"
+          },
+          {
+            "row": 90,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428090",
+            "status": "Approved"
+          },
+          {
+            "row": 91,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428091",
+            "status": "Approved"
+          },
+          {
+            "row": 92,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428092",
+            "status": "Approved"
+          },
+          {
+            "row": 93,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428093",
+            "status": "Approved"
+          },
+          {
+            "row": 94,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428094",
+            "status": "Approved"
+          },
+          {
+            "row": 95,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428095",
+            "status": "Approved"
+          },
+          {
+            "row": 96,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428096",
+            "status": "Approved"
+          },
+          {
+            "row": 97,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428097",
+            "status": "Approved"
+          },
+          {
+            "row": 98,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428098",
+            "status": "Approved"
+          },
+          {
+            "row": 99,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428099",
+            "status": "Approved"
+          },
+          {
+            "row": 100,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428100",
+            "status": "Approved"
+          },
+          {
+            "row": 101,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428101",
+            "status": "Approved"
+          },
+          {
+            "row": 102,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428102",
+            "status": "Approved"
+          },
+          {
+            "row": 103,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428103",
+            "status": "Approved"
+          },
+          {
+            "row": 104,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428104",
+            "status": "Approved"
+          },
+          {
+            "row": 105,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428105",
+            "status": "Approved"
+          },
+          {
+            "row": 106,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428106",
+            "status": "Approved"
+          },
+          {
+            "row": 107,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428107",
+            "status": "Approved"
+          },
+          {
+            "row": 108,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428108",
+            "status": "Approved"
+          },
+          {
+            "row": 109,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428109",
+            "status": "Approved"
+          },
+          {
+            "row": 110,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428110",
+            "status": "Approved"
+          },
+          {
+            "row": 111,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428111",
+            "status": "Approved"
+          },
+          {
+            "row": 112,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428112",
+            "status": "Approved"
+          },
+          {
+            "row": 113,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428113",
+            "status": "Approved"
+          },
+          {
+            "row": 114,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428114",
+            "status": "Approved"
+          },
+          {
+            "row": 115,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-528019",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 116,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428115",
+            "status": "Rejected"
+          },
+          {
+            "row": 117,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428116",
+            "status": "Rejected"
+          },
+          {
+            "row": 118,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428117",
+            "status": "Rejected"
+          },
+          {
+            "row": 119,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428118",
+            "status": "Rejected"
+          },
+          {
+            "row": 120,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428119",
+            "status": "Rejected"
+          },
+          {
+            "row": 121,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428120",
+            "status": "Rejected"
+          },
+          {
+            "row": 122,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428121",
+            "status": "Rejected"
+          },
+          {
+            "row": 123,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428122",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 124,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428123",
+            "status": "Rejected"
+          },
+          {
+            "row": 125,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428124",
+            "status": "Rejected"
+          }
+        ]
+      },
+      "2026-06-11": {
+        "fileName": "PH481_2026-11-6.xlsx",
+        "dateOfReport": "11/06/2026",
+        "presentDate": "11/06/2026",
+        "plannedEndDate": "12/09/2025",
+        "periodOfExtension": "9 Months",
+        "monthYearLabel": "Jun, 26",
+        "totalDwg": 124,
+        "resourceCount": 0,
+        "statusSummary": {
+          "approved": 109,
+          "approvedWithResub": 0,
+          "submitted": 6,
+          "rejected": 9,
+          "underPrep": 0,
+          "pending": 0,
+          "notStarted": 0,
+          "other": 0
+        },
+        "completionPct": 87.9,
+        "modelers": [],
+        "notes": [
+          "Based on the comments received in the access panel material submittal rejection document, the typical drawings for single and double door access panels must be revised and resubmitted.",
+          "The double door access panel layout needs to be resubmitted after typical drawings released",
+          "VARI1: Edge protection for MEP Steps to all level - Shop drawing completed (6 Sheets), Ladder and Platform - Shop drawings going on. (2 sheets added)",
+          "VAR2: The Railing for all staircases first landing (10- sheet may add on)"
+        ],
+        "projectInCharge": "Noufal",
+        "projectLead": "Muhasil Muhammed",
+        "bimCoordinator": "Ajmal",
+        "projectDc": "Romeo",
+        "procurement": "NA",
+        "estimation": "NA",
+        "plannedStartDate": "01/11/2025",
+        "actualStartDate": "04/04/2026",
+        "drawings": [
+          {
+            "row": 2,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-528001",
+            "status": "Approved"
+          },
+          {
+            "row": 3,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-528002",
+            "status": "Approved"
+          },
+          {
+            "row": 4,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-528003",
+            "status": "Approved"
+          },
+          {
+            "row": 5,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-528004",
+            "status": "Approved"
+          },
+          {
+            "row": 6,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-528005",
+            "status": "Approved"
+          },
+          {
+            "row": 7,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-528008",
+            "status": "Approved"
+          },
+          {
+            "row": 8,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-528009",
+            "status": "Approved"
+          },
+          {
+            "row": 9,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-528010",
+            "status": "Approved"
+          },
+          {
+            "row": 10,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-528012",
+            "status": "Approved"
+          },
+          {
+            "row": 11,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-528017",
+            "status": "Approved"
+          },
+          {
+            "row": 12,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-528018",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 13,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428001",
+            "status": "Approved"
+          },
+          {
+            "row": 14,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428002",
+            "status": "Approved"
+          },
+          {
+            "row": 15,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428003",
+            "status": "Approved"
+          },
+          {
+            "row": 16,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428004",
+            "status": "Approved"
+          },
+          {
+            "row": 17,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428005",
+            "status": "Approved"
+          },
+          {
+            "row": 18,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428006",
+            "status": "Approved"
+          },
+          {
+            "row": 19,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428007",
+            "status": "Approved"
+          },
+          {
+            "row": 20,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428008",
+            "status": "Approved"
+          },
+          {
+            "row": 21,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428009",
+            "status": "Approved"
+          },
+          {
+            "row": 22,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428010",
+            "status": "Approved"
+          },
+          {
+            "row": 23,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428011",
+            "status": "Approved"
+          },
+          {
+            "row": 24,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428012",
+            "status": "Approved"
+          },
+          {
+            "row": 25,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428017",
+            "status": "Approved"
+          },
+          {
+            "row": 26,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428018",
+            "status": "Approved"
+          },
+          {
+            "row": 27,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428019",
+            "status": "Approved"
+          },
+          {
+            "row": 28,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428020",
+            "status": "Approved"
+          },
+          {
+            "row": 29,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428022",
+            "status": "Approved"
+          },
+          {
+            "row": 30,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428023",
+            "status": "Approved"
+          },
+          {
+            "row": 31,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428024",
+            "status": "Approved"
+          },
+          {
+            "row": 32,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428025",
+            "status": "Approved"
+          },
+          {
+            "row": 33,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428026",
+            "status": "Approved"
+          },
+          {
+            "row": 34,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428027",
+            "status": "Approved"
+          },
+          {
+            "row": 35,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428028",
+            "status": "Approved"
+          },
+          {
+            "row": 36,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428029",
+            "status": "Approved"
+          },
+          {
+            "row": 37,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428030",
+            "status": "Approved"
+          },
+          {
+            "row": 38,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428031",
+            "status": "Approved"
+          },
+          {
+            "row": 39,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428032",
+            "status": "Approved"
+          },
+          {
+            "row": 40,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428033",
+            "status": "Approved"
+          },
+          {
+            "row": 41,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428034",
+            "status": "Approved"
+          },
+          {
+            "row": 42,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428035",
+            "status": "Approved"
+          },
+          {
+            "row": 43,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428036",
+            "status": "Approved"
+          },
+          {
+            "row": 44,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428041",
+            "status": "Approved"
+          },
+          {
+            "row": 45,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428045",
+            "status": "Approved"
+          },
+          {
+            "row": 46,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428046",
+            "status": "Approved"
+          },
+          {
+            "row": 47,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428047",
+            "status": "Approved"
+          },
+          {
+            "row": 48,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428048",
+            "status": "Approved"
+          },
+          {
+            "row": 49,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428049",
+            "status": "Approved"
+          },
+          {
+            "row": 50,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428050",
+            "status": "Approved"
+          },
+          {
+            "row": 51,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428051",
+            "status": "Approved"
+          },
+          {
+            "row": 52,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428052",
+            "status": "Approved"
+          },
+          {
+            "row": 53,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428053",
+            "status": "Approved"
+          },
+          {
+            "row": 54,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428054",
+            "status": "Approved"
+          },
+          {
+            "row": 55,
+            "drawingNo": "P-0001-PH01-D01-01A001-ALEC-SDR-ARC-428055",
+            "status": "Submitted/Under Review"
           },
           {
             "row": 56,
@@ -47338,25 +49562,25 @@ window.DEFAULT_PROJECTS = {
         ]
       },
       "2026-10-30": {
-        "fileName": "PH489_2026-10-30.xlsx",
+        "fileName": "PH489_2026-11-6.xlsx",
         "dateOfReport": "30/10/2026",
         "presentDate": "30/10/2026",
         "plannedEndDate": "02/11/2026",
         "periodOfExtension": "0 Months",
         "monthYearLabel": "Oct, 26",
-        "totalDwg": 263,
+        "totalDwg": 264,
         "resourceCount": 1,
         "statusSummary": {
-          "approved": 122,
-          "approvedWithResub": 8,
-          "submitted": 12,
-          "rejected": 64,
+          "approved": 128,
+          "approvedWithResub": 6,
+          "submitted": 25,
+          "rejected": 48,
           "underPrep": 4,
           "pending": 0,
           "notStarted": 53,
           "other": 0
         },
-        "completionPct": 46.4,
+        "completionPct": 48.5,
         "modelers": [
           {
             "name": "OSR1 (Abhiram)",
@@ -47394,7 +49618,7 @@ window.DEFAULT_PROJECTS = {
           {
             "row": 4,
             "drawingNo": "CMO-AC1-DS17-SDW-PTW-ZZ-ARC-MM-5004",
-            "status": "Approved with Resub."
+            "status": "Approved"
           },
           {
             "row": 5,
@@ -47539,32 +49763,32 @@ window.DEFAULT_PROJECTS = {
           {
             "row": 33,
             "drawingNo": "CMO-AC1-DS17-SDW-PDM-ZZ-ARC-MM-4031",
-            "status": "Submitted/Under Review"
+            "status": "Approved"
           },
           {
             "row": 34,
             "drawingNo": "CMO-AC1-DS17-SDW-PTW-ZZ-ARC-MM-4032",
-            "status": "Submitted/Under Review"
+            "status": "Approved"
           },
           {
             "row": 35,
             "drawingNo": "CMO-AC1-DS17-SDW-PTW-ZZ-ARC-MM-4033",
-            "status": "Submitted/Under Review"
+            "status": "Approved"
           },
           {
             "row": 36,
             "drawingNo": "CMO-AC1-DS17-SDW-PTW-ZZ-ARC-MM-4034",
-            "status": "Submitted/Under Review"
+            "status": "Approved with Resub."
           },
           {
             "row": 37,
             "drawingNo": "CMO-AC1-DS17-SDW-PTW-ZZ-ARC-MM-4035",
-            "status": "Submitted/Under Review"
+            "status": "Approved with Resub."
           },
           {
             "row": 38,
             "drawingNo": "CMO-AC1-DS17-SDW-PTW-ZZ-ARC-MM-4036",
-            "status": "Submitted/Under Review"
+            "status": "Approved with Resub."
           },
           {
             "row": 39,
@@ -47644,92 +49868,92 @@ window.DEFAULT_PROJECTS = {
           {
             "row": 54,
             "drawingNo": "CMO-AC1-DS17-SDW-TWR-ZZ-ARC-MM-4052",
-            "status": "Rejected"
+            "status": "Submitted/Under Review"
           },
           {
             "row": 55,
             "drawingNo": "CMO-AC1-DS17-SDW-TWR-ZZ-ARC-MM-4053",
-            "status": "Rejected"
+            "status": "Submitted/Under Review"
           },
           {
             "row": 56,
             "drawingNo": "CMO-AC1-DS17-SDW-TWR-ZZ-ARC-MM-4054",
-            "status": "Rejected"
+            "status": "Submitted/Under Review"
           },
           {
             "row": 57,
             "drawingNo": "CMO-AC1-DS17-SDW-TWR-ZZ-ARC-MM-4055",
-            "status": "Rejected"
+            "status": "Submitted/Under Review"
           },
           {
             "row": 58,
             "drawingNo": "CMO-AC1-DS17-SDW-TWR-ZZ-ARC-MM-4056",
-            "status": "Rejected"
+            "status": "Submitted/Under Review"
           },
           {
             "row": 59,
             "drawingNo": "CMO-AC1-DS17-SDW-TWR-ZZ-ARC-MM-4057",
-            "status": "Rejected"
+            "status": "Submitted/Under Review"
           },
           {
             "row": 60,
             "drawingNo": "CMO-AC1-DS17-SDW-TWR-ZZ-ARC-MM-4058",
-            "status": "Rejected"
+            "status": "Submitted/Under Review"
           },
           {
             "row": 61,
             "drawingNo": "CMO-AC1-DS17-SDW-TWR-ZZ-ARC-MM-4059",
-            "status": "Rejected"
+            "status": "Submitted/Under Review"
           },
           {
             "row": 62,
             "drawingNo": "CMO-AC1-DS17-SDW-TWR-ZZ-ARC-MM-4061",
-            "status": "Rejected"
+            "status": "Submitted/Under Review"
           },
           {
             "row": 63,
             "drawingNo": "CMO-AC1-DS17-SDW-TWR-ZZ-ARC-MM-4062",
-            "status": "Rejected"
+            "status": "Submitted/Under Review"
           },
           {
             "row": 64,
             "drawingNo": "CMO-AC1-DS17-SDW-TWR-ZZ-ARC-MM-4063",
-            "status": "Rejected"
+            "status": "Submitted/Under Review"
           },
           {
             "row": 65,
             "drawingNo": "CMO-AC1-DS17-SDW-TWR-ZZ-ARC-MM-4064",
-            "status": "Rejected"
+            "status": "Submitted/Under Review"
           },
           {
             "row": 66,
             "drawingNo": "CMO-AC1-DS17-SDW-PTW-ZZ-ARC-MM-4065",
-            "status": "Rejected"
+            "status": "Submitted/Under Review"
           },
           {
             "row": 67,
             "drawingNo": "CMO-AC1-DS17-SDW-PTW-ZZ-ARC-MM-4066",
-            "status": "Rejected"
+            "status": "Submitted/Under Review"
           },
           {
             "row": 68,
             "drawingNo": "CMO-AC1-DS17-SDW-PTW-ZZ-ARC-MM-4067",
-            "status": "Rejected"
+            "status": "Submitted/Under Review"
           },
           {
             "row": 69,
             "drawingNo": "CMO-AC1-DS17-SDW-PTW-ZZ-ARC-MM-4068",
-            "status": "Rejected"
+            "status": "Submitted/Under Review"
           },
           {
             "row": 70,
             "drawingNo": "CMO-AC1-DS17-SDW-PTW-ZZ-ARC-MM-4069",
-            "status": "Approved with Resub."
+            "status": "Submitted/Under Review"
           },
           {
             "row": 71,
             "drawingNo": "CMO-AC1-DS17-SDW-PTW-ZZ-ARC-MM-4070",
-            "status": "Approved with Resub."
+            "status": "Submitted/Under Review"
           },
           {
             "row": 72,
@@ -47744,7 +49968,7 @@ window.DEFAULT_PROJECTS = {
           {
             "row": 74,
             "drawingNo": "CMO-AC1-DS17-SDW-PDM-ZZ-ARC-MM-4060",
-            "status": "Approved with Resub."
+            "status": "Approved"
           },
           {
             "row": 75,
@@ -48229,7 +50453,7 @@ window.DEFAULT_PROJECTS = {
           {
             "row": 171,
             "drawingNo": "CMO-AC1-DS17-SDW-PDM-GF-ARC-MM-4093",
-            "status": "Approved with Resub."
+            "status": "Approved"
           },
           {
             "row": 172,
@@ -48695,23 +50919,28 @@ window.DEFAULT_PROJECTS = {
             "row": 264,
             "drawingNo": "CMO-AC1-DS17-SDW-PDM-ZZ-ARC-MM-4186",
             "status": "Approved with Resub."
+          },
+          {
+            "row": 265,
+            "drawingNo": "CMO-AC1-DS17-SDW-PDM-GF-ARC-MM-4187",
+            "status": "Submitted/Under Review"
           }
         ]
       }
     },
     "dateOfReport": "30/10/2026",
-    "totalDwg": 263,
+    "totalDwg": 264,
     "statusSummary": {
-      "approved": 122,
-      "approvedWithResub": 8,
-      "submitted": 12,
-      "rejected": 64,
+      "approved": 128,
+      "approvedWithResub": 6,
+      "submitted": 25,
+      "rejected": 48,
       "underPrep": 4,
       "pending": 0,
       "notStarted": 53,
       "other": 0
     },
-    "completionPct": 46.4,
+    "completionPct": 48.5,
     "drawings": [
       {
         "row": 2,
@@ -48726,7 +50955,7 @@ window.DEFAULT_PROJECTS = {
       {
         "row": 4,
         "drawingNo": "CMO-AC1-DS17-SDW-PTW-ZZ-ARC-MM-5004",
-        "status": "Approved with Resub."
+        "status": "Approved"
       },
       {
         "row": 5,
@@ -48871,32 +51100,32 @@ window.DEFAULT_PROJECTS = {
       {
         "row": 33,
         "drawingNo": "CMO-AC1-DS17-SDW-PDM-ZZ-ARC-MM-4031",
-        "status": "Submitted/Under Review"
+        "status": "Approved"
       },
       {
         "row": 34,
         "drawingNo": "CMO-AC1-DS17-SDW-PTW-ZZ-ARC-MM-4032",
-        "status": "Submitted/Under Review"
+        "status": "Approved"
       },
       {
         "row": 35,
         "drawingNo": "CMO-AC1-DS17-SDW-PTW-ZZ-ARC-MM-4033",
-        "status": "Submitted/Under Review"
+        "status": "Approved"
       },
       {
         "row": 36,
         "drawingNo": "CMO-AC1-DS17-SDW-PTW-ZZ-ARC-MM-4034",
-        "status": "Submitted/Under Review"
+        "status": "Approved with Resub."
       },
       {
         "row": 37,
         "drawingNo": "CMO-AC1-DS17-SDW-PTW-ZZ-ARC-MM-4035",
-        "status": "Submitted/Under Review"
+        "status": "Approved with Resub."
       },
       {
         "row": 38,
         "drawingNo": "CMO-AC1-DS17-SDW-PTW-ZZ-ARC-MM-4036",
-        "status": "Submitted/Under Review"
+        "status": "Approved with Resub."
       },
       {
         "row": 39,
@@ -48976,92 +51205,92 @@ window.DEFAULT_PROJECTS = {
       {
         "row": 54,
         "drawingNo": "CMO-AC1-DS17-SDW-TWR-ZZ-ARC-MM-4052",
-        "status": "Rejected"
+        "status": "Submitted/Under Review"
       },
       {
         "row": 55,
         "drawingNo": "CMO-AC1-DS17-SDW-TWR-ZZ-ARC-MM-4053",
-        "status": "Rejected"
+        "status": "Submitted/Under Review"
       },
       {
         "row": 56,
         "drawingNo": "CMO-AC1-DS17-SDW-TWR-ZZ-ARC-MM-4054",
-        "status": "Rejected"
+        "status": "Submitted/Under Review"
       },
       {
         "row": 57,
         "drawingNo": "CMO-AC1-DS17-SDW-TWR-ZZ-ARC-MM-4055",
-        "status": "Rejected"
+        "status": "Submitted/Under Review"
       },
       {
         "row": 58,
         "drawingNo": "CMO-AC1-DS17-SDW-TWR-ZZ-ARC-MM-4056",
-        "status": "Rejected"
+        "status": "Submitted/Under Review"
       },
       {
         "row": 59,
         "drawingNo": "CMO-AC1-DS17-SDW-TWR-ZZ-ARC-MM-4057",
-        "status": "Rejected"
+        "status": "Submitted/Under Review"
       },
       {
         "row": 60,
         "drawingNo": "CMO-AC1-DS17-SDW-TWR-ZZ-ARC-MM-4058",
-        "status": "Rejected"
+        "status": "Submitted/Under Review"
       },
       {
         "row": 61,
         "drawingNo": "CMO-AC1-DS17-SDW-TWR-ZZ-ARC-MM-4059",
-        "status": "Rejected"
+        "status": "Submitted/Under Review"
       },
       {
         "row": 62,
         "drawingNo": "CMO-AC1-DS17-SDW-TWR-ZZ-ARC-MM-4061",
-        "status": "Rejected"
+        "status": "Submitted/Under Review"
       },
       {
         "row": 63,
         "drawingNo": "CMO-AC1-DS17-SDW-TWR-ZZ-ARC-MM-4062",
-        "status": "Rejected"
+        "status": "Submitted/Under Review"
       },
       {
         "row": 64,
         "drawingNo": "CMO-AC1-DS17-SDW-TWR-ZZ-ARC-MM-4063",
-        "status": "Rejected"
+        "status": "Submitted/Under Review"
       },
       {
         "row": 65,
         "drawingNo": "CMO-AC1-DS17-SDW-TWR-ZZ-ARC-MM-4064",
-        "status": "Rejected"
+        "status": "Submitted/Under Review"
       },
       {
         "row": 66,
         "drawingNo": "CMO-AC1-DS17-SDW-PTW-ZZ-ARC-MM-4065",
-        "status": "Rejected"
+        "status": "Submitted/Under Review"
       },
       {
         "row": 67,
         "drawingNo": "CMO-AC1-DS17-SDW-PTW-ZZ-ARC-MM-4066",
-        "status": "Rejected"
+        "status": "Submitted/Under Review"
       },
       {
         "row": 68,
         "drawingNo": "CMO-AC1-DS17-SDW-PTW-ZZ-ARC-MM-4067",
-        "status": "Rejected"
+        "status": "Submitted/Under Review"
       },
       {
         "row": 69,
         "drawingNo": "CMO-AC1-DS17-SDW-PTW-ZZ-ARC-MM-4068",
-        "status": "Rejected"
+        "status": "Submitted/Under Review"
       },
       {
         "row": 70,
         "drawingNo": "CMO-AC1-DS17-SDW-PTW-ZZ-ARC-MM-4069",
-        "status": "Approved with Resub."
+        "status": "Submitted/Under Review"
       },
       {
         "row": 71,
         "drawingNo": "CMO-AC1-DS17-SDW-PTW-ZZ-ARC-MM-4070",
-        "status": "Approved with Resub."
+        "status": "Submitted/Under Review"
       },
       {
         "row": 72,
@@ -49076,7 +51305,7 @@ window.DEFAULT_PROJECTS = {
       {
         "row": 74,
         "drawingNo": "CMO-AC1-DS17-SDW-PDM-ZZ-ARC-MM-4060",
-        "status": "Approved with Resub."
+        "status": "Approved"
       },
       {
         "row": 75,
@@ -49561,7 +51790,7 @@ window.DEFAULT_PROJECTS = {
       {
         "row": 171,
         "drawingNo": "CMO-AC1-DS17-SDW-PDM-GF-ARC-MM-4093",
-        "status": "Approved with Resub."
+        "status": "Approved"
       },
       {
         "row": 172,
@@ -50027,6 +52256,11 @@ window.DEFAULT_PROJECTS = {
         "row": 264,
         "drawingNo": "CMO-AC1-DS17-SDW-PDM-ZZ-ARC-MM-4186",
         "status": "Approved with Resub."
+      },
+      {
+        "row": 265,
+        "drawingNo": "CMO-AC1-DS17-SDW-PDM-GF-ARC-MM-4187",
+        "status": "Submitted/Under Review"
       }
     ]
   },
@@ -50490,7 +52724,7 @@ window.DEFAULT_PROJECTS = {
     "plannedStartDate": "10/05/2025",
     "plannedEndDate": "26/11/2025",
     "actualStartDate": "10/05/2025",
-    "presentDate": "30/10/2026",
+    "presentDate": "06/11/2026",
     "periodOfExtension": "11 Months",
     "modelers": [
       {
@@ -50501,7 +52735,7 @@ window.DEFAULT_PROJECTS = {
       }
     ],
     "notes": [
-      "New SI : \"ALEC-ALC23006-AMI-SLO-MN-05678 PS-43 – VESTIBULES FROM LEVEL 03 TO ABOVE FLOORS\" Shopdrawings are under preparation",
+      "New SI : Zone 2-Ground-HYGIENE LAB & Zone 4 Promenade F&B support Room instruction Pending",
       "VARI1: The total number of shop drawings may increase based on the upcoming ALEC RFIs and new SI instructions."
     ],
     "history": {
@@ -66811,21 +69045,2159 @@ window.DEFAULT_PROJECTS = {
             "status": "Approved"
           }
         ]
+      },
+      "2026-11-06": {
+        "fileName": "PH492_2026-11-06.xlsx",
+        "dateOfReport": "06/11/2026",
+        "presentDate": "06/11/2026",
+        "plannedEndDate": "26/11/2025",
+        "periodOfExtension": "11 Months",
+        "monthYearLabel": "Nov, 26",
+        "totalDwg": 419,
+        "resourceCount": 1,
+        "statusSummary": {
+          "approved": 393,
+          "approvedWithResub": 0,
+          "submitted": 26,
+          "rejected": 0,
+          "underPrep": 0,
+          "pending": 0,
+          "notStarted": 0,
+          "other": 0
+        },
+        "completionPct": 93.8,
+        "modelers": [
+          {
+            "name": "OSR6 (Nijo)",
+            "role": "BIM Modeler",
+            "dateOfJoin": "[22/08/2025]",
+            "active": true
+          }
+        ],
+        "notes": [
+          "New SI : Zone 2-Ground-HYGIENE LAB & Zone 4 Promenade F&B support Room instruction Pending",
+          "VARI1: The total number of shop drawings may increase based on the upcoming ALEC RFIs and new SI instructions."
+        ],
+        "projectInCharge": "Dibin Davis",
+        "projectLead": "Muhasil Muhammed",
+        "bimCoordinator": "Ajmal",
+        "projectDc": "Romeo",
+        "procurement": "NA",
+        "estimation": "NA",
+        "plannedStartDate": "10/05/2025",
+        "actualStartDate": "10/05/2025",
+        "drawings": [
+          {
+            "row": 2,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDVL-B2-50001",
+            "status": "Approved"
+          },
+          {
+            "row": 3,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDVL-B2-50002",
+            "status": "Approved"
+          },
+          {
+            "row": 4,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDVL-B2-50003",
+            "status": "Approved"
+          },
+          {
+            "row": 5,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDVL-B2-50004",
+            "status": "Approved"
+          },
+          {
+            "row": 6,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDVL-B2-50005",
+            "status": "Approved"
+          },
+          {
+            "row": 7,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDVL-B2-50006",
+            "status": "Approved"
+          },
+          {
+            "row": 8,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-ALVL-B2-50001",
+            "status": "Approved"
+          },
+          {
+            "row": 9,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-ALVL-B2-50002",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 10,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-ALVL-B2-50003",
+            "status": "Approved"
+          },
+          {
+            "row": 11,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-ALVL-B2-50004",
+            "status": "Approved"
+          },
+          {
+            "row": 12,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-ALVL-B2-50006",
+            "status": "Approved"
+          },
+          {
+            "row": 13,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-ALVL-B2-50007",
+            "status": "Approved"
+          },
+          {
+            "row": 14,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-ALVL-B2-50008",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 15,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B2-10010",
+            "status": "Approved"
+          },
+          {
+            "row": 16,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B2-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 17,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B2-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 18,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B2-40013",
+            "status": "Approved"
+          },
+          {
+            "row": 19,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B2-40014",
+            "status": "Approved"
+          },
+          {
+            "row": 20,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B2-40015",
+            "status": "Approved"
+          },
+          {
+            "row": 21,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B2-40016",
+            "status": "Approved"
+          },
+          {
+            "row": 22,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B2-40017",
+            "status": "Approved"
+          },
+          {
+            "row": 23,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B2-40018",
+            "status": "Approved"
+          },
+          {
+            "row": 24,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B2-40019",
+            "status": "Approved"
+          },
+          {
+            "row": 25,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B1-10010",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 26,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B1-40011",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 27,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B1-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 28,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B1-40013",
+            "status": "Approved"
+          },
+          {
+            "row": 29,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B1-40014",
+            "status": "Approved"
+          },
+          {
+            "row": 30,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B1-40015",
+            "status": "Approved"
+          },
+          {
+            "row": 31,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B1-40016",
+            "status": "Approved"
+          },
+          {
+            "row": 32,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B1-40017",
+            "status": "Approved"
+          },
+          {
+            "row": 33,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B1-40018",
+            "status": "Approved"
+          },
+          {
+            "row": 34,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B1-40019",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 35,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-GL-10010",
+            "status": "Approved"
+          },
+          {
+            "row": 36,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-GL-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 37,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-GL-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 38,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-GL-40013",
+            "status": "Approved"
+          },
+          {
+            "row": 39,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-GL-40014",
+            "status": "Approved"
+          },
+          {
+            "row": 40,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-GL-40015",
+            "status": "Approved"
+          },
+          {
+            "row": 41,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-GL-40016",
+            "status": "Approved"
+          },
+          {
+            "row": 42,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-GL-40017",
+            "status": "Approved"
+          },
+          {
+            "row": 43,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-GL-40018",
+            "status": "Approved"
+          },
+          {
+            "row": 44,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-GL-40019",
+            "status": "Approved"
+          },
+          {
+            "row": 45,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-VL-10010",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 46,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-VL-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 47,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-VL-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 48,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-VL-40013",
+            "status": "Approved"
+          },
+          {
+            "row": 49,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-VL-40014",
+            "status": "Approved"
+          },
+          {
+            "row": 50,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-VL-40015",
+            "status": "Approved"
+          },
+          {
+            "row": 51,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-VL-40016",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 52,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-VL-40017",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 53,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-VL-40018",
+            "status": "Approved"
+          },
+          {
+            "row": 54,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-VL-40019",
+            "status": "Approved"
+          },
+          {
+            "row": 55,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-B2-10010",
+            "status": "Approved"
+          },
+          {
+            "row": 56,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-B2-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 57,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-B2-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 58,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-B2-40013",
+            "status": "Approved"
+          },
+          {
+            "row": 59,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-B2-40014",
+            "status": "Approved"
+          },
+          {
+            "row": 60,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-B1-10010",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 61,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-B1-40011",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 62,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-B1-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 63,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-B1-40013",
+            "status": "Approved"
+          },
+          {
+            "row": 64,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-B1-40014",
+            "status": "Approved"
+          },
+          {
+            "row": 65,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-B1-40015",
+            "status": "Approved"
+          },
+          {
+            "row": 66,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-GL-10010",
+            "status": "Approved"
+          },
+          {
+            "row": 67,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-GL-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 68,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-GL-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 69,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-GL-40013",
+            "status": "Approved"
+          },
+          {
+            "row": 70,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-GL-40014",
+            "status": "Approved"
+          },
+          {
+            "row": 71,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-VL-10010",
+            "status": "Approved"
+          },
+          {
+            "row": 72,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-VL-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 73,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-VL-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 74,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-VL-40013",
+            "status": "Approved"
+          },
+          {
+            "row": 75,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-VL-40014",
+            "status": "Approved"
+          },
+          {
+            "row": 76,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 77,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 78,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 79,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40013",
+            "status": "Approved"
+          },
+          {
+            "row": 80,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40014",
+            "status": "Approved"
+          },
+          {
+            "row": 81,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40015",
+            "status": "Approved"
+          },
+          {
+            "row": 82,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40016",
+            "status": "Approved"
+          },
+          {
+            "row": 83,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40017",
+            "status": "Approved"
+          },
+          {
+            "row": 84,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40018",
+            "status": "Approved"
+          },
+          {
+            "row": 85,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40019",
+            "status": "Approved"
+          },
+          {
+            "row": 86,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40020",
+            "status": "Approved"
+          },
+          {
+            "row": 87,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40021",
+            "status": "Approved"
+          },
+          {
+            "row": 88,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40022",
+            "status": "Approved"
+          },
+          {
+            "row": 89,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40023",
+            "status": "Approved"
+          },
+          {
+            "row": 90,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40024",
+            "status": "Approved"
+          },
+          {
+            "row": 91,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40025",
+            "status": "Approved"
+          },
+          {
+            "row": 92,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40026",
+            "status": "Approved"
+          },
+          {
+            "row": 93,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40027",
+            "status": "Approved"
+          },
+          {
+            "row": 94,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40028",
+            "status": "Approved"
+          },
+          {
+            "row": 95,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40029",
+            "status": "Approved"
+          },
+          {
+            "row": 96,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40030",
+            "status": "Approved"
+          },
+          {
+            "row": 97,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40031",
+            "status": "Approved"
+          },
+          {
+            "row": 98,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40032",
+            "status": "Approved"
+          },
+          {
+            "row": 99,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40033",
+            "status": "Approved"
+          },
+          {
+            "row": 100,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40034",
+            "status": "Approved"
+          },
+          {
+            "row": 101,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40035",
+            "status": "Approved"
+          },
+          {
+            "row": 102,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40036",
+            "status": "Approved"
+          },
+          {
+            "row": 103,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40037",
+            "status": "Approved"
+          },
+          {
+            "row": 104,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40038",
+            "status": "Approved"
+          },
+          {
+            "row": 105,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-VL-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 106,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-VL-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 107,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-VL-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 108,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-VL-40013",
+            "status": "Approved"
+          },
+          {
+            "row": 109,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-VL-40014",
+            "status": "Approved"
+          },
+          {
+            "row": 110,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-VL-40015",
+            "status": "Approved"
+          },
+          {
+            "row": 111,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-ML-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 112,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-ML-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 113,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-ML-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 114,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-ML-40013",
+            "status": "Approved"
+          },
+          {
+            "row": 115,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-01-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 116,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-B1-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 117,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-B1-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 118,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-P600-B1-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 119,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-P600-B1-40013",
+            "status": "Approved"
+          },
+          {
+            "row": 120,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-P600-B1-40014",
+            "status": "Approved"
+          },
+          {
+            "row": 121,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-P600-B1-40015",
+            "status": "Approved"
+          },
+          {
+            "row": 122,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-GL-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 123,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-GL-40011",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 124,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-GL-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 125,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-GL-40013",
+            "status": "Approved"
+          },
+          {
+            "row": 126,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-GL-40014",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 127,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-GL-40015",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 128,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-GL-40016",
+            "status": "Approved"
+          },
+          {
+            "row": 129,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-GL-40017",
+            "status": "Approved"
+          },
+          {
+            "row": 130,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-GL-40018",
+            "status": "Approved"
+          },
+          {
+            "row": 131,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-GL-40019",
+            "status": "Approved"
+          },
+          {
+            "row": 132,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-GL-40020",
+            "status": "Approved"
+          },
+          {
+            "row": 133,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-GL-40021",
+            "status": "Approved"
+          },
+          {
+            "row": 134,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-GL-40022",
+            "status": "Approved"
+          },
+          {
+            "row": 135,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-GL-40023",
+            "status": "Approved"
+          },
+          {
+            "row": 136,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-GL-40024",
+            "status": "Approved"
+          },
+          {
+            "row": 137,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-P600-VL-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 138,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-P600-VL-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 139,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-PL-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 140,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-PL-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 141,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-PL-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 142,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-PL-40013",
+            "status": "Approved"
+          },
+          {
+            "row": 143,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-P600-PL-40014",
+            "status": "Approved"
+          },
+          {
+            "row": 144,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-P600-PL-40015",
+            "status": "Approved"
+          },
+          {
+            "row": 145,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-ML-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 146,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-P600-ML-40014",
+            "status": "Approved"
+          },
+          {
+            "row": 147,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-P600-ML-40015",
+            "status": "Approved"
+          },
+          {
+            "row": 148,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-P600-ML-40016",
+            "status": "Approved"
+          },
+          {
+            "row": 149,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-P600-ML-40017",
+            "status": "Approved"
+          },
+          {
+            "row": 150,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-01-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 151,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-B2-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 152,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-B1-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 153,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-B1-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 154,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-B1-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 155,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-B1-40013",
+            "status": "Approved"
+          },
+          {
+            "row": 156,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-B1-40014",
+            "status": "Approved"
+          },
+          {
+            "row": 157,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-B1-40015",
+            "status": "Approved"
+          },
+          {
+            "row": 158,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-B1-40016",
+            "status": "Approved"
+          },
+          {
+            "row": 159,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 160,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 161,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 162,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40013",
+            "status": "Approved"
+          },
+          {
+            "row": 163,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40014",
+            "status": "Approved"
+          },
+          {
+            "row": 164,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40015",
+            "status": "Approved"
+          },
+          {
+            "row": 165,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40016",
+            "status": "Approved"
+          },
+          {
+            "row": 166,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40017",
+            "status": "Approved"
+          },
+          {
+            "row": 167,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40018",
+            "status": "Approved"
+          },
+          {
+            "row": 168,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40019",
+            "status": "Approved"
+          },
+          {
+            "row": 169,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40020",
+            "status": "Approved"
+          },
+          {
+            "row": 170,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40021",
+            "status": "Approved"
+          },
+          {
+            "row": 171,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40022",
+            "status": "Approved"
+          },
+          {
+            "row": 172,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40023",
+            "status": "Approved"
+          },
+          {
+            "row": 173,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40024",
+            "status": "Approved"
+          },
+          {
+            "row": 174,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40025",
+            "status": "Approved"
+          },
+          {
+            "row": 175,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40026",
+            "status": "Approved"
+          },
+          {
+            "row": 176,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40027",
+            "status": "Approved"
+          },
+          {
+            "row": 177,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40028",
+            "status": "Approved"
+          },
+          {
+            "row": 178,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40029",
+            "status": "Approved"
+          },
+          {
+            "row": 179,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40030",
+            "status": "Approved"
+          },
+          {
+            "row": 180,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40032",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 181,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40033",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 182,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40034",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 183,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40037",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 184,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-VL-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 185,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 186,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 187,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 188,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40013",
+            "status": "Approved"
+          },
+          {
+            "row": 189,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40014",
+            "status": "Approved"
+          },
+          {
+            "row": 190,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40015",
+            "status": "Approved"
+          },
+          {
+            "row": 191,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40016",
+            "status": "Approved"
+          },
+          {
+            "row": 192,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40017",
+            "status": "Approved"
+          },
+          {
+            "row": 193,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40018",
+            "status": "Approved"
+          },
+          {
+            "row": 194,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40019",
+            "status": "Approved"
+          },
+          {
+            "row": 195,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40020",
+            "status": "Approved"
+          },
+          {
+            "row": 196,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40021",
+            "status": "Approved"
+          },
+          {
+            "row": 197,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40022",
+            "status": "Approved"
+          },
+          {
+            "row": 198,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40023",
+            "status": "Approved"
+          },
+          {
+            "row": 199,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40024",
+            "status": "Approved"
+          },
+          {
+            "row": 200,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40025",
+            "status": "Approved"
+          },
+          {
+            "row": 201,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40026",
+            "status": "Approved"
+          },
+          {
+            "row": 202,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40027",
+            "status": "Approved"
+          },
+          {
+            "row": 203,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40028",
+            "status": "Approved"
+          },
+          {
+            "row": 204,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40029",
+            "status": "Approved"
+          },
+          {
+            "row": 205,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40035",
+            "status": "Approved"
+          },
+          {
+            "row": 206,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-ML-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 207,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-ML-40011",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 208,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-ML-40012",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 209,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-01-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 210,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-01-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 211,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-01-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 212,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-01-40013",
+            "status": "Approved"
+          },
+          {
+            "row": 213,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-01-40014",
+            "status": "Approved"
+          },
+          {
+            "row": 214,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-01-40015",
+            "status": "Approved"
+          },
+          {
+            "row": 215,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-01-40016",
+            "status": "Approved"
+          },
+          {
+            "row": 216,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-01-40017",
+            "status": "Approved"
+          },
+          {
+            "row": 217,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-01-40018",
+            "status": "Approved"
+          },
+          {
+            "row": 218,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-01-40019",
+            "status": "Approved"
+          },
+          {
+            "row": 219,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-01-40020",
+            "status": "Approved"
+          },
+          {
+            "row": 220,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-01-40021",
+            "status": "Approved"
+          },
+          {
+            "row": 221,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-01-40022",
+            "status": "Approved"
+          },
+          {
+            "row": 222,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-01-40023",
+            "status": "Approved"
+          },
+          {
+            "row": 223,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-B2-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 224,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-B1-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 225,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-B1-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 226,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-B1-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 227,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-GL-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 228,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-GL-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 229,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-GL-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 230,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-GL-40013",
+            "status": "Approved"
+          },
+          {
+            "row": 231,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-GL-40014",
+            "status": "Approved"
+          },
+          {
+            "row": 232,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-GL-40015",
+            "status": "Approved"
+          },
+          {
+            "row": 233,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-GL-40016",
+            "status": "Approved"
+          },
+          {
+            "row": 234,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-GL-40017",
+            "status": "Approved"
+          },
+          {
+            "row": 235,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-GL-40018",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 236,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-GL-40020",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 237,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-VL-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 238,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-PL-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 239,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-PL-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 240,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-PL-40012",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 241,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-PL-40013",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 242,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-ML-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 243,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-ML-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 244,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-ML-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 245,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-ML-40013",
+            "status": "Approved"
+          },
+          {
+            "row": 246,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-ML-40014",
+            "status": "Approved"
+          },
+          {
+            "row": 247,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ5-B1-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 248,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ5-B1-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 249,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ5-B1-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 250,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ5-GL-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 251,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ5-GL-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 252,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ5-GL-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 253,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ5-GL-40013",
+            "status": "Approved"
+          },
+          {
+            "row": 254,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ5-GL-40014",
+            "status": "Approved"
+          },
+          {
+            "row": 255,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ5-PL-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 256,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ5-PL-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 257,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ5-PL-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 258,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ5-PL-40013",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 259,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-B1-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 260,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-B1-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 261,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-GL-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 262,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-GL-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 263,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-GL-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 264,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-GL-40013",
+            "status": "Approved"
+          },
+          {
+            "row": 265,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-GL-40014",
+            "status": "Approved"
+          },
+          {
+            "row": 266,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-GL-40015",
+            "status": "Approved"
+          },
+          {
+            "row": 267,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-GL-40016",
+            "status": "Approved"
+          },
+          {
+            "row": 268,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-GL-40017",
+            "status": "Approved"
+          },
+          {
+            "row": 269,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-GL-40018",
+            "status": "Approved"
+          },
+          {
+            "row": 270,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-GL-40019",
+            "status": "Approved"
+          },
+          {
+            "row": 271,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-GL-40020",
+            "status": "Approved"
+          },
+          {
+            "row": 272,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-GL-40021",
+            "status": "Approved"
+          },
+          {
+            "row": 273,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-GL-40025",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 274,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-GL-40026",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 275,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-GL-40030",
+            "status": "Approved"
+          },
+          {
+            "row": 276,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-PL-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 277,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-PL-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 278,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-ML-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 279,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ7-B1-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 280,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ7-B1-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 281,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ7-B1-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 282,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ7-GL-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 283,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ7-GL-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 284,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ7-GL-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 285,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ7-PL-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 286,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ7-PL-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 287,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-B2-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 288,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-B2-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 289,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-B2-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 290,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-B2-40013",
+            "status": "Approved"
+          },
+          {
+            "row": 291,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-B2-40014",
+            "status": "Approved"
+          },
+          {
+            "row": 292,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ7-B1-40013",
+            "status": "Approved"
+          },
+          {
+            "row": 293,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ7-B1-40014",
+            "status": "Approved"
+          },
+          {
+            "row": 294,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-B1-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 295,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-B1-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 296,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-B1-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 297,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-B1-40013",
+            "status": "Approved"
+          },
+          {
+            "row": 298,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-B1-40014",
+            "status": "Approved"
+          },
+          {
+            "row": 299,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-B1-40015",
+            "status": "Approved"
+          },
+          {
+            "row": 300,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-B1-40016",
+            "status": "Approved"
+          },
+          {
+            "row": 301,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-B1-40017",
+            "status": "Approved"
+          },
+          {
+            "row": 302,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 303,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 304,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 305,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40013",
+            "status": "Approved"
+          },
+          {
+            "row": 306,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40014",
+            "status": "Approved"
+          },
+          {
+            "row": 307,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40015",
+            "status": "Approved"
+          },
+          {
+            "row": 308,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40016",
+            "status": "Approved"
+          },
+          {
+            "row": 309,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40017",
+            "status": "Approved"
+          },
+          {
+            "row": 310,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40018",
+            "status": "Approved"
+          },
+          {
+            "row": 311,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40019",
+            "status": "Approved"
+          },
+          {
+            "row": 312,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40020",
+            "status": "Approved"
+          },
+          {
+            "row": 313,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40021",
+            "status": "Approved"
+          },
+          {
+            "row": 314,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40022",
+            "status": "Approved"
+          },
+          {
+            "row": 315,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40023",
+            "status": "Approved"
+          },
+          {
+            "row": 316,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40024",
+            "status": "Approved"
+          },
+          {
+            "row": 317,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40025",
+            "status": "Approved"
+          },
+          {
+            "row": 318,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40026",
+            "status": "Approved"
+          },
+          {
+            "row": 319,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40027",
+            "status": "Approved"
+          },
+          {
+            "row": 320,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40028",
+            "status": "Approved"
+          },
+          {
+            "row": 321,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-PL-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 322,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-PL-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 323,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-ML-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 324,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-ML-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 325,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-ML-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 326,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-ML-40013",
+            "status": "Approved"
+          },
+          {
+            "row": 327,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-ML-40014",
+            "status": "Approved"
+          },
+          {
+            "row": 328,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-ML-40018",
+            "status": "Approved"
+          },
+          {
+            "row": 329,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-ML-40020",
+            "status": "Approved"
+          },
+          {
+            "row": 330,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-ML-40021",
+            "status": "Approved"
+          },
+          {
+            "row": 331,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-01-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 332,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-01-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 333,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-01-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 334,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-01-40013",
+            "status": "Approved"
+          },
+          {
+            "row": 335,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-01-40014",
+            "status": "Approved"
+          },
+          {
+            "row": 336,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-01-40015",
+            "status": "Approved"
+          },
+          {
+            "row": 337,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-01-40016",
+            "status": "Approved"
+          },
+          {
+            "row": 338,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-01-40017",
+            "status": "Approved"
+          },
+          {
+            "row": 339,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-01-40018",
+            "status": "Approved"
+          },
+          {
+            "row": 340,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-01-40019",
+            "status": "Approved"
+          },
+          {
+            "row": 341,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-01-40020",
+            "status": "Approved"
+          },
+          {
+            "row": 342,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-02-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 343,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-02-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 344,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-02-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 345,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-03-50010",
+            "status": "Approved"
+          },
+          {
+            "row": 346,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-03-50011",
+            "status": "Approved"
+          },
+          {
+            "row": 347,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-03-50012",
+            "status": "Approved"
+          },
+          {
+            "row": 348,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-03-50013",
+            "status": "Approved"
+          },
+          {
+            "row": 349,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-03-50014",
+            "status": "Approved"
+          },
+          {
+            "row": 350,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-03-50015",
+            "status": "Approved"
+          },
+          {
+            "row": 351,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-03-50016",
+            "status": "Approved"
+          },
+          {
+            "row": 352,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-03-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 353,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-04-50010",
+            "status": "Approved"
+          },
+          {
+            "row": 354,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-05-50010",
+            "status": "Approved"
+          },
+          {
+            "row": 355,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-05-50011",
+            "status": "Approved"
+          },
+          {
+            "row": 356,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-05-50012",
+            "status": "Approved"
+          },
+          {
+            "row": 357,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-05-50013",
+            "status": "Approved"
+          },
+          {
+            "row": 358,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-06-50010",
+            "status": "Approved"
+          },
+          {
+            "row": 359,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-06-50011",
+            "status": "Approved"
+          },
+          {
+            "row": 360,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-06-50012",
+            "status": "Approved"
+          },
+          {
+            "row": 361,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-06-50013",
+            "status": "Approved"
+          },
+          {
+            "row": 362,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-06-50014",
+            "status": "Approved"
+          },
+          {
+            "row": 363,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-07-50010",
+            "status": "Approved"
+          },
+          {
+            "row": 364,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-07-50011",
+            "status": "Approved"
+          },
+          {
+            "row": 365,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-07-50012",
+            "status": "Approved"
+          },
+          {
+            "row": 366,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-07-50013",
+            "status": "Approved"
+          },
+          {
+            "row": 367,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-09-50010",
+            "status": "Approved"
+          },
+          {
+            "row": 368,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-09-50011",
+            "status": "Approved"
+          },
+          {
+            "row": 369,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-09-50012",
+            "status": "Approved"
+          },
+          {
+            "row": 370,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-09-50013",
+            "status": "Approved"
+          },
+          {
+            "row": 371,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-10-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 372,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-11-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 373,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-14-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 374,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-16-50010",
+            "status": "Approved"
+          },
+          {
+            "row": 375,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-32-40014",
+            "status": "Approved"
+          },
+          {
+            "row": 376,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-34-50010",
+            "status": "Approved"
+          },
+          {
+            "row": 377,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-34-50011",
+            "status": "Approved"
+          },
+          {
+            "row": 378,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-34-50012",
+            "status": "Approved"
+          },
+          {
+            "row": 379,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-34-50013",
+            "status": "Approved"
+          },
+          {
+            "row": 380,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-34-50014",
+            "status": "Approved"
+          },
+          {
+            "row": 381,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-36-50010",
+            "status": "Approved"
+          },
+          {
+            "row": 382,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-36-50011",
+            "status": "Approved"
+          },
+          {
+            "row": 383,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-36-50012",
+            "status": "Approved"
+          },
+          {
+            "row": 384,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-36-50013",
+            "status": "Approved"
+          },
+          {
+            "row": 385,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-32-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 386,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-32-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 387,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-32-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 388,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-32-40013",
+            "status": "Approved"
+          },
+          {
+            "row": 389,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-37-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 390,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-37-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 391,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-37-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 392,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-37-40013",
+            "status": "Approved"
+          },
+          {
+            "row": 393,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-37-50014",
+            "status": "Approved"
+          },
+          {
+            "row": 394,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-38-50010",
+            "status": "Approved"
+          },
+          {
+            "row": 395,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-38-50011",
+            "status": "Approved"
+          },
+          {
+            "row": 396,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-38-50012",
+            "status": "Approved"
+          },
+          {
+            "row": 397,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-38-50013",
+            "status": "Approved"
+          },
+          {
+            "row": 398,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-39-50010",
+            "status": "Approved"
+          },
+          {
+            "row": 399,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-39-50011",
+            "status": "Approved"
+          },
+          {
+            "row": 400,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-39-50012",
+            "status": "Approved"
+          },
+          {
+            "row": 401,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-39-50013",
+            "status": "Approved"
+          },
+          {
+            "row": 402,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-39-50014",
+            "status": "Approved"
+          },
+          {
+            "row": 403,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-67-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 404,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-68-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 405,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-68-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 406,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-68-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 407,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-68-40013",
+            "status": "Approved"
+          },
+          {
+            "row": 408,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-68-40014",
+            "status": "Approved"
+          },
+          {
+            "row": 409,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-69-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 410,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-69-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 411,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-69-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 412,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-69-40013",
+            "status": "Approved"
+          },
+          {
+            "row": 413,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-69-40014",
+            "status": "Approved"
+          },
+          {
+            "row": 414,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-69-40015",
+            "status": "Approved"
+          },
+          {
+            "row": 415,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-21-50010",
+            "status": "Approved"
+          },
+          {
+            "row": 416,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-70-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 417,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-ALVL-B2-50005",
+            "status": "Approved"
+          },
+          {
+            "row": 418,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-B1-40014",
+            "status": "Approved"
+          },
+          {
+            "row": 419,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-B1-50001",
+            "status": "Approved"
+          },
+          {
+            "row": 420,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40031",
+            "status": "Approved"
+          }
+        ]
       }
     },
-    "dateOfReport": "30/10/2026",
-    "totalDwg": 418,
+    "dateOfReport": "06/11/2026",
+    "totalDwg": 419,
     "statusSummary": {
-      "approved": 384,
+      "approved": 393,
       "approvedWithResub": 0,
-      "submitted": 34,
+      "submitted": 26,
       "rejected": 0,
       "underPrep": 0,
       "pending": 0,
       "notStarted": 0,
       "other": 0
     },
-    "completionPct": 91.9,
+    "completionPct": 93.8,
     "drawings": [
       {
         "row": 2,
@@ -66885,1542 +71257,1542 @@ window.DEFAULT_PROJECTS = {
       {
         "row": 13,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-ALVL-B2-50007",
-        "status": "Submitted/Under Review"
+        "status": "Approved"
       },
       {
         "row": 14,
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-ALVL-B2-50008",
+        "status": "Submitted/Under Review"
+      },
+      {
+        "row": 15,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B2-10010",
         "status": "Approved"
       },
       {
-        "row": 15,
+        "row": 16,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B2-40011",
         "status": "Approved"
       },
       {
-        "row": 16,
+        "row": 17,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B2-40012",
         "status": "Approved"
       },
       {
-        "row": 17,
+        "row": 18,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B2-40013",
         "status": "Approved"
       },
       {
-        "row": 18,
+        "row": 19,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B2-40014",
         "status": "Approved"
       },
       {
-        "row": 19,
+        "row": 20,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B2-40015",
         "status": "Approved"
       },
       {
-        "row": 20,
+        "row": 21,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B2-40016",
         "status": "Approved"
       },
       {
-        "row": 21,
+        "row": 22,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B2-40017",
         "status": "Approved"
       },
       {
-        "row": 22,
+        "row": 23,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B2-40018",
         "status": "Approved"
       },
       {
-        "row": 23,
+        "row": 24,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B2-40019",
         "status": "Approved"
       },
       {
-        "row": 24,
+        "row": 25,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B1-10010",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 25,
+        "row": 26,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B1-40011",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 26,
+        "row": 27,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B1-40012",
         "status": "Approved"
       },
       {
-        "row": 27,
+        "row": 28,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B1-40013",
         "status": "Approved"
       },
       {
-        "row": 28,
+        "row": 29,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B1-40014",
         "status": "Approved"
       },
       {
-        "row": 29,
+        "row": 30,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B1-40015",
         "status": "Approved"
       },
       {
-        "row": 30,
+        "row": 31,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B1-40016",
         "status": "Approved"
       },
       {
-        "row": 31,
+        "row": 32,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B1-40017",
         "status": "Approved"
       },
       {
-        "row": 32,
+        "row": 33,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B1-40018",
         "status": "Approved"
       },
       {
-        "row": 33,
+        "row": 34,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-B1-40019",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 34,
+        "row": 35,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-GL-10010",
         "status": "Approved"
       },
       {
-        "row": 35,
+        "row": 36,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-GL-40011",
         "status": "Approved"
       },
       {
-        "row": 36,
+        "row": 37,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-GL-40012",
         "status": "Approved"
       },
       {
-        "row": 37,
+        "row": 38,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-GL-40013",
         "status": "Approved"
       },
       {
-        "row": 38,
+        "row": 39,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-GL-40014",
         "status": "Approved"
       },
       {
-        "row": 39,
+        "row": 40,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-GL-40015",
         "status": "Approved"
       },
       {
-        "row": 40,
+        "row": 41,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-GL-40016",
         "status": "Approved"
       },
       {
-        "row": 41,
+        "row": 42,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-GL-40017",
         "status": "Approved"
       },
       {
-        "row": 42,
+        "row": 43,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-GL-40018",
         "status": "Approved"
       },
       {
-        "row": 43,
+        "row": 44,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-GL-40019",
         "status": "Approved"
       },
       {
-        "row": 44,
+        "row": 45,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-VL-10010",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 45,
+        "row": 46,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-VL-40011",
         "status": "Approved"
       },
       {
-        "row": 46,
+        "row": 47,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-VL-40012",
         "status": "Approved"
       },
       {
-        "row": 47,
+        "row": 48,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-VL-40013",
         "status": "Approved"
       },
       {
-        "row": 48,
+        "row": 49,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-VL-40014",
         "status": "Approved"
       },
       {
-        "row": 49,
+        "row": 50,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-VL-40015",
         "status": "Approved"
       },
       {
-        "row": 50,
+        "row": 51,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-VL-40016",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 51,
+        "row": 52,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-VL-40017",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 52,
+        "row": 53,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-VL-40018",
         "status": "Approved"
       },
       {
-        "row": 53,
+        "row": 54,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ3-VL-40019",
         "status": "Approved"
       },
       {
-        "row": 54,
+        "row": 55,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-B2-10010",
         "status": "Approved"
       },
       {
-        "row": 55,
+        "row": 56,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-B2-40011",
         "status": "Approved"
       },
       {
-        "row": 56,
+        "row": 57,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-B2-40012",
         "status": "Approved"
       },
       {
-        "row": 57,
+        "row": 58,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-B2-40013",
         "status": "Approved"
       },
       {
-        "row": 58,
+        "row": 59,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-B2-40014",
         "status": "Approved"
       },
       {
-        "row": 59,
+        "row": 60,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-B1-10010",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 60,
+        "row": 61,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-B1-40011",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 61,
+        "row": 62,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-B1-40012",
         "status": "Approved"
       },
       {
-        "row": 62,
+        "row": 63,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-B1-40013",
         "status": "Approved"
       },
       {
-        "row": 63,
+        "row": 64,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-B1-40014",
         "status": "Approved"
       },
       {
-        "row": 64,
+        "row": 65,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-B1-40015",
         "status": "Approved"
       },
       {
-        "row": 65,
+        "row": 66,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-GL-10010",
         "status": "Approved"
       },
       {
-        "row": 66,
+        "row": 67,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-GL-40011",
         "status": "Approved"
       },
       {
-        "row": 67,
+        "row": 68,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-GL-40012",
         "status": "Approved"
       },
       {
-        "row": 68,
+        "row": 69,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-GL-40013",
         "status": "Approved"
       },
       {
-        "row": 69,
+        "row": 70,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-GL-40014",
         "status": "Approved"
       },
       {
-        "row": 70,
+        "row": 71,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-VL-10010",
         "status": "Approved"
       },
       {
-        "row": 71,
+        "row": 72,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-VL-40011",
         "status": "Approved"
       },
       {
-        "row": 72,
+        "row": 73,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-VL-40012",
         "status": "Approved"
       },
       {
-        "row": 73,
+        "row": 74,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-VL-40013",
         "status": "Approved"
       },
       {
-        "row": 74,
+        "row": 75,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-CK-PDZ4-VL-40014",
         "status": "Approved"
       },
       {
-        "row": 75,
+        "row": 76,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40010",
         "status": "Approved"
       },
       {
-        "row": 76,
+        "row": 77,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40011",
         "status": "Approved"
       },
       {
-        "row": 77,
+        "row": 78,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40012",
         "status": "Approved"
       },
       {
-        "row": 78,
+        "row": 79,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40013",
         "status": "Approved"
       },
       {
-        "row": 79,
+        "row": 80,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40014",
         "status": "Approved"
       },
       {
-        "row": 80,
+        "row": 81,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40015",
         "status": "Approved"
       },
       {
-        "row": 81,
+        "row": 82,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40016",
         "status": "Approved"
       },
       {
-        "row": 82,
+        "row": 83,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40017",
         "status": "Approved"
       },
       {
-        "row": 83,
+        "row": 84,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40018",
         "status": "Approved"
       },
       {
-        "row": 84,
+        "row": 85,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40019",
         "status": "Approved"
       },
       {
-        "row": 85,
+        "row": 86,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40020",
         "status": "Approved"
       },
       {
-        "row": 86,
+        "row": 87,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40021",
         "status": "Approved"
       },
       {
-        "row": 87,
+        "row": 88,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40022",
         "status": "Approved"
       },
       {
-        "row": 88,
+        "row": 89,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40023",
         "status": "Approved"
       },
       {
-        "row": 89,
+        "row": 90,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40024",
         "status": "Approved"
       },
       {
-        "row": 90,
+        "row": 91,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40025",
         "status": "Approved"
       },
       {
-        "row": 91,
+        "row": 92,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40026",
         "status": "Approved"
       },
       {
-        "row": 92,
+        "row": 93,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40027",
         "status": "Approved"
       },
       {
-        "row": 93,
+        "row": 94,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40028",
         "status": "Approved"
       },
       {
-        "row": 94,
+        "row": 95,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40029",
         "status": "Approved"
       },
       {
-        "row": 95,
+        "row": 96,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40030",
         "status": "Approved"
       },
       {
-        "row": 96,
+        "row": 97,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40031",
         "status": "Approved"
       },
       {
-        "row": 97,
+        "row": 98,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40032",
         "status": "Approved"
       },
       {
-        "row": 98,
+        "row": 99,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40033",
         "status": "Approved"
       },
       {
-        "row": 99,
+        "row": 100,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40034",
         "status": "Approved"
       },
       {
-        "row": 100,
+        "row": 101,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40035",
         "status": "Approved"
       },
       {
-        "row": 101,
+        "row": 102,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40036",
         "status": "Approved"
       },
       {
-        "row": 102,
+        "row": 103,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40037",
         "status": "Approved"
       },
       {
-        "row": 103,
+        "row": 104,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-GL-40038",
         "status": "Approved"
       },
       {
-        "row": 104,
+        "row": 105,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-VL-40010",
         "status": "Approved"
       },
       {
-        "row": 105,
+        "row": 106,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-VL-40011",
         "status": "Approved"
       },
       {
-        "row": 106,
+        "row": 107,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-VL-40012",
         "status": "Approved"
       },
       {
-        "row": 107,
+        "row": 108,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-VL-40013",
         "status": "Approved"
       },
       {
-        "row": 108,
+        "row": 109,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-VL-40014",
         "status": "Approved"
       },
       {
-        "row": 109,
+        "row": 110,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-VL-40015",
         "status": "Approved"
       },
       {
-        "row": 110,
+        "row": 111,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-ML-40010",
         "status": "Approved"
       },
       {
-        "row": 111,
+        "row": 112,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-ML-40011",
         "status": "Approved"
       },
       {
-        "row": 112,
+        "row": 113,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-ML-40012",
         "status": "Approved"
       },
       {
-        "row": 113,
+        "row": 114,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-ML-40013",
         "status": "Approved"
       },
       {
-        "row": 114,
+        "row": 115,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ1-01-40010",
         "status": "Approved"
       },
       {
-        "row": 115,
+        "row": 116,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-B1-40010",
         "status": "Approved"
       },
       {
-        "row": 116,
+        "row": 117,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-B1-40011",
         "status": "Approved"
       },
       {
-        "row": 117,
+        "row": 118,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-P600-B1-40012",
         "status": "Approved"
       },
       {
-        "row": 118,
+        "row": 119,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-P600-B1-40013",
         "status": "Approved"
       },
       {
-        "row": 119,
+        "row": 120,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-P600-B1-40014",
         "status": "Approved"
       },
       {
-        "row": 120,
+        "row": 121,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-P600-B1-40015",
         "status": "Approved"
       },
       {
-        "row": 121,
+        "row": 122,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-GL-40010",
         "status": "Approved"
       },
       {
-        "row": 122,
+        "row": 123,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-GL-40011",
-        "status": "Approved"
+        "status": "Submitted/Under Review"
       },
       {
-        "row": 123,
+        "row": 124,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-GL-40012",
         "status": "Approved"
       },
       {
-        "row": 124,
+        "row": 125,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-GL-40013",
         "status": "Approved"
       },
       {
-        "row": 125,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-GL-40014",
-        "status": "Approved"
-      },
-      {
         "row": 126,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-GL-40015",
-        "status": "Approved"
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-GL-40014",
+        "status": "Submitted/Under Review"
       },
       {
         "row": 127,
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-GL-40015",
+        "status": "Submitted/Under Review"
+      },
+      {
+        "row": 128,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-GL-40016",
         "status": "Approved"
       },
       {
-        "row": 128,
+        "row": 129,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-GL-40017",
         "status": "Approved"
       },
       {
-        "row": 129,
+        "row": 130,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-GL-40018",
         "status": "Approved"
       },
       {
-        "row": 130,
+        "row": 131,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-GL-40019",
         "status": "Approved"
       },
       {
-        "row": 131,
+        "row": 132,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-GL-40020",
         "status": "Approved"
       },
       {
-        "row": 132,
+        "row": 133,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-GL-40021",
         "status": "Approved"
       },
       {
-        "row": 133,
+        "row": 134,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-GL-40022",
         "status": "Approved"
       },
       {
-        "row": 134,
+        "row": 135,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-GL-40023",
         "status": "Approved"
       },
       {
-        "row": 135,
+        "row": 136,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-GL-40024",
         "status": "Approved"
       },
       {
-        "row": 136,
+        "row": 137,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-P600-VL-40010",
         "status": "Approved"
       },
       {
-        "row": 137,
+        "row": 138,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-P600-VL-40011",
         "status": "Approved"
       },
       {
-        "row": 138,
+        "row": 139,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-PL-40010",
         "status": "Approved"
       },
       {
-        "row": 139,
+        "row": 140,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-PL-40011",
         "status": "Approved"
       },
       {
-        "row": 140,
+        "row": 141,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-PL-40012",
         "status": "Approved"
       },
       {
-        "row": 141,
+        "row": 142,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-PL-40013",
         "status": "Approved"
       },
       {
-        "row": 142,
+        "row": 143,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-P600-PL-40014",
         "status": "Approved"
       },
       {
-        "row": 143,
+        "row": 144,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-P600-PL-40015",
         "status": "Approved"
       },
       {
-        "row": 144,
+        "row": 145,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-ML-40010",
         "status": "Approved"
       },
       {
-        "row": 145,
+        "row": 146,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-P600-ML-40014",
         "status": "Approved"
       },
       {
-        "row": 146,
+        "row": 147,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-P600-ML-40015",
         "status": "Approved"
       },
       {
-        "row": 147,
+        "row": 148,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-P600-ML-40016",
         "status": "Approved"
       },
       {
-        "row": 148,
+        "row": 149,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-P600-ML-40017",
         "status": "Approved"
       },
       {
-        "row": 149,
+        "row": 150,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-01-40010",
         "status": "Approved"
       },
       {
-        "row": 150,
+        "row": 151,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-B2-40010",
         "status": "Approved"
       },
       {
-        "row": 151,
+        "row": 152,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-B1-40010",
         "status": "Approved"
       },
       {
-        "row": 152,
+        "row": 153,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-B1-40011",
         "status": "Approved"
       },
       {
-        "row": 153,
+        "row": 154,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-B1-40012",
         "status": "Approved"
       },
       {
-        "row": 154,
+        "row": 155,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-B1-40013",
         "status": "Approved"
       },
       {
-        "row": 155,
+        "row": 156,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-B1-40014",
         "status": "Approved"
       },
       {
-        "row": 156,
+        "row": 157,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-B1-40015",
         "status": "Approved"
       },
       {
-        "row": 157,
+        "row": 158,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-B1-40016",
         "status": "Approved"
       },
       {
-        "row": 158,
+        "row": 159,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40010",
         "status": "Approved"
       },
       {
-        "row": 159,
+        "row": 160,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40011",
         "status": "Approved"
       },
       {
-        "row": 160,
+        "row": 161,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40012",
         "status": "Approved"
       },
       {
-        "row": 161,
+        "row": 162,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40013",
         "status": "Approved"
       },
       {
-        "row": 162,
+        "row": 163,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40014",
         "status": "Approved"
       },
       {
-        "row": 163,
+        "row": 164,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40015",
         "status": "Approved"
       },
       {
-        "row": 164,
+        "row": 165,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40016",
         "status": "Approved"
       },
       {
-        "row": 165,
+        "row": 166,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40017",
         "status": "Approved"
       },
       {
-        "row": 166,
+        "row": 167,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40018",
         "status": "Approved"
       },
       {
-        "row": 167,
+        "row": 168,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40019",
         "status": "Approved"
       },
       {
-        "row": 168,
+        "row": 169,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40020",
         "status": "Approved"
       },
       {
-        "row": 169,
+        "row": 170,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40021",
         "status": "Approved"
       },
       {
-        "row": 170,
+        "row": 171,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40022",
         "status": "Approved"
       },
       {
-        "row": 171,
+        "row": 172,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40023",
         "status": "Approved"
       },
       {
-        "row": 172,
+        "row": 173,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40024",
         "status": "Approved"
       },
       {
-        "row": 173,
+        "row": 174,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40025",
         "status": "Approved"
       },
       {
-        "row": 174,
+        "row": 175,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40026",
         "status": "Approved"
       },
       {
-        "row": 175,
+        "row": 176,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40027",
         "status": "Approved"
       },
       {
-        "row": 176,
+        "row": 177,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40028",
         "status": "Approved"
       },
       {
-        "row": 177,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40029",
-        "status": "Submitted/Under Review"
-      },
-      {
         "row": 178,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40030",
-        "status": "Submitted/Under Review"
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40029",
+        "status": "Approved"
       },
       {
         "row": 179,
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40030",
+        "status": "Approved"
+      },
+      {
+        "row": 180,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40032",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 180,
+        "row": 181,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40033",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 181,
+        "row": 182,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40034",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 182,
+        "row": 183,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40037",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 183,
+        "row": 184,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-VL-40010",
         "status": "Approved"
       },
       {
-        "row": 184,
+        "row": 185,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40010",
         "status": "Approved"
       },
       {
-        "row": 185,
+        "row": 186,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40011",
         "status": "Approved"
       },
       {
-        "row": 186,
+        "row": 187,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40012",
         "status": "Approved"
       },
       {
-        "row": 187,
+        "row": 188,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40013",
         "status": "Approved"
       },
       {
-        "row": 188,
+        "row": 189,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40014",
         "status": "Approved"
       },
       {
-        "row": 189,
+        "row": 190,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40015",
         "status": "Approved"
       },
       {
-        "row": 190,
+        "row": 191,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40016",
         "status": "Approved"
       },
       {
-        "row": 191,
+        "row": 192,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40017",
         "status": "Approved"
       },
       {
-        "row": 192,
+        "row": 193,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40018",
         "status": "Approved"
       },
       {
-        "row": 193,
+        "row": 194,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40019",
         "status": "Approved"
       },
       {
-        "row": 194,
+        "row": 195,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40020",
         "status": "Approved"
       },
       {
-        "row": 195,
+        "row": 196,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40021",
         "status": "Approved"
       },
       {
-        "row": 196,
+        "row": 197,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40022",
         "status": "Approved"
       },
       {
-        "row": 197,
+        "row": 198,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40023",
         "status": "Approved"
       },
       {
-        "row": 198,
+        "row": 199,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40024",
         "status": "Approved"
       },
       {
-        "row": 199,
+        "row": 200,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40025",
         "status": "Approved"
       },
       {
-        "row": 200,
+        "row": 201,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40026",
         "status": "Approved"
       },
       {
-        "row": 201,
+        "row": 202,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40027",
         "status": "Approved"
       },
       {
-        "row": 202,
+        "row": 203,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40028",
         "status": "Approved"
       },
       {
-        "row": 203,
+        "row": 204,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40029",
         "status": "Approved"
       },
       {
-        "row": 204,
+        "row": 205,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-PL-40035",
         "status": "Approved"
       },
       {
-        "row": 205,
+        "row": 206,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-ML-40010",
         "status": "Approved"
       },
       {
-        "row": 206,
+        "row": 207,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-ML-40011",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 207,
+        "row": 208,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-ML-40012",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 208,
+        "row": 209,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-01-40010",
         "status": "Approved"
       },
       {
-        "row": 209,
+        "row": 210,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-01-40011",
         "status": "Approved"
       },
       {
-        "row": 210,
+        "row": 211,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-01-40012",
         "status": "Approved"
       },
       {
-        "row": 211,
+        "row": 212,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-01-40013",
         "status": "Approved"
       },
       {
-        "row": 212,
+        "row": 213,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-01-40014",
         "status": "Approved"
       },
       {
-        "row": 213,
+        "row": 214,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-01-40015",
         "status": "Approved"
       },
       {
-        "row": 214,
+        "row": 215,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-01-40016",
         "status": "Approved"
       },
       {
-        "row": 215,
+        "row": 216,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-01-40017",
         "status": "Approved"
       },
       {
-        "row": 216,
+        "row": 217,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-01-40018",
         "status": "Approved"
       },
       {
-        "row": 217,
+        "row": 218,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-01-40019",
         "status": "Approved"
       },
       {
-        "row": 218,
+        "row": 219,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-01-40020",
         "status": "Approved"
       },
       {
-        "row": 219,
+        "row": 220,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-01-40021",
         "status": "Approved"
       },
       {
-        "row": 220,
+        "row": 221,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-01-40022",
         "status": "Approved"
       },
       {
-        "row": 221,
+        "row": 222,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-01-40023",
         "status": "Approved"
       },
       {
-        "row": 222,
+        "row": 223,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-B2-40010",
         "status": "Approved"
       },
       {
-        "row": 223,
+        "row": 224,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-B1-40010",
         "status": "Approved"
       },
       {
-        "row": 224,
+        "row": 225,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-B1-40011",
         "status": "Approved"
       },
       {
-        "row": 225,
+        "row": 226,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-B1-40012",
         "status": "Approved"
       },
       {
-        "row": 226,
+        "row": 227,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-GL-40010",
         "status": "Approved"
       },
       {
-        "row": 227,
+        "row": 228,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-GL-40011",
         "status": "Approved"
       },
       {
-        "row": 228,
+        "row": 229,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-GL-40012",
         "status": "Approved"
       },
       {
-        "row": 229,
+        "row": 230,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-GL-40013",
         "status": "Approved"
       },
       {
-        "row": 230,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-GL-40014",
-        "status": "Submitted/Under Review"
-      },
-      {
         "row": 231,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-GL-40015",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-GL-40014",
         "status": "Approved"
       },
       {
         "row": 232,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-GL-40016",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-GL-40015",
         "status": "Approved"
       },
       {
         "row": 233,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-GL-40017",
-        "status": "Submitted/Under Review"
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-GL-40016",
+        "status": "Approved"
       },
       {
         "row": 234,
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-GL-40017",
+        "status": "Approved"
+      },
+      {
+        "row": 235,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-GL-40018",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 235,
+        "row": 236,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-GL-40020",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 236,
+        "row": 237,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-VL-40010",
         "status": "Approved"
       },
       {
-        "row": 237,
+        "row": 238,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-PL-40010",
         "status": "Approved"
       },
       {
-        "row": 238,
+        "row": 239,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-PL-40011",
         "status": "Approved"
       },
       {
-        "row": 239,
+        "row": 240,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-PL-40012",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 240,
+        "row": 241,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-PL-40013",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 241,
+        "row": 242,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-ML-40010",
         "status": "Approved"
       },
       {
-        "row": 242,
+        "row": 243,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-ML-40011",
         "status": "Approved"
       },
       {
-        "row": 243,
+        "row": 244,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-ML-40012",
         "status": "Approved"
       },
       {
-        "row": 244,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-ML-40013",
-        "status": "Submitted/Under Review"
-      },
-      {
         "row": 245,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-ML-40014",
-        "status": "Submitted/Under Review"
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-ML-40013",
+        "status": "Approved"
       },
       {
         "row": 246,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ5-B1-40010",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ4-ML-40014",
         "status": "Approved"
       },
       {
         "row": 247,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ5-B1-40011",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ5-B1-40010",
         "status": "Approved"
       },
       {
         "row": 248,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ5-B1-40012",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ5-B1-40011",
         "status": "Approved"
       },
       {
         "row": 249,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ5-GL-40010",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ5-B1-40012",
         "status": "Approved"
       },
       {
         "row": 250,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ5-GL-40011",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ5-GL-40010",
         "status": "Approved"
       },
       {
         "row": 251,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ5-GL-40012",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ5-GL-40011",
         "status": "Approved"
       },
       {
         "row": 252,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ5-GL-40013",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ5-GL-40012",
         "status": "Approved"
       },
       {
         "row": 253,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ5-GL-40014",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ5-GL-40013",
         "status": "Approved"
       },
       {
         "row": 254,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ5-PL-40010",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ5-GL-40014",
         "status": "Approved"
       },
       {
         "row": 255,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ5-PL-40011",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ5-PL-40010",
         "status": "Approved"
       },
       {
         "row": 256,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ5-PL-40012",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ5-PL-40011",
         "status": "Approved"
       },
       {
         "row": 257,
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ5-PL-40012",
+        "status": "Approved"
+      },
+      {
+        "row": 258,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ5-PL-40013",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 258,
+        "row": 259,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-B1-40010",
         "status": "Approved"
       },
       {
-        "row": 259,
+        "row": 260,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-B1-40011",
         "status": "Approved"
       },
       {
-        "row": 260,
+        "row": 261,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-GL-40010",
         "status": "Approved"
       },
       {
-        "row": 261,
+        "row": 262,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-GL-40011",
         "status": "Approved"
       },
       {
-        "row": 262,
+        "row": 263,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-GL-40012",
         "status": "Approved"
       },
       {
-        "row": 263,
+        "row": 264,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-GL-40013",
         "status": "Approved"
       },
       {
-        "row": 264,
+        "row": 265,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-GL-40014",
         "status": "Approved"
       },
       {
-        "row": 265,
+        "row": 266,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-GL-40015",
         "status": "Approved"
       },
       {
-        "row": 266,
+        "row": 267,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-GL-40016",
         "status": "Approved"
       },
       {
-        "row": 267,
+        "row": 268,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-GL-40017",
         "status": "Approved"
       },
       {
-        "row": 268,
+        "row": 269,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-GL-40018",
         "status": "Approved"
       },
       {
-        "row": 269,
+        "row": 270,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-GL-40019",
         "status": "Approved"
       },
       {
-        "row": 270,
+        "row": 271,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-GL-40020",
         "status": "Approved"
       },
       {
-        "row": 271,
+        "row": 272,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-GL-40021",
         "status": "Approved"
       },
       {
-        "row": 272,
+        "row": 273,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-GL-40025",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 273,
+        "row": 274,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-GL-40026",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 274,
+        "row": 275,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-GL-40030",
         "status": "Approved"
       },
       {
-        "row": 275,
+        "row": 276,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-PL-40010",
         "status": "Approved"
       },
       {
-        "row": 276,
+        "row": 277,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-PL-40011",
         "status": "Approved"
       },
       {
-        "row": 277,
+        "row": 278,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ6-ML-40010",
         "status": "Approved"
       },
       {
-        "row": 278,
+        "row": 279,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ7-B1-40010",
         "status": "Approved"
       },
       {
-        "row": 279,
+        "row": 280,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ7-B1-40011",
         "status": "Approved"
       },
       {
-        "row": 280,
+        "row": 281,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ7-B1-40012",
         "status": "Approved"
       },
       {
-        "row": 281,
+        "row": 282,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ7-GL-40010",
         "status": "Approved"
       },
       {
-        "row": 282,
+        "row": 283,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ7-GL-40011",
         "status": "Approved"
       },
       {
-        "row": 283,
+        "row": 284,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ7-GL-40012",
         "status": "Approved"
       },
       {
-        "row": 284,
+        "row": 285,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ7-PL-40010",
         "status": "Approved"
       },
       {
-        "row": 285,
+        "row": 286,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ7-PL-40011",
         "status": "Approved"
       },
       {
-        "row": 286,
+        "row": 287,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-B2-40010",
         "status": "Approved"
       },
       {
-        "row": 287,
+        "row": 288,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-B2-40011",
         "status": "Approved"
       },
       {
-        "row": 288,
+        "row": 289,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-B2-40012",
         "status": "Approved"
       },
       {
-        "row": 289,
+        "row": 290,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-B2-40013",
         "status": "Approved"
       },
       {
-        "row": 290,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-B2-40014",
-        "status": "Submitted/Under Review"
-      },
-      {
         "row": 291,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ7-B1-40013",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-B2-40014",
         "status": "Approved"
       },
       {
         "row": 292,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ7-B1-40014",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ7-B1-40013",
         "status": "Approved"
       },
       {
         "row": 293,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-B1-40010",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ7-B1-40014",
         "status": "Approved"
       },
       {
         "row": 294,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-B1-40011",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-B1-40010",
         "status": "Approved"
       },
       {
         "row": 295,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-B1-40012",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-B1-40011",
         "status": "Approved"
       },
       {
         "row": 296,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-B1-40013",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-B1-40012",
         "status": "Approved"
       },
       {
         "row": 297,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-B1-40014",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-B1-40013",
         "status": "Approved"
       },
       {
         "row": 298,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-B1-40015",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-B1-40014",
         "status": "Approved"
       },
       {
         "row": 299,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-B1-40016",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-B1-40015",
         "status": "Approved"
       },
       {
         "row": 300,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-B1-40017",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-B1-40016",
         "status": "Approved"
       },
       {
         "row": 301,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40010",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-B1-40017",
         "status": "Approved"
       },
       {
         "row": 302,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40011",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40010",
         "status": "Approved"
       },
       {
         "row": 303,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40012",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40011",
         "status": "Approved"
       },
       {
         "row": 304,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40013",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40012",
         "status": "Approved"
       },
       {
         "row": 305,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40014",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40013",
         "status": "Approved"
       },
       {
         "row": 306,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40015",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40014",
         "status": "Approved"
       },
       {
         "row": 307,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40016",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40015",
         "status": "Approved"
       },
       {
         "row": 308,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40017",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40016",
         "status": "Approved"
       },
       {
         "row": 309,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40018",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40017",
         "status": "Approved"
       },
       {
         "row": 310,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40019",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40018",
         "status": "Approved"
       },
       {
         "row": 311,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40020",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40019",
         "status": "Approved"
       },
       {
         "row": 312,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40021",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40020",
         "status": "Approved"
       },
       {
         "row": 313,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40022",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40021",
         "status": "Approved"
       },
       {
         "row": 314,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40023",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40022",
         "status": "Approved"
       },
       {
         "row": 315,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40024",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40023",
         "status": "Approved"
       },
       {
         "row": 316,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40025",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40024",
         "status": "Approved"
       },
       {
         "row": 317,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40026",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40025",
         "status": "Approved"
       },
       {
         "row": 318,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40027",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40026",
         "status": "Approved"
       },
       {
         "row": 319,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40028",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40027",
         "status": "Approved"
       },
       {
         "row": 320,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-PL-40010",
-        "status": "Submitted/Under Review"
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-GL-40028",
+        "status": "Approved"
       },
       {
         "row": 321,
@@ -68525,7 +72897,7 @@ window.DEFAULT_PROJECTS = {
       {
         "row": 341,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-01-40020",
-        "status": "Submitted/Under Review"
+        "status": "Approved"
       },
       {
         "row": 342,
@@ -68680,241 +73052,246 @@ window.DEFAULT_PROJECTS = {
       {
         "row": 372,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-11-40010",
-        "status": "Submitted/Under Review"
+        "status": "Approved"
       },
       {
         "row": 373,
         "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-14-40010",
-        "status": "Submitted/Under Review"
+        "status": "Approved"
       },
       {
         "row": 374,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-32-40014",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-16-50010",
         "status": "Approved"
       },
       {
         "row": 375,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-34-50010",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-32-40014",
         "status": "Approved"
       },
       {
         "row": 376,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-34-50011",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-34-50010",
         "status": "Approved"
       },
       {
         "row": 377,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-34-50012",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-34-50011",
         "status": "Approved"
       },
       {
         "row": 378,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-34-50013",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-34-50012",
         "status": "Approved"
       },
       {
         "row": 379,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-34-50014",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-34-50013",
         "status": "Approved"
       },
       {
         "row": 380,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-36-50010",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-34-50014",
         "status": "Approved"
       },
       {
         "row": 381,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-36-50011",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-36-50010",
         "status": "Approved"
       },
       {
         "row": 382,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-36-50012",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-36-50011",
         "status": "Approved"
       },
       {
         "row": 383,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-36-50013",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-36-50012",
         "status": "Approved"
       },
       {
         "row": 384,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-32-40010",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-36-50013",
         "status": "Approved"
       },
       {
         "row": 385,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-32-40011",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-32-40010",
         "status": "Approved"
       },
       {
         "row": 386,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-32-40012",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-32-40011",
         "status": "Approved"
       },
       {
         "row": 387,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-32-40013",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-32-40012",
         "status": "Approved"
       },
       {
         "row": 388,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-37-40010",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-32-40013",
         "status": "Approved"
       },
       {
         "row": 389,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-37-40011",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-37-40010",
         "status": "Approved"
       },
       {
         "row": 390,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-37-40012",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-37-40011",
         "status": "Approved"
       },
       {
         "row": 391,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-37-40013",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-37-40012",
         "status": "Approved"
       },
       {
         "row": 392,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-37-50014",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-37-40013",
         "status": "Approved"
       },
       {
         "row": 393,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-38-50010",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-37-50014",
         "status": "Approved"
       },
       {
         "row": 394,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-38-50011",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-38-50010",
         "status": "Approved"
       },
       {
         "row": 395,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-38-50012",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-38-50011",
         "status": "Approved"
       },
       {
         "row": 396,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-38-50013",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-38-50012",
         "status": "Approved"
       },
       {
         "row": 397,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-39-50010",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-38-50013",
         "status": "Approved"
       },
       {
         "row": 398,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-39-50011",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-39-50010",
         "status": "Approved"
       },
       {
         "row": 399,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-39-50012",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-39-50011",
         "status": "Approved"
       },
       {
         "row": 400,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-39-50013",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-39-50012",
         "status": "Approved"
       },
       {
         "row": 401,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-39-50014",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-39-50013",
         "status": "Approved"
       },
       {
         "row": 402,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-67-40010",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-39-50014",
         "status": "Approved"
       },
       {
         "row": 403,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-68-40010",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-67-40010",
         "status": "Approved"
       },
       {
         "row": 404,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-68-40011",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-68-40010",
         "status": "Approved"
       },
       {
         "row": 405,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-68-40012",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-68-40011",
         "status": "Approved"
       },
       {
         "row": 406,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-68-40013",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-68-40012",
         "status": "Approved"
       },
       {
         "row": 407,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-68-40014",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-68-40013",
         "status": "Approved"
       },
       {
         "row": 408,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-69-40010",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-68-40014",
         "status": "Approved"
       },
       {
         "row": 409,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-69-40011",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-69-40010",
         "status": "Approved"
       },
       {
         "row": 410,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-69-40012",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-69-40011",
         "status": "Approved"
       },
       {
         "row": 411,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-69-40013",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-69-40012",
         "status": "Approved"
       },
       {
         "row": 412,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-69-40014",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-69-40013",
         "status": "Approved"
       },
       {
         "row": 413,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-69-40015",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-69-40014",
         "status": "Approved"
       },
       {
         "row": 414,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-21-50010",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-69-40015",
         "status": "Approved"
       },
       {
         "row": 415,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-70-40010",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-21-50010",
         "status": "Approved"
       },
       {
         "row": 416,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-ALVL-B2-50005",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-TWVL-70-40010",
         "status": "Approved"
       },
       {
         "row": 417,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-B1-40014",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-ALVL-B2-50005",
         "status": "Approved"
       },
       {
         "row": 418,
-        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-B1-50001",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-B1-40014",
         "status": "Approved"
       },
       {
         "row": 419,
-        "drawingNo": "`WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40031",
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ2-B1-50001",
+        "status": "Approved"
+      },
+      {
+        "row": 420,
+        "drawingNo": "WAMI-PS43-AC1-SDW-AR-MW-PDZ3-GL-40031",
         "status": "Approved"
       }
     ]
@@ -68932,11 +73309,11 @@ window.DEFAULT_PROJECTS = {
     "plannedStartDate": "10/10/2025",
     "plannedEndDate": "20/01/2026",
     "actualStartDate": "10/10/2025",
-    "presentDate": "30/10/2026",
-    "periodOfExtension": "9 Months",
+    "presentDate": "06/11/2026",
+    "periodOfExtension": "10 Months",
     "modelers": [
       {
-        "name": "OSR3 (Jishnu)",
+        "name": "OSR3 (Shasina)",
         "role": "BIM Modeler",
         "dateOfJoin": "[25/04/2025]",
         "active": true
@@ -68950,9 +73327,12 @@ window.DEFAULT_PROJECTS = {
     ],
     "notes": [
       "MMW Ladder drawings submissions are on hold for open Revizto issues to be resolved by ALEC.",
-      "ELV Fence package submitted and under review with consultant.",
+      "Revised the ELV Fence package to reflect site conditions; this is additional work.",
       "ELV Gate package rejected by the consultant due to lack of MTS approval.",
-      "LOD400 Model Submitted under review with ALEC"
+      "LOD400 model rejected due to additional requirements; impact study report submitted.",
+      "Removed out-of-scope drawings from the register.",
+      "Added the Diesel Tank ladder to the scope (3 sheets).",
+      "Added the MV room pedestrian gates to the scope (7 sheets)."
     ],
     "history": {
       "2026-09-19": {
@@ -77260,21 +81640,965 @@ window.DEFAULT_PROJECTS = {
             "status": "Submitted/Under Review"
           }
         ]
+      },
+      "2026-11-06": {
+        "fileName": "PH497_2026-11-06.xlsx",
+        "dateOfReport": "06/11/2026",
+        "presentDate": "06/11/2026",
+        "plannedEndDate": "20/01/2026",
+        "periodOfExtension": "10 Months",
+        "monthYearLabel": "Nov, 26",
+        "totalDwg": 178,
+        "resourceCount": 2,
+        "statusSummary": {
+          "approved": 114,
+          "approvedWithResub": 0,
+          "submitted": 32,
+          "rejected": 20,
+          "underPrep": 8,
+          "pending": 1,
+          "notStarted": 3,
+          "other": 0
+        },
+        "completionPct": 64,
+        "modelers": [
+          {
+            "name": "OSR3 (Shasina)",
+            "role": "BIM Modeler",
+            "dateOfJoin": "[25/04/2025]",
+            "active": true
+          },
+          {
+            "name": "OSR5 (Vishnu)",
+            "role": "BIM Modeler",
+            "dateOfJoin": "[29/01/2026]",
+            "active": true
+          }
+        ],
+        "notes": [
+          "MMW Ladder drawings submissions are on hold for open Revizto issues to be resolved by ALEC.",
+          "Revised the ELV Fence package to reflect site conditions; this is additional work.",
+          "ELV Gate package rejected by the consultant due to lack of MTS approval.",
+          "LOD400 model rejected due to additional requirements; impact study report submitted.",
+          "Removed out-of-scope drawings from the register.",
+          "Added the Diesel Tank ladder to the scope (3 sheets).",
+          "Added the MV room pedestrian gates to the scope (7 sheets)."
+        ],
+        "projectInCharge": "Rejoe/Ali Hashmi/Rob",
+        "projectLead": "Pranav Prasad",
+        "bimCoordinator": "Pranav Prasad",
+        "projectDc": "Romeo",
+        "procurement": "NA",
+        "estimation": "NA",
+        "plannedStartDate": "10/10/2025",
+        "actualStartDate": "10/10/2025",
+        "drawings": [
+          {
+            "row": 2,
+            "drawingNo": "SG1-AC1-SD-SWID-ML-000-AR-915001",
+            "status": "Approved"
+          },
+          {
+            "row": 3,
+            "drawingNo": "SG1-AC1-SD-SWID-ML-000-AR-915002",
+            "status": "Approved"
+          },
+          {
+            "row": 4,
+            "drawingNo": "SG1-AC1-SD-SWID-ML-000-AR-915003",
+            "status": "Approved"
+          },
+          {
+            "row": 5,
+            "drawingNo": "SG1-AC1-SD-SWID-GF-000-AR-915001",
+            "status": "Approved"
+          },
+          {
+            "row": 6,
+            "drawingNo": "SG1-AC1-SD-SWID-GF-000-AR-915002",
+            "status": "Approved"
+          },
+          {
+            "row": 7,
+            "drawingNo": "SG1-AC1-SD-SWID-ML-000-AR-915004",
+            "status": "Approved"
+          },
+          {
+            "row": 8,
+            "drawingNo": "SG1-AC1-SD-SWID-ML-000-AR-915005",
+            "status": "Approved"
+          },
+          {
+            "row": 9,
+            "drawingNo": "SG1-AC1-SD-SWID-ML-000-AR-915006",
+            "status": "Approved"
+          },
+          {
+            "row": 10,
+            "drawingNo": "SG1-AC1-SD-SWID-ML-000-AR-915007",
+            "status": "Approved"
+          },
+          {
+            "row": 11,
+            "drawingNo": "SG1-AC1-SD-SWID-ML-000-AR-915008",
+            "status": "Approved"
+          },
+          {
+            "row": 12,
+            "drawingNo": "SG1-AC1-SD-SWID-ML-000-AR-915009",
+            "status": "Approved"
+          },
+          {
+            "row": 13,
+            "drawingNo": "SG1-AC1-SD-SWID-ML-000-AR-915010",
+            "status": "Approved"
+          },
+          {
+            "row": 14,
+            "drawingNo": "SG1-AC1-SD-SWID-ML-000-AR-915011",
+            "status": "Approved"
+          },
+          {
+            "row": 15,
+            "drawingNo": "SG1-AC1-SD-SWID-GF-000-AR-915003",
+            "status": "Approved"
+          },
+          {
+            "row": 16,
+            "drawingNo": "SG1-AC1-SD-SWID-L1-Z01-AR-215001",
+            "status": "Approved"
+          },
+          {
+            "row": 17,
+            "drawingNo": "SG1-AC1-SD-SWID-L1-Z02-AR-215001",
+            "status": "Approved"
+          },
+          {
+            "row": 18,
+            "drawingNo": "SG1-AC1-SD-SWID-L1-Z03-AR-215001",
+            "status": "Approved"
+          },
+          {
+            "row": 19,
+            "drawingNo": "SG1-AC1-SD-SWID-L1-Z04-AR-215001",
+            "status": "Approved"
+          },
+          {
+            "row": 20,
+            "drawingNo": "SG1-AC1-SD-SWID-L1-Z05-AR-215001",
+            "status": "Approved"
+          },
+          {
+            "row": 21,
+            "drawingNo": "SG1-AC1-SD-SWID-L1-Z07-AR-215001",
+            "status": "Approved"
+          },
+          {
+            "row": 22,
+            "drawingNo": "SG1-AC1-SD-SWID-RF-Z01-AR-215001",
+            "status": "Approved"
+          },
+          {
+            "row": 23,
+            "drawingNo": "SG1-AC1-SD-SWID-RF-Z02-AR-215001",
+            "status": "Approved"
+          },
+          {
+            "row": 24,
+            "drawingNo": "SG1-AC1-SD-SWID-RF-Z03-AR-215001",
+            "status": "Approved"
+          },
+          {
+            "row": 25,
+            "drawingNo": "SG1-AC1-SD-SWID-RF-Z04-AR-215001",
+            "status": "Approved"
+          },
+          {
+            "row": 26,
+            "drawingNo": "SG1-AC1-SD-SWID-RF-Z05-AR-215001",
+            "status": "Approved"
+          },
+          {
+            "row": 27,
+            "drawingNo": "SG1-AC1-SD-SWID-RF-Z07-AR-215001",
+            "status": "Approved"
+          },
+          {
+            "row": 28,
+            "drawingNo": "SG1-AC1-SD-AN01-GF-EX1-AR-515001",
+            "status": "Rejected"
+          },
+          {
+            "row": 29,
+            "drawingNo": "SG1-AC1-SD-AN02-GF-EX1-AR-515001",
+            "status": "Pending(Notes)"
+          },
+          {
+            "row": 30,
+            "drawingNo": "SG1-AC1-SD-AN03-GF-EX4-AR-515001",
+            "status": "Rejected"
+          },
+          {
+            "row": 31,
+            "drawingNo": "SG1-AC1-SD-AN04-GF-EX6-AR-515001",
+            "status": "Approved"
+          },
+          {
+            "row": 32,
+            "drawingNo": "SG1-AC1-SD-GH01-GF-EX1-AR-515001",
+            "status": "Approved"
+          },
+          {
+            "row": 33,
+            "drawingNo": "SG1-AC1-SD-GH02-GF-EX7-AR-515001",
+            "status": "Approved"
+          },
+          {
+            "row": 34,
+            "drawingNo": "SG1-AC1-SD-MV01-GF-MV1-AR-515001",
+            "status": "Approved"
+          },
+          {
+            "row": 35,
+            "drawingNo": "SG1-AC1-SD-MV02-GF-MV2-AR-515001",
+            "status": "Approved"
+          },
+          {
+            "row": 36,
+            "drawingNo": "SG1-AC1-SD-MV03-GF-MV3-AR-515001",
+            "status": "Approved"
+          },
+          {
+            "row": 37,
+            "drawingNo": "SG1-AC1-SD-MV04-GF-MV4-AR-515001",
+            "status": "Approved"
+          },
+          {
+            "row": 38,
+            "drawingNo": "SG1-AC1-SD-SWID-GF-Z01-AR-215001",
+            "status": "Approved"
+          },
+          {
+            "row": 39,
+            "drawingNo": "SG1-AC1-SD-SWID-GF-Z02-AR-215001",
+            "status": "Approved"
+          },
+          {
+            "row": 40,
+            "drawingNo": "SG1-AC1-SD-SWID-GF-Z03-AR-215001",
+            "status": "Approved"
+          },
+          {
+            "row": 41,
+            "drawingNo": "SG1-AC1-SD-SWID-GF-Z04-AR-215001",
+            "status": "Approved"
+          },
+          {
+            "row": 42,
+            "drawingNo": "SG1-AC1-SD-SWID-GF-Z04-AR-215002",
+            "status": "Approved"
+          },
+          {
+            "row": 43,
+            "drawingNo": "SG1-AC1-SD-SWID-GF-Z05-AR-215001",
+            "status": "Approved"
+          },
+          {
+            "row": 44,
+            "drawingNo": "SG1-AC1-SD-SWID-GF-Z07-AR-215001",
+            "status": "Approved"
+          },
+          {
+            "row": 45,
+            "drawingNo": "SG1-AC1-SD-SWID-L1-Z01-AR-215002",
+            "status": "Approved"
+          },
+          {
+            "row": 46,
+            "drawingNo": "SG1-AC1-SD-SWID-L1-Z01-AR-215003",
+            "status": "Approved"
+          },
+          {
+            "row": 47,
+            "drawingNo": "SG1-AC1-SD-SWID-L1-Z01-AR-215004",
+            "status": "Approved"
+          },
+          {
+            "row": 48,
+            "drawingNo": "SG1-AC1-SD-SWID-L1-Z01-AR-215005",
+            "status": "Approved"
+          },
+          {
+            "row": 49,
+            "drawingNo": "SG1-AC1-SD-SWID-L1-Z02-AR-215002",
+            "status": "Approved"
+          },
+          {
+            "row": 50,
+            "drawingNo": "SG1-AC1-SD-SWID-L1-Z02-AR-215003",
+            "status": "Approved"
+          },
+          {
+            "row": 51,
+            "drawingNo": "SG1-AC1-SD-SWID-L1-Z02-AR-215004",
+            "status": "Approved"
+          },
+          {
+            "row": 52,
+            "drawingNo": "SG1-AC1-SD-SWID-L1-Z02-AR-215005",
+            "status": "Approved"
+          },
+          {
+            "row": 53,
+            "drawingNo": "SG1-AC1-SD-SWID-L1-Z03-AR-215002",
+            "status": "Approved"
+          },
+          {
+            "row": 54,
+            "drawingNo": "SG1-AC1-SD-SWID-L1-Z03-AR-215003",
+            "status": "Approved"
+          },
+          {
+            "row": 55,
+            "drawingNo": "SG1-AC1-SD-SWID-L1-Z03-AR-215004",
+            "status": "Approved"
+          },
+          {
+            "row": 56,
+            "drawingNo": "SG1-AC1-SD-SWID-L1-Z03-AR-215005",
+            "status": "Approved"
+          },
+          {
+            "row": 57,
+            "drawingNo": "SG1-AC1-SD-SWID-L1-Z04-AR-215002",
+            "status": "Approved"
+          },
+          {
+            "row": 58,
+            "drawingNo": "SG1-AC1-SD-SWID-L1-Z04-AR-215003",
+            "status": "Approved"
+          },
+          {
+            "row": 59,
+            "drawingNo": "SG1-AC1-SD-SWID-L1-Z04-AR-215004",
+            "status": "Approved"
+          },
+          {
+            "row": 60,
+            "drawingNo": "SG1-AC1-SD-SWID-L1-Z04-AR-215005",
+            "status": "Approved"
+          },
+          {
+            "row": 61,
+            "drawingNo": "SG1-AC1-SD-SWID-L1-Z05-AR-215002",
+            "status": "Approved"
+          },
+          {
+            "row": 62,
+            "drawingNo": "SG1-AC1-SD-SWID-L1-Z05-AR-215003",
+            "status": "Approved"
+          },
+          {
+            "row": 63,
+            "drawingNo": "SG1-AC1-SD-SWID-L1-Z05-AR-215004",
+            "status": "Approved"
+          },
+          {
+            "row": 64,
+            "drawingNo": "SG1-AC1-SD-SWID-L1-Z05-AR-215005",
+            "status": "Approved"
+          },
+          {
+            "row": 65,
+            "drawingNo": "SG1-AC1-SD-SWID-L1-Z07-AR-215002",
+            "status": "Approved"
+          },
+          {
+            "row": 66,
+            "drawingNo": "SG1-AC1-SD-SWID-L1-Z07-AR-215003",
+            "status": "Approved"
+          },
+          {
+            "row": 67,
+            "drawingNo": "SG1-AC1-SD-SWID-L1-Z07-AR-215004",
+            "status": "Approved"
+          },
+          {
+            "row": 68,
+            "drawingNo": "SG1-AC1-SD-SWID-L1-Z07-AR-215005",
+            "status": "Approved"
+          },
+          {
+            "row": 69,
+            "drawingNo": "SG1-AC1-SD-SWID-GF-OFF-AR-215001",
+            "status": "Approved"
+          },
+          {
+            "row": 70,
+            "drawingNo": "SG1-AC1-SD-SWID-GF-OFF-AR-515002",
+            "status": "Approved"
+          },
+          {
+            "row": 71,
+            "drawingNo": "SG1-AC1-SD-SWID-ML-OFF-AR-515001",
+            "status": "Approved"
+          },
+          {
+            "row": 72,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-EX1-AR-515009",
+            "status": "Approved"
+          },
+          {
+            "row": 73,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-EX7-AR-515001",
+            "status": "Approved"
+          },
+          {
+            "row": 74,
+            "drawingNo": "SG1-AC1-SD-PR01-GF-EX1-AR-215001",
+            "status": "Approved"
+          },
+          {
+            "row": 75,
+            "drawingNo": "SG1-AC1-SD-PR01-GF-EX1-AR-215002",
+            "status": "Approved"
+          },
+          {
+            "row": 76,
+            "drawingNo": "SG1-AC1-SD-PR01-GF-EX1-AR-515003",
+            "status": "Approved"
+          },
+          {
+            "row": 77,
+            "drawingNo": "SG1-AC1-SD-PR02-GF-EX4-AR-215001",
+            "status": "Approved"
+          },
+          {
+            "row": 78,
+            "drawingNo": "SG1-AC1-SD-PR02-GF-EX4-AR-215002",
+            "status": "Approved"
+          },
+          {
+            "row": 79,
+            "drawingNo": "SG1-AC1-SD-PR02-GF-EX4-AR-515003",
+            "status": "Approved"
+          },
+          {
+            "row": 80,
+            "drawingNo": "SG1-AC1-SD-PR03-GF-EX7-AR-215001",
+            "status": "Approved"
+          },
+          {
+            "row": 81,
+            "drawingNo": "SG1-AC1-SD-PR03-GF-EX7-AR-215002",
+            "status": "Approved"
+          },
+          {
+            "row": 82,
+            "drawingNo": "SG1-AC1-SD-PR03-GF-EX7-AR-215003",
+            "status": "Approved"
+          },
+          {
+            "row": 83,
+            "drawingNo": "SG1-AC1-SD-SG1A-ML-Z03-AR-515003",
+            "status": "Approved"
+          },
+          {
+            "row": 84,
+            "drawingNo": "SG1-AC1-SD-SG1A-ML-Z03-AR-515004",
+            "status": "Approved"
+          },
+          {
+            "row": 85,
+            "drawingNo": "SG1-AC1-SD-SG1A-ML-Z01-AR-215004",
+            "status": "Approved"
+          },
+          {
+            "row": 86,
+            "drawingNo": "SG1-AC1-SD-SG1A-ML-Z01-AR-215005",
+            "status": "Approved"
+          },
+          {
+            "row": 87,
+            "drawingNo": "SG1-AC1-SD-SG1A-ML-Z03-AR-215001",
+            "status": "Approved"
+          },
+          {
+            "row": 88,
+            "drawingNo": "SG1-AC1-SD-SG1A-ML-Z01-AR-215001",
+            "status": "Approved"
+          },
+          {
+            "row": 89,
+            "drawingNo": "SG1-AC1-SD-SG1A-ML-Z01-AR-215002",
+            "status": "Approved"
+          },
+          {
+            "row": 90,
+            "drawingNo": "SG1-AC1-SD-SG1A-GF-Z01-AR-215001",
+            "status": "Approved"
+          },
+          {
+            "row": 91,
+            "drawingNo": "SG1-AC1-SD-SG1A-GF-Z02-AR-215001",
+            "status": "Approved"
+          },
+          {
+            "row": 92,
+            "drawingNo": "SG1-AC1-SD-SG1A-GF-Z03-AR-215001",
+            "status": "Approved"
+          },
+          {
+            "row": 93,
+            "drawingNo": "SG1-AC1-SD-SG1A-GF-Z04-AR-215001",
+            "status": "Approved"
+          },
+          {
+            "row": 94,
+            "drawingNo": "SG1-AC1-SD-SG1A-GF-Z05-AR-215001",
+            "status": "Approved"
+          },
+          {
+            "row": 95,
+            "drawingNo": "SG1-AC1-SD-SG1A-GF-Z06-AR-215001",
+            "status": "Approved"
+          },
+          {
+            "row": 96,
+            "drawingNo": "SG1-AC1-SD-SG1A-GF-Z07-AR-215001",
+            "status": "Approved"
+          },
+          {
+            "row": 97,
+            "drawingNo": "SG1-AC1-SD-SG1A-GF-Z08-AR-215001",
+            "status": "Approved"
+          },
+          {
+            "row": 98,
+            "drawingNo": "SG1-AC1-SD-SG1A-GF-Z09-AR-215001",
+            "status": "Approved"
+          },
+          {
+            "row": 99,
+            "drawingNo": "SG1-AC1-SD-SG1A-GF-Z10-AR-215001",
+            "status": "Approved"
+          },
+          {
+            "row": 100,
+            "drawingNo": "SG1-AC1-SD-SG1A-GF-Z01-AR-215002",
+            "status": "Approved"
+          },
+          {
+            "row": 101,
+            "drawingNo": "SG1-AC1-SD-SG1A-GF-Z02-AR-215002",
+            "status": "Approved"
+          },
+          {
+            "row": 102,
+            "drawingNo": "SG1-AC1-SD-SG1A-GF-Z03-AR-215002",
+            "status": "Approved"
+          },
+          {
+            "row": 103,
+            "drawingNo": "SG1-AC1-SD-SG1A-GF-Z04-AR-215002",
+            "status": "Approved"
+          },
+          {
+            "row": 104,
+            "drawingNo": "SG1-AC1-SD-SG1A-GF-Z05-AR-215002",
+            "status": "Approved"
+          },
+          {
+            "row": 105,
+            "drawingNo": "SG1-AC1-SD-SG1A-GF-Z06-AR-515002",
+            "status": "Approved"
+          },
+          {
+            "row": 106,
+            "drawingNo": "SG1-AC1-SD-SG1A-GF-Z07-AR-215002",
+            "status": "Approved"
+          },
+          {
+            "row": 107,
+            "drawingNo": "SG1-AC1-SD-SG1A-GF-Z08-AR-215002",
+            "status": "Approved"
+          },
+          {
+            "row": 108,
+            "drawingNo": "SG1-AC1-SD-SG1A-GF-Z09-AR-215002",
+            "status": "Approved"
+          },
+          {
+            "row": 109,
+            "drawingNo": "SG1-AC1-SD-SG1A-GF-Z10-AR-215002",
+            "status": "Approved"
+          },
+          {
+            "row": 110,
+            "drawingNo": "SG1-AC1-SD-SG1A-RF-Z03-AR-515001",
+            "status": "Approved"
+          },
+          {
+            "row": 111,
+            "drawingNo": "SG1-AC1-SD-SG1A-RF-Z03-AR-515002",
+            "status": "Approved"
+          },
+          {
+            "row": 112,
+            "drawingNo": "SG1-AC1-SD-SG1A-RF-Z01-AR-515003",
+            "status": "Approved"
+          },
+          {
+            "row": 113,
+            "drawingNo": "SG1-AC1-SD-SG1A-RF-Z04-AR-515001",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 114,
+            "drawingNo": "SG1-AC1-SD-SG1A-RF-Z05-AR-515001",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 115,
+            "drawingNo": "SG1-AC1-SD-SG1A-RF-Z08-AR-515001",
+            "status": "Approved"
+          },
+          {
+            "row": 116,
+            "drawingNo": "SG1-AC1-SD-SG1A-RF-Z09-AR-515001",
+            "status": "Approved"
+          },
+          {
+            "row": 117,
+            "drawingNo": "SG1-AC1-SD-SG1A-RF-Z01-AR-515002",
+            "status": "Approved"
+          },
+          {
+            "row": 118,
+            "drawingNo": "SG1-AC1-SD-SG1A-RF-Z09-AR-515002",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 119,
+            "drawingNo": "SG1-AC1-SD-SG1A-RF-Z09-AR-515003",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 120,
+            "drawingNo": "SG1-AC1-SD-SWID-ML-000-AR-515001",
+            "status": "Approved"
+          },
+          {
+            "row": 121,
+            "drawingNo": "SG1-AC1-SD-SG1A-RF-Z03-AR-515003",
+            "status": "Under Preparation"
+          },
+          {
+            "row": 122,
+            "drawingNo": "SG1-AC1-SD-SWID-GF-EX8-AR-515001",
+            "status": "Not Started"
+          },
+          {
+            "row": 123,
+            "drawingNo": "SG1-AC1-SD-SWID-GF-EX2-AR-515001",
+            "status": "Not Started"
+          },
+          {
+            "row": 124,
+            "drawingNo": "SG1-AC1-SD-SWID-GF-EX5-AR-515001",
+            "status": "Not Started"
+          },
+          {
+            "row": 125,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-915001",
+            "status": "Approved"
+          },
+          {
+            "row": 126,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-915002",
+            "status": "Approved"
+          },
+          {
+            "row": 127,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-915003",
+            "status": "Rejected"
+          },
+          {
+            "row": 128,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-915004",
+            "status": "Rejected"
+          },
+          {
+            "row": 129,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-915005",
+            "status": "Rejected"
+          },
+          {
+            "row": 130,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-915006",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 131,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-915007",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 132,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-915008",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 133,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-915009",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 134,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-915010",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 135,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-EX1-AR-515001",
+            "status": "Rejected"
+          },
+          {
+            "row": 136,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-EX1-AR-515002",
+            "status": "Rejected"
+          },
+          {
+            "row": 137,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-EX1-AR-515003",
+            "status": "Rejected"
+          },
+          {
+            "row": 138,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-EX1-AR-515004",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 139,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-EX1-AR-515005",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 140,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-EX1-AR-515010",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 141,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-EX1-AR-515006",
+            "status": "Rejected"
+          },
+          {
+            "row": 142,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-EX1-AR-515007",
+            "status": "Rejected"
+          },
+          {
+            "row": 143,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-EX3-AR-215001",
+            "status": "Rejected"
+          },
+          {
+            "row": 144,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-EX4-AR-515001",
+            "status": "Rejected"
+          },
+          {
+            "row": 145,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-EX4-AR-515002",
+            "status": "Rejected"
+          },
+          {
+            "row": 146,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-EX4-AR-515003",
+            "status": "Rejected"
+          },
+          {
+            "row": 147,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-EX4-AR-515005",
+            "status": "Rejected"
+          },
+          {
+            "row": 148,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-EX7-AR-515002",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 149,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-EX7-AR-515003",
+            "status": "Rejected"
+          },
+          {
+            "row": 150,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-EX7-AR-515004",
+            "status": "Rejected"
+          },
+          {
+            "row": 151,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-EX7-AR-515005",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 152,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-EX7-AR-515006",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 153,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-EX7-AR-515007",
+            "status": "Rejected"
+          },
+          {
+            "row": 154,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-EX7-AR-515008",
+            "status": "Rejected"
+          },
+          {
+            "row": 155,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-EX7-AR-515009",
+            "status": "Rejected"
+          },
+          {
+            "row": 156,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-EX7-AR-515010",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 157,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-515001",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 158,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-515002",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 159,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-515003",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 160,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-515004",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 161,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-515005",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 162,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-515006",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 163,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-515007",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 164,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-515008",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 165,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-515009",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 166,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-515010",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 167,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-515011",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 168,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-515012",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 169,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-515013",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 170,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-515014",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 171,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-515015",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 172,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-515016",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 173,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-EX3-AR-515001",
+            "status": "Under Preparation"
+          },
+          {
+            "row": 174,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-EX3-AR-515002",
+            "status": "Under Preparation"
+          },
+          {
+            "row": 175,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-EX6-AR-515001",
+            "status": "Under Preparation"
+          },
+          {
+            "row": 176,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-EX6-AR-515002",
+            "status": "Under Preparation"
+          },
+          {
+            "row": 177,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-EX6-AR-515003",
+            "status": "Under Preparation"
+          },
+          {
+            "row": 178,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-EX9-AR-515011",
+            "status": "Under Preparation"
+          },
+          {
+            "row": 179,
+            "drawingNo": "SG1-AC1-SD-EXWS-GF-EX9-AR-515012",
+            "status": "Under Preparation"
+          }
+        ]
       }
     },
-    "dateOfReport": "30/10/2026",
-    "totalDwg": 198,
+    "dateOfReport": "06/11/2026",
+    "totalDwg": 178,
     "statusSummary": {
-      "approved": 144,
+      "approved": 114,
       "approvedWithResub": 0,
-      "submitted": 29,
-      "rejected": 17,
-      "underPrep": 5,
-      "pending": 3,
-      "notStarted": 0,
+      "submitted": 32,
+      "rejected": 20,
+      "underPrep": 8,
+      "pending": 1,
+      "notStarted": 3,
       "other": 0
     },
-    "completionPct": 72.7,
+    "completionPct": 64,
     "drawings": [
       {
         "row": 2,
@@ -77373,898 +82697,798 @@ window.DEFAULT_PROJECTS = {
       },
       {
         "row": 21,
-        "drawingNo": "SG1-AC1-SD-SWID-L1-Z06-AR-215001",
-        "status": "Approved"
-      },
-      {
-        "row": 22,
         "drawingNo": "SG1-AC1-SD-SWID-L1-Z07-AR-215001",
         "status": "Approved"
       },
       {
-        "row": 23,
-        "drawingNo": "SG1-AC1-SD-SWID-L1-Z08-AR-215001",
-        "status": "Approved"
-      },
-      {
-        "row": 24,
-        "drawingNo": "SG1-AC1-SD-SWID-L1-Z09-AR-215001",
-        "status": "Approved"
-      },
-      {
-        "row": 25,
-        "drawingNo": "SG1-AC1-SD-SWID-L1-Z10-AR-215001",
-        "status": "Approved"
-      },
-      {
-        "row": 26,
+        "row": 22,
         "drawingNo": "SG1-AC1-SD-SWID-RF-Z01-AR-215001",
         "status": "Approved"
       },
       {
-        "row": 27,
+        "row": 23,
         "drawingNo": "SG1-AC1-SD-SWID-RF-Z02-AR-215001",
         "status": "Approved"
       },
       {
-        "row": 28,
+        "row": 24,
         "drawingNo": "SG1-AC1-SD-SWID-RF-Z03-AR-215001",
         "status": "Approved"
       },
       {
-        "row": 29,
+        "row": 25,
         "drawingNo": "SG1-AC1-SD-SWID-RF-Z04-AR-215001",
         "status": "Approved"
       },
       {
-        "row": 30,
+        "row": 26,
         "drawingNo": "SG1-AC1-SD-SWID-RF-Z05-AR-215001",
         "status": "Approved"
       },
       {
-        "row": 31,
+        "row": 27,
         "drawingNo": "SG1-AC1-SD-SWID-RF-Z07-AR-215001",
         "status": "Approved"
       },
       {
-        "row": 32,
+        "row": 28,
         "drawingNo": "SG1-AC1-SD-AN01-GF-EX1-AR-515001",
-        "status": "Submitted/Under Review"
+        "status": "Rejected"
       },
       {
-        "row": 33,
+        "row": 29,
         "drawingNo": "SG1-AC1-SD-AN02-GF-EX1-AR-515001",
         "status": "Pending(Notes)"
       },
       {
-        "row": 34,
+        "row": 30,
         "drawingNo": "SG1-AC1-SD-AN03-GF-EX4-AR-515001",
-        "status": "Submitted/Under Review"
+        "status": "Rejected"
       },
       {
-        "row": 35,
+        "row": 31,
         "drawingNo": "SG1-AC1-SD-AN04-GF-EX6-AR-515001",
         "status": "Approved"
       },
       {
-        "row": 36,
+        "row": 32,
         "drawingNo": "SG1-AC1-SD-GH01-GF-EX1-AR-515001",
         "status": "Approved"
       },
       {
-        "row": 37,
+        "row": 33,
         "drawingNo": "SG1-AC1-SD-GH02-GF-EX7-AR-515001",
         "status": "Approved"
       },
       {
-        "row": 38,
+        "row": 34,
         "drawingNo": "SG1-AC1-SD-MV01-GF-MV1-AR-515001",
         "status": "Approved"
       },
       {
-        "row": 39,
+        "row": 35,
         "drawingNo": "SG1-AC1-SD-MV02-GF-MV2-AR-515001",
         "status": "Approved"
       },
       {
-        "row": 40,
+        "row": 36,
         "drawingNo": "SG1-AC1-SD-MV03-GF-MV3-AR-515001",
         "status": "Approved"
       },
       {
-        "row": 41,
+        "row": 37,
         "drawingNo": "SG1-AC1-SD-MV04-GF-MV4-AR-515001",
         "status": "Approved"
       },
       {
-        "row": 42,
+        "row": 38,
         "drawingNo": "SG1-AC1-SD-SWID-GF-Z01-AR-215001",
         "status": "Approved"
       },
       {
-        "row": 43,
+        "row": 39,
         "drawingNo": "SG1-AC1-SD-SWID-GF-Z02-AR-215001",
         "status": "Approved"
       },
       {
-        "row": 44,
+        "row": 40,
         "drawingNo": "SG1-AC1-SD-SWID-GF-Z03-AR-215001",
         "status": "Approved"
       },
       {
-        "row": 45,
+        "row": 41,
         "drawingNo": "SG1-AC1-SD-SWID-GF-Z04-AR-215001",
         "status": "Approved"
       },
       {
-        "row": 46,
+        "row": 42,
         "drawingNo": "SG1-AC1-SD-SWID-GF-Z04-AR-215002",
         "status": "Approved"
       },
       {
-        "row": 47,
+        "row": 43,
         "drawingNo": "SG1-AC1-SD-SWID-GF-Z05-AR-215001",
         "status": "Approved"
       },
       {
-        "row": 48,
-        "drawingNo": "SG1-AC1-SD-SWID-GF-Z06-AR-215001",
-        "status": "Approved"
-      },
-      {
-        "row": 49,
-        "drawingNo": "SG1-AC1-SD-SWID-GF-Z06-AR-215002",
-        "status": "Approved"
-      },
-      {
-        "row": 50,
+        "row": 44,
         "drawingNo": "SG1-AC1-SD-SWID-GF-Z07-AR-215001",
         "status": "Approved"
       },
       {
-        "row": 51,
-        "drawingNo": "SG1-AC1-SD-SWID-GF-Z08-AR-215001",
-        "status": "Approved"
-      },
-      {
-        "row": 52,
+        "row": 45,
         "drawingNo": "SG1-AC1-SD-SWID-L1-Z01-AR-215002",
         "status": "Approved"
       },
       {
-        "row": 53,
+        "row": 46,
         "drawingNo": "SG1-AC1-SD-SWID-L1-Z01-AR-215003",
         "status": "Approved"
       },
       {
-        "row": 54,
+        "row": 47,
         "drawingNo": "SG1-AC1-SD-SWID-L1-Z01-AR-215004",
         "status": "Approved"
       },
       {
-        "row": 55,
+        "row": 48,
         "drawingNo": "SG1-AC1-SD-SWID-L1-Z01-AR-215005",
         "status": "Approved"
       },
       {
-        "row": 56,
+        "row": 49,
         "drawingNo": "SG1-AC1-SD-SWID-L1-Z02-AR-215002",
         "status": "Approved"
       },
       {
-        "row": 57,
+        "row": 50,
         "drawingNo": "SG1-AC1-SD-SWID-L1-Z02-AR-215003",
         "status": "Approved"
       },
       {
-        "row": 58,
+        "row": 51,
         "drawingNo": "SG1-AC1-SD-SWID-L1-Z02-AR-215004",
         "status": "Approved"
       },
       {
-        "row": 59,
+        "row": 52,
         "drawingNo": "SG1-AC1-SD-SWID-L1-Z02-AR-215005",
         "status": "Approved"
       },
       {
-        "row": 60,
+        "row": 53,
         "drawingNo": "SG1-AC1-SD-SWID-L1-Z03-AR-215002",
         "status": "Approved"
       },
       {
-        "row": 61,
+        "row": 54,
         "drawingNo": "SG1-AC1-SD-SWID-L1-Z03-AR-215003",
         "status": "Approved"
       },
       {
-        "row": 62,
+        "row": 55,
         "drawingNo": "SG1-AC1-SD-SWID-L1-Z03-AR-215004",
         "status": "Approved"
       },
       {
-        "row": 63,
+        "row": 56,
         "drawingNo": "SG1-AC1-SD-SWID-L1-Z03-AR-215005",
         "status": "Approved"
       },
       {
-        "row": 64,
+        "row": 57,
         "drawingNo": "SG1-AC1-SD-SWID-L1-Z04-AR-215002",
         "status": "Approved"
       },
       {
-        "row": 65,
+        "row": 58,
         "drawingNo": "SG1-AC1-SD-SWID-L1-Z04-AR-215003",
         "status": "Approved"
       },
       {
-        "row": 66,
+        "row": 59,
         "drawingNo": "SG1-AC1-SD-SWID-L1-Z04-AR-215004",
         "status": "Approved"
       },
       {
-        "row": 67,
+        "row": 60,
         "drawingNo": "SG1-AC1-SD-SWID-L1-Z04-AR-215005",
         "status": "Approved"
       },
       {
-        "row": 68,
+        "row": 61,
         "drawingNo": "SG1-AC1-SD-SWID-L1-Z05-AR-215002",
         "status": "Approved"
       },
       {
-        "row": 69,
+        "row": 62,
         "drawingNo": "SG1-AC1-SD-SWID-L1-Z05-AR-215003",
         "status": "Approved"
       },
       {
-        "row": 70,
+        "row": 63,
         "drawingNo": "SG1-AC1-SD-SWID-L1-Z05-AR-215004",
         "status": "Approved"
       },
       {
-        "row": 71,
+        "row": 64,
         "drawingNo": "SG1-AC1-SD-SWID-L1-Z05-AR-215005",
         "status": "Approved"
       },
       {
-        "row": 72,
+        "row": 65,
         "drawingNo": "SG1-AC1-SD-SWID-L1-Z07-AR-215002",
         "status": "Approved"
       },
       {
-        "row": 73,
+        "row": 66,
         "drawingNo": "SG1-AC1-SD-SWID-L1-Z07-AR-215003",
         "status": "Approved"
       },
       {
-        "row": 74,
+        "row": 67,
         "drawingNo": "SG1-AC1-SD-SWID-L1-Z07-AR-215004",
         "status": "Approved"
       },
       {
-        "row": 75,
+        "row": 68,
         "drawingNo": "SG1-AC1-SD-SWID-L1-Z07-AR-215005",
         "status": "Approved"
       },
       {
-        "row": 76,
+        "row": 69,
         "drawingNo": "SG1-AC1-SD-SWID-GF-OFF-AR-215001",
         "status": "Approved"
       },
       {
-        "row": 77,
+        "row": 70,
         "drawingNo": "SG1-AC1-SD-SWID-GF-OFF-AR-515002",
         "status": "Approved"
       },
       {
-        "row": 78,
+        "row": 71,
         "drawingNo": "SG1-AC1-SD-SWID-ML-OFF-AR-515001",
         "status": "Approved"
       },
       {
-        "row": 79,
+        "row": 72,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-EX1-AR-515009",
         "status": "Approved"
       },
       {
-        "row": 80,
+        "row": 73,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-EX7-AR-515001",
         "status": "Approved"
       },
       {
-        "row": 81,
-        "drawingNo": "SG1-AC1-SD-SWID-RF-Z01-AR-215003",
-        "status": "Approved"
-      },
-      {
-        "row": 82,
-        "drawingNo": "SG1-AC1-SD-SWID-RF-Z02-AR-215003",
-        "status": "Approved"
-      },
-      {
-        "row": 83,
-        "drawingNo": "SG1-AC1-SD-SWID-RF-Z03-AR-215003",
-        "status": "Approved"
-      },
-      {
-        "row": 84,
-        "drawingNo": "SG1-AC1-SD-SWID-RF-Z04-AR-215003",
-        "status": "Approved"
-      },
-      {
-        "row": 85,
-        "drawingNo": "SG1-AC1-SD-SWID-RF-Z05-AR-215003",
-        "status": "Approved"
-      },
-      {
-        "row": 86,
-        "drawingNo": "SG1-AC1-SD-SWID-RF-Z06-AR-215003",
-        "status": "Approved"
-      },
-      {
-        "row": 87,
-        "drawingNo": "SG1-AC1-SD-SWID-RF-Z07-AR-215003",
-        "status": "Approved"
-      },
-      {
-        "row": 88,
-        "drawingNo": "SG1-AC1-SD-SWID-RF-Z08-AR-215003",
-        "status": "Approved"
-      },
-      {
-        "row": 89,
-        "drawingNo": "SG1-AC1-SD-SWID-RF-Z09-AR-215003",
-        "status": "Approved"
-      },
-      {
-        "row": 90,
-        "drawingNo": "SG1-AC1-SD-SWID-RF-Z10-AR-215003",
-        "status": "Approved"
-      },
-      {
-        "row": 91,
+        "row": 74,
         "drawingNo": "SG1-AC1-SD-PR01-GF-EX1-AR-215001",
         "status": "Approved"
       },
       {
-        "row": 92,
+        "row": 75,
         "drawingNo": "SG1-AC1-SD-PR01-GF-EX1-AR-215002",
         "status": "Approved"
       },
       {
-        "row": 93,
+        "row": 76,
         "drawingNo": "SG1-AC1-SD-PR01-GF-EX1-AR-515003",
         "status": "Approved"
       },
       {
-        "row": 94,
+        "row": 77,
         "drawingNo": "SG1-AC1-SD-PR02-GF-EX4-AR-215001",
         "status": "Approved"
       },
       {
-        "row": 95,
+        "row": 78,
         "drawingNo": "SG1-AC1-SD-PR02-GF-EX4-AR-215002",
         "status": "Approved"
       },
       {
-        "row": 96,
+        "row": 79,
         "drawingNo": "SG1-AC1-SD-PR02-GF-EX4-AR-515003",
         "status": "Approved"
       },
       {
-        "row": 97,
+        "row": 80,
         "drawingNo": "SG1-AC1-SD-PR03-GF-EX7-AR-215001",
         "status": "Approved"
       },
       {
-        "row": 98,
+        "row": 81,
         "drawingNo": "SG1-AC1-SD-PR03-GF-EX7-AR-215002",
         "status": "Approved"
       },
       {
-        "row": 99,
+        "row": 82,
         "drawingNo": "SG1-AC1-SD-PR03-GF-EX7-AR-215003",
         "status": "Approved"
       },
       {
-        "row": 100,
+        "row": 83,
         "drawingNo": "SG1-AC1-SD-SG1A-ML-Z03-AR-515003",
         "status": "Approved"
       },
       {
-        "row": 101,
+        "row": 84,
         "drawingNo": "SG1-AC1-SD-SG1A-ML-Z03-AR-515004",
         "status": "Approved"
       },
       {
-        "row": 102,
+        "row": 85,
         "drawingNo": "SG1-AC1-SD-SG1A-ML-Z01-AR-215004",
         "status": "Approved"
       },
       {
-        "row": 103,
+        "row": 86,
         "drawingNo": "SG1-AC1-SD-SG1A-ML-Z01-AR-215005",
         "status": "Approved"
       },
       {
-        "row": 104,
+        "row": 87,
         "drawingNo": "SG1-AC1-SD-SG1A-ML-Z03-AR-215001",
         "status": "Approved"
       },
       {
-        "row": 105,
-        "drawingNo": "SG1-AC1-SD-SG1A-ML-Z04-AR-515001",
-        "status": "Approved"
-      },
-      {
-        "row": 106,
-        "drawingNo": "SG1-AC1-SD-SG1A-ML-Z04-AR-515002",
-        "status": "Approved"
-      },
-      {
-        "row": 107,
-        "drawingNo": "SG1-AC1-SD-SG1A-ML-Z07-AR-215001",
-        "status": "Approved"
-      },
-      {
-        "row": 108,
-        "drawingNo": "SG1-AC1-SD-SG1A-ML-Z08-AR-215001",
-        "status": "Approved"
-      },
-      {
-        "row": 109,
-        "drawingNo": "SG1-AC1-SD-SG1A-ML-Z08-AR-215002",
-        "status": "Approved"
-      },
-      {
-        "row": 110,
+        "row": 88,
         "drawingNo": "SG1-AC1-SD-SG1A-ML-Z01-AR-215001",
         "status": "Approved"
       },
       {
-        "row": 111,
+        "row": 89,
         "drawingNo": "SG1-AC1-SD-SG1A-ML-Z01-AR-215002",
         "status": "Approved"
       },
       {
-        "row": 112,
-        "drawingNo": "SG1-AC1-SD-SG1A-ML-Z02-AR-515001",
-        "status": "Approved"
-      },
-      {
-        "row": 113,
-        "drawingNo": "SG1-AC1-SD-SG1A-ML-Z05-AR-215001",
-        "status": "Approved"
-      },
-      {
-        "row": 114,
-        "drawingNo": "SG1-AC1-SD-SG1A-ML-Z05-AR-215002",
-        "status": "Approved"
-      },
-      {
-        "row": 115,
-        "drawingNo": "SG1-AC1-SD-SG1A-ML-Z06-AR-215001",
-        "status": "Approved"
-      },
-      {
-        "row": 116,
-        "drawingNo": "SG1-AC1-SD-SG1A-ML-Z06-AR-215002",
-        "status": "Approved"
-      },
-      {
-        "row": 117,
-        "drawingNo": "SG1-AC1-SD-SG1A-ML-Z10-AR-515001",
-        "status": "Approved"
-      },
-      {
-        "row": 118,
-        "drawingNo": "SG1-AC1-SD-SG1A-ML-Z09-AR-515001",
-        "status": "Approved"
-      },
-      {
-        "row": 119,
-        "drawingNo": "SG1-AC1-SD-SG1A-ML-Z09-AR-515002",
-        "status": "Approved"
-      },
-      {
-        "row": 120,
+        "row": 90,
         "drawingNo": "SG1-AC1-SD-SG1A-GF-Z01-AR-215001",
         "status": "Approved"
       },
       {
-        "row": 121,
+        "row": 91,
         "drawingNo": "SG1-AC1-SD-SG1A-GF-Z02-AR-215001",
         "status": "Approved"
       },
       {
-        "row": 122,
+        "row": 92,
         "drawingNo": "SG1-AC1-SD-SG1A-GF-Z03-AR-215001",
         "status": "Approved"
       },
       {
-        "row": 123,
+        "row": 93,
         "drawingNo": "SG1-AC1-SD-SG1A-GF-Z04-AR-215001",
         "status": "Approved"
       },
       {
-        "row": 124,
+        "row": 94,
         "drawingNo": "SG1-AC1-SD-SG1A-GF-Z05-AR-215001",
         "status": "Approved"
       },
       {
-        "row": 125,
+        "row": 95,
         "drawingNo": "SG1-AC1-SD-SG1A-GF-Z06-AR-215001",
         "status": "Approved"
       },
       {
-        "row": 126,
+        "row": 96,
         "drawingNo": "SG1-AC1-SD-SG1A-GF-Z07-AR-215001",
         "status": "Approved"
       },
       {
-        "row": 127,
+        "row": 97,
         "drawingNo": "SG1-AC1-SD-SG1A-GF-Z08-AR-215001",
         "status": "Approved"
       },
       {
-        "row": 128,
+        "row": 98,
         "drawingNo": "SG1-AC1-SD-SG1A-GF-Z09-AR-215001",
         "status": "Approved"
       },
       {
-        "row": 129,
+        "row": 99,
         "drawingNo": "SG1-AC1-SD-SG1A-GF-Z10-AR-215001",
         "status": "Approved"
       },
       {
-        "row": 130,
+        "row": 100,
         "drawingNo": "SG1-AC1-SD-SG1A-GF-Z01-AR-215002",
         "status": "Approved"
       },
       {
-        "row": 131,
+        "row": 101,
         "drawingNo": "SG1-AC1-SD-SG1A-GF-Z02-AR-215002",
         "status": "Approved"
       },
       {
-        "row": 132,
+        "row": 102,
         "drawingNo": "SG1-AC1-SD-SG1A-GF-Z03-AR-215002",
         "status": "Approved"
       },
       {
-        "row": 133,
+        "row": 103,
         "drawingNo": "SG1-AC1-SD-SG1A-GF-Z04-AR-215002",
         "status": "Approved"
       },
       {
-        "row": 134,
+        "row": 104,
         "drawingNo": "SG1-AC1-SD-SG1A-GF-Z05-AR-215002",
         "status": "Approved"
       },
       {
-        "row": 135,
+        "row": 105,
         "drawingNo": "SG1-AC1-SD-SG1A-GF-Z06-AR-515002",
         "status": "Approved"
       },
       {
-        "row": 136,
+        "row": 106,
         "drawingNo": "SG1-AC1-SD-SG1A-GF-Z07-AR-215002",
         "status": "Approved"
       },
       {
-        "row": 137,
+        "row": 107,
         "drawingNo": "SG1-AC1-SD-SG1A-GF-Z08-AR-215002",
         "status": "Approved"
       },
       {
-        "row": 138,
+        "row": 108,
         "drawingNo": "SG1-AC1-SD-SG1A-GF-Z09-AR-215002",
         "status": "Approved"
       },
       {
-        "row": 139,
+        "row": 109,
         "drawingNo": "SG1-AC1-SD-SG1A-GF-Z10-AR-215002",
         "status": "Approved"
       },
       {
-        "row": 140,
+        "row": 110,
         "drawingNo": "SG1-AC1-SD-SG1A-RF-Z03-AR-515001",
         "status": "Approved"
       },
       {
-        "row": 141,
+        "row": 111,
         "drawingNo": "SG1-AC1-SD-SG1A-RF-Z03-AR-515002",
         "status": "Approved"
       },
       {
-        "row": 142,
+        "row": 112,
         "drawingNo": "SG1-AC1-SD-SG1A-RF-Z01-AR-515003",
         "status": "Approved"
       },
       {
-        "row": 143,
-        "drawingNo": "SG1-AC1-SD-SG1A-RF-Z04-AR-215001",
-        "status": "Pending(Notes)"
+        "row": 113,
+        "drawingNo": "SG1-AC1-SD-SG1A-RF-Z04-AR-515001",
+        "status": "Submitted/Under Review"
       },
       {
-        "row": 144,
+        "row": 114,
         "drawingNo": "SG1-AC1-SD-SG1A-RF-Z05-AR-515001",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 145,
+        "row": 115,
         "drawingNo": "SG1-AC1-SD-SG1A-RF-Z08-AR-515001",
         "status": "Approved"
       },
       {
-        "row": 146,
+        "row": 116,
         "drawingNo": "SG1-AC1-SD-SG1A-RF-Z09-AR-515001",
         "status": "Approved"
       },
       {
-        "row": 147,
+        "row": 117,
         "drawingNo": "SG1-AC1-SD-SG1A-RF-Z01-AR-515002",
         "status": "Approved"
       },
       {
-        "row": 148,
+        "row": 118,
         "drawingNo": "SG1-AC1-SD-SG1A-RF-Z09-AR-515002",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 149,
+        "row": 119,
         "drawingNo": "SG1-AC1-SD-SG1A-RF-Z09-AR-515003",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 150,
+        "row": 120,
         "drawingNo": "SG1-AC1-SD-SWID-ML-000-AR-515001",
         "status": "Approved"
       },
       {
-        "row": 151,
+        "row": 121,
         "drawingNo": "SG1-AC1-SD-SG1A-RF-Z03-AR-515003",
         "status": "Under Preparation"
       },
       {
-        "row": 152,
+        "row": 122,
+        "drawingNo": "SG1-AC1-SD-SWID-GF-EX8-AR-515001",
+        "status": "Not Started"
+      },
+      {
+        "row": 123,
+        "drawingNo": "SG1-AC1-SD-SWID-GF-EX2-AR-515001",
+        "status": "Not Started"
+      },
+      {
+        "row": 124,
+        "drawingNo": "SG1-AC1-SD-SWID-GF-EX5-AR-515001",
+        "status": "Not Started"
+      },
+      {
+        "row": 125,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-915001",
         "status": "Approved"
       },
       {
-        "row": 153,
+        "row": 126,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-915002",
         "status": "Approved"
       },
       {
-        "row": 154,
+        "row": 127,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-915003",
         "status": "Rejected"
       },
       {
-        "row": 155,
+        "row": 128,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-915004",
         "status": "Rejected"
       },
       {
-        "row": 156,
+        "row": 129,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-915005",
         "status": "Rejected"
       },
       {
-        "row": 157,
+        "row": 130,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-915006",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 158,
+        "row": 131,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-915007",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 159,
+        "row": 132,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-915008",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 160,
+        "row": 133,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-915009",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 161,
+        "row": 134,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-915010",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 162,
+        "row": 135,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-EX1-AR-515001",
         "status": "Rejected"
       },
       {
-        "row": 163,
+        "row": 136,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-EX1-AR-515002",
         "status": "Rejected"
       },
       {
-        "row": 164,
+        "row": 137,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-EX1-AR-515003",
         "status": "Rejected"
       },
       {
-        "row": 165,
+        "row": 138,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-EX1-AR-515004",
-        "status": "Under Preparation"
+        "status": "Submitted/Under Review"
       },
       {
-        "row": 166,
+        "row": 139,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-EX1-AR-515005",
-        "status": "Under Preparation"
+        "status": "Submitted/Under Review"
       },
       {
-        "row": 167,
+        "row": 140,
+        "drawingNo": "SG1-AC1-SD-EXWS-GF-EX1-AR-515010",
+        "status": "Submitted/Under Review"
+      },
+      {
+        "row": 141,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-EX1-AR-515006",
         "status": "Rejected"
       },
       {
-        "row": 168,
+        "row": 142,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-EX1-AR-515007",
         "status": "Rejected"
       },
       {
-        "row": 169,
+        "row": 143,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-EX3-AR-215001",
-        "status": "Submitted/Under Review"
+        "status": "Rejected"
       },
       {
-        "row": 170,
+        "row": 144,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-EX4-AR-515001",
         "status": "Rejected"
       },
       {
-        "row": 171,
+        "row": 145,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-EX4-AR-515002",
         "status": "Rejected"
       },
       {
-        "row": 172,
+        "row": 146,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-EX4-AR-515003",
         "status": "Rejected"
       },
       {
-        "row": 173,
-        "drawingNo": "SG1-AC1-SD-EXWS-GF-EX4-AR-515004",
-        "status": "Pending(Notes)"
-      },
-      {
-        "row": 174,
+        "row": 147,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-EX4-AR-515005",
         "status": "Rejected"
       },
       {
-        "row": 175,
+        "row": 148,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-EX7-AR-515002",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 176,
+        "row": 149,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-EX7-AR-515003",
         "status": "Rejected"
       },
       {
-        "row": 177,
+        "row": 150,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-EX7-AR-515004",
         "status": "Rejected"
       },
       {
-        "row": 178,
+        "row": 151,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-EX7-AR-515005",
-        "status": "Under Preparation"
+        "status": "Submitted/Under Review"
       },
       {
-        "row": 179,
+        "row": 152,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-EX7-AR-515006",
-        "status": "Under Preparation"
+        "status": "Submitted/Under Review"
       },
       {
-        "row": 180,
+        "row": 153,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-EX7-AR-515007",
         "status": "Rejected"
       },
       {
-        "row": 181,
+        "row": 154,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-EX7-AR-515008",
         "status": "Rejected"
       },
       {
-        "row": 182,
+        "row": 155,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-EX7-AR-515009",
         "status": "Rejected"
       },
       {
-        "row": 183,
+        "row": 156,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-EX7-AR-515010",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 184,
+        "row": 157,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-515001",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 185,
+        "row": 158,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-515002",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 186,
+        "row": 159,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-515003",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 187,
+        "row": 160,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-515004",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 188,
+        "row": 161,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-515005",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 189,
+        "row": 162,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-515006",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 190,
+        "row": 163,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-515007",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 191,
+        "row": 164,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-515008",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 192,
+        "row": 165,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-515009",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 193,
+        "row": 166,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-515010",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 194,
+        "row": 167,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-515011",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 195,
+        "row": 168,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-515012",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 196,
+        "row": 169,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-515013",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 197,
+        "row": 170,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-515014",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 198,
+        "row": 171,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-515015",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 199,
+        "row": 172,
         "drawingNo": "SG1-AC1-SD-EXWS-GF-000-AR-515016",
         "status": "Submitted/Under Review"
+      },
+      {
+        "row": 173,
+        "drawingNo": "SG1-AC1-SD-EXWS-GF-EX3-AR-515001",
+        "status": "Under Preparation"
+      },
+      {
+        "row": 174,
+        "drawingNo": "SG1-AC1-SD-EXWS-GF-EX3-AR-515002",
+        "status": "Under Preparation"
+      },
+      {
+        "row": 175,
+        "drawingNo": "SG1-AC1-SD-EXWS-GF-EX6-AR-515001",
+        "status": "Under Preparation"
+      },
+      {
+        "row": 176,
+        "drawingNo": "SG1-AC1-SD-EXWS-GF-EX6-AR-515002",
+        "status": "Under Preparation"
+      },
+      {
+        "row": 177,
+        "drawingNo": "SG1-AC1-SD-EXWS-GF-EX6-AR-515003",
+        "status": "Under Preparation"
+      },
+      {
+        "row": 178,
+        "drawingNo": "SG1-AC1-SD-EXWS-GF-EX9-AR-515011",
+        "status": "Under Preparation"
+      },
+      {
+        "row": 179,
+        "drawingNo": "SG1-AC1-SD-EXWS-GF-EX9-AR-515012",
+        "status": "Under Preparation"
       }
     ]
   },
@@ -78281,7 +83505,7 @@ window.DEFAULT_PROJECTS = {
     "plannedStartDate": "24/11/2025",
     "plannedEndDate": "09/04/2026",
     "actualStartDate": "24/11/2025",
-    "presentDate": "30/10/2026",
+    "presentDate": "06/11/2026",
     "periodOfExtension": "7 Months",
     "modelers": [
       {
@@ -80716,12 +85940,318 @@ window.DEFAULT_PROJECTS = {
             "status": "Approved"
           }
         ]
+      },
+      "2026-11-06": {
+        "fileName": "PH502,503_2026-11-06.xlsx",
+        "dateOfReport": "06/11/2026",
+        "presentDate": "06/11/2026",
+        "plannedEndDate": "09/04/2026",
+        "periodOfExtension": "7 Months",
+        "monthYearLabel": "Nov, 26",
+        "totalDwg": 54,
+        "resourceCount": 0,
+        "statusSummary": {
+          "approved": 52,
+          "approvedWithResub": 0,
+          "submitted": 2,
+          "rejected": 0,
+          "underPrep": 0,
+          "pending": 0,
+          "notStarted": 0,
+          "other": 0
+        },
+        "completionPct": 96.3,
+        "modelers": [],
+        "notes": [
+          "1 Technical queries is open with consultant",
+          "1 RFI open with Main Contractor"
+        ],
+        "projectInCharge": "Rafael Rodriguez",
+        "projectLead": "Mohammed Shibily",
+        "bimCoordinator": "Ajmal Ashraf",
+        "projectDc": "Rustum",
+        "procurement": "NA",
+        "estimation": "NA",
+        "plannedStartDate": "24/11/2025",
+        "actualStartDate": "24/11/2025",
+        "drawings": [
+          {
+            "row": 2,
+            "drawingNo": "WAMI-EX09-AC1-SDW-CI-SB-EXTW-EX-50001",
+            "status": "Approved"
+          },
+          {
+            "row": 3,
+            "drawingNo": "WAMI-EX09-AC1-SDW-CI-SB-EXTW-EX-50002",
+            "status": "Approved"
+          },
+          {
+            "row": 4,
+            "drawingNo": "WAMI-EX09-AC1-SDW-CI-SB-EXTW-EX-50003",
+            "status": "Approved"
+          },
+          {
+            "row": 5,
+            "drawingNo": "WAMI-EX09-AC1-SDW-CI-SB-EXTW-EX-50004",
+            "status": "Approved"
+          },
+          {
+            "row": 6,
+            "drawingNo": "WAMI-EX09-AC1-SDW-CI-SB-EXTW-EX-50005",
+            "status": "Approved"
+          },
+          {
+            "row": 7,
+            "drawingNo": "WAMI-EX09-AC1-SDW-CI-SB-EXTW-EX-50006",
+            "status": "Approved"
+          },
+          {
+            "row": 8,
+            "drawingNo": "WAMI-EX09-AC1-SDW-CI-SB-EXTW-EX-50007",
+            "status": "Approved"
+          },
+          {
+            "row": 9,
+            "drawingNo": "WAMI-EX09-AC1-SDW-CI-SB-EXTW-EX-50008",
+            "status": "Approved"
+          },
+          {
+            "row": 10,
+            "drawingNo": "WAMI-EX09-AC1-SDW-CI-SB-EXTW-EX-90001",
+            "status": "Approved"
+          },
+          {
+            "row": 11,
+            "drawingNo": "WAMI-EX09-AC1-SDW-CI-SB-EXTW-EX-40001",
+            "status": "Approved"
+          },
+          {
+            "row": 12,
+            "drawingNo": "WAMI-EX09-AC1-SDW-CI-SB-EXTW-EX-40002",
+            "status": "Approved"
+          },
+          {
+            "row": 13,
+            "drawingNo": "WAMI-EX09-AC1-SDW-CI-SB-EXTW-EX-40003",
+            "status": "Approved"
+          },
+          {
+            "row": 14,
+            "drawingNo": "WAMI-EX09-AC1-SDW-CI-SB-EXTW-EX-40004",
+            "status": "Approved"
+          },
+          {
+            "row": 15,
+            "drawingNo": "WAMI-EX09-AC1-SDW-CI-SB-EXTW-EX-40006",
+            "status": "Approved"
+          },
+          {
+            "row": 16,
+            "drawingNo": "WAMI-EX09-AC1-SDW-CI-SB-EXTW-EX-40007",
+            "status": "Approved"
+          },
+          {
+            "row": 17,
+            "drawingNo": "WAMI-EX09-AC1-SDW-CI-SB-EXTW-EX-40008",
+            "status": "Approved"
+          },
+          {
+            "row": 18,
+            "drawingNo": "WAMI-EX09-AC1-SDW-CI-SB-EXTW-EX-40009",
+            "status": "Approved"
+          },
+          {
+            "row": 19,
+            "drawingNo": "WAMI-EX09-AC1-SDW-CI-SB-EXTW-EX-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 20,
+            "drawingNo": "WAMI-EX09-AC1-SDW-CI-SB-EXTW-EX-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 21,
+            "drawingNo": "WAMI-EX09-AC1-SDW-CI-SB-EXTW-EX-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 22,
+            "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-50001",
+            "status": "Approved"
+          },
+          {
+            "row": 23,
+            "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-50002",
+            "status": "Approved"
+          },
+          {
+            "row": 24,
+            "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-50003",
+            "status": "Approved"
+          },
+          {
+            "row": 25,
+            "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-50004",
+            "status": "Approved"
+          },
+          {
+            "row": 26,
+            "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-50005",
+            "status": "Approved"
+          },
+          {
+            "row": 27,
+            "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-50006",
+            "status": "Approved"
+          },
+          {
+            "row": 28,
+            "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-50007",
+            "status": "Approved"
+          },
+          {
+            "row": 29,
+            "drawingNo": "WAMI-PS79-AC1-SDW-Ci-SB-EXTW-EX-50008",
+            "status": "Approved"
+          },
+          {
+            "row": 30,
+            "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-50009",
+            "status": "Approved"
+          },
+          {
+            "row": 31,
+            "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-50010",
+            "status": "Approved"
+          },
+          {
+            "row": 32,
+            "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-50011",
+            "status": "Approved"
+          },
+          {
+            "row": 33,
+            "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-50012",
+            "status": "Approved"
+          },
+          {
+            "row": 34,
+            "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-50013",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 35,
+            "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-90001",
+            "status": "Approved"
+          },
+          {
+            "row": 36,
+            "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-90002",
+            "status": "Approved"
+          },
+          {
+            "row": 37,
+            "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40001",
+            "status": "Approved"
+          },
+          {
+            "row": 38,
+            "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40002",
+            "status": "Approved"
+          },
+          {
+            "row": 39,
+            "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40003",
+            "status": "Approved"
+          },
+          {
+            "row": 40,
+            "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40004",
+            "status": "Approved"
+          },
+          {
+            "row": 41,
+            "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40005",
+            "status": "Approved"
+          },
+          {
+            "row": 42,
+            "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40006",
+            "status": "Approved"
+          },
+          {
+            "row": 43,
+            "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40007",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 44,
+            "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40008",
+            "status": "Approved"
+          },
+          {
+            "row": 45,
+            "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40009",
+            "status": "Approved"
+          },
+          {
+            "row": 46,
+            "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40010",
+            "status": "Approved"
+          },
+          {
+            "row": 47,
+            "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40011",
+            "status": "Approved"
+          },
+          {
+            "row": 48,
+            "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40012",
+            "status": "Approved"
+          },
+          {
+            "row": 49,
+            "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40013",
+            "status": "Approved"
+          },
+          {
+            "row": 50,
+            "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40014",
+            "status": "Approved"
+          },
+          {
+            "row": 51,
+            "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40015",
+            "status": "Approved"
+          },
+          {
+            "row": 52,
+            "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40016",
+            "status": "Approved"
+          },
+          {
+            "row": 53,
+            "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40017",
+            "status": "Approved"
+          },
+          {
+            "row": 54,
+            "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40018",
+            "status": "Approved"
+          },
+          {
+            "row": 55,
+            "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40019",
+            "status": "Approved"
+          }
+        ]
       }
     },
-    "dateOfReport": "30/10/2026",
-    "totalDwg": 53,
+    "dateOfReport": "06/11/2026",
+    "totalDwg": 54,
     "statusSummary": {
-      "approved": 51,
+      "approved": 52,
       "approvedWithResub": 0,
       "submitted": 2,
       "rejected": 0,
@@ -80730,7 +86260,7 @@ window.DEFAULT_PROJECTS = {
       "notStarted": 0,
       "other": 0
     },
-    "completionPct": 96.2,
+    "completionPct": 96.3,
     "drawings": [
       {
         "row": 2,
@@ -80894,106 +86424,111 @@ window.DEFAULT_PROJECTS = {
       },
       {
         "row": 34,
+        "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-50013",
+        "status": "Submitted/Under Review"
+      },
+      {
+        "row": 35,
         "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-90001",
         "status": "Approved"
       },
       {
-        "row": 35,
+        "row": 36,
         "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-90002",
         "status": "Approved"
       },
       {
-        "row": 36,
+        "row": 37,
         "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40001",
         "status": "Approved"
       },
       {
-        "row": 37,
+        "row": 38,
         "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40002",
         "status": "Approved"
       },
       {
-        "row": 38,
+        "row": 39,
         "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40003",
         "status": "Approved"
       },
       {
-        "row": 39,
+        "row": 40,
         "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40004",
         "status": "Approved"
       },
       {
-        "row": 40,
+        "row": 41,
         "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40005",
         "status": "Approved"
       },
       {
-        "row": 41,
+        "row": 42,
         "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40006",
         "status": "Approved"
       },
       {
-        "row": 42,
+        "row": 43,
         "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40007",
         "status": "Submitted/Under Review"
       },
       {
-        "row": 43,
+        "row": 44,
         "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40008",
         "status": "Approved"
       },
       {
-        "row": 44,
+        "row": 45,
         "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40009",
         "status": "Approved"
       },
       {
-        "row": 45,
+        "row": 46,
         "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40010",
         "status": "Approved"
       },
       {
-        "row": 46,
+        "row": 47,
         "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40011",
         "status": "Approved"
       },
       {
-        "row": 47,
+        "row": 48,
         "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40012",
         "status": "Approved"
       },
       {
-        "row": 48,
-        "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40013",
-        "status": "Submitted/Under Review"
-      },
-      {
         "row": 49,
-        "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40014",
+        "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40013",
         "status": "Approved"
       },
       {
         "row": 50,
-        "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40015",
+        "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40014",
         "status": "Approved"
       },
       {
         "row": 51,
-        "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40016",
+        "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40015",
         "status": "Approved"
       },
       {
         "row": 52,
-        "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40017",
+        "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40016",
         "status": "Approved"
       },
       {
         "row": 53,
-        "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40018",
+        "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40017",
         "status": "Approved"
       },
       {
         "row": 54,
+        "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40018",
+        "status": "Approved"
+      },
+      {
+        "row": 55,
         "drawingNo": "WAMI-PS79-AC1-SDW-CI-SB-EXTW-EX-40019",
         "status": "Approved"
       }
@@ -82992,7 +88527,7 @@ window.DEFAULT_PROJECTS = {
     "plannedStartDate": "19/05/2026",
     "plannedEndDate": "30/06/2026",
     "actualStartDate": "09/06/2026",
-    "presentDate": "30/10/2026",
+    "presentDate": "06/11/2026",
     "periodOfExtension": "4 Months",
     "modelers": [
       {
@@ -83666,9 +89201,87 @@ window.DEFAULT_PROJECTS = {
             "status": "Approved"
           }
         ]
+      },
+      "2026-11-06": {
+        "fileName": "PH521_2026-11-06.xlsx",
+        "dateOfReport": "06/11/2026",
+        "presentDate": "06/11/2026",
+        "plannedEndDate": "30/06/2026",
+        "periodOfExtension": "4 Months",
+        "monthYearLabel": "Nov, 26",
+        "totalDwg": 9,
+        "resourceCount": 0,
+        "statusSummary": {
+          "approved": 8,
+          "approvedWithResub": 0,
+          "submitted": 1,
+          "rejected": 0,
+          "underPrep": 0,
+          "pending": 0,
+          "notStarted": 0,
+          "other": 0
+        },
+        "completionPct": 88.9,
+        "modelers": [],
+        "notes": [],
+        "projectInCharge": "Ali Hashmi",
+        "projectLead": "Shibily",
+        "bimCoordinator": "Shibily",
+        "projectDc": "Romeo",
+        "procurement": "NA",
+        "estimation": "NA",
+        "plannedStartDate": "19/05/2026",
+        "actualStartDate": "09/06/2026",
+        "drawings": [
+          {
+            "row": 2,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-SB-ALVL-GL-50001",
+            "status": "Submitted/Under Review"
+          },
+          {
+            "row": 3,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-SB-ALVL-GL-90001",
+            "status": "Approved"
+          },
+          {
+            "row": 4,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-SB-PDZ1-GL-40001",
+            "status": "Approved"
+          },
+          {
+            "row": 5,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-SB-PDZ1-GL-40002",
+            "status": "Approved"
+          },
+          {
+            "row": 6,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-SB-PDZ1-GL-40003",
+            "status": "Approved"
+          },
+          {
+            "row": 7,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-SB-PDZ1-GL-40004",
+            "status": "Approved"
+          },
+          {
+            "row": 8,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-SB-TWVL-GL-40001",
+            "status": "Approved"
+          },
+          {
+            "row": 9,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-SB-TWVL-GL-40002",
+            "status": "Approved"
+          },
+          {
+            "row": 10,
+            "drawingNo": "WAMI-PS43-AC1-SDW-AR-SB-TWVL-GL-40003",
+            "status": "Approved"
+          }
+        ]
       }
     },
-    "dateOfReport": "30/10/2026",
+    "dateOfReport": "06/11/2026",
     "totalDwg": 9,
     "statusSummary": {
       "approved": 8,
