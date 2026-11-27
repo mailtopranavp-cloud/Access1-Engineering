@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Application Controller for Design Department Weekly Report Dashboard
  * Supports:
  * - Provision for adding new projects and removing existing ones
@@ -6,7 +6,7 @@
  * - Monthly report chart formatted as clustered column (grouped bars)
  * - OSR Resource Utilization Y-axis labeled "Number of OSR Resources"
  * - Key Personnel, Modelers, and Schedule updated dynamically on file upload
- * - Formula: Period of Extension = Planned end Date – Present Date (formatted as X Months)
+ * - Formula: Period of Extension = Planned end Date â€“ Present Date (formatted as X Months)
  * - Report Date value mapped by extracting date stamp from Excel file name
  */
 
@@ -54,11 +54,11 @@
               ctx.fillStyle = '#0F172A';
               ctx.fillText(String(val), bar.x, bar.y - 4);
               ctx.restore();
-            }
-          });
-        }
-      });
-    }
+  }
+  });
+  }
+  });
+  }
   };
 
   /**
@@ -81,9 +81,9 @@
         const h = proj.history[d];
         if (h && (!h.drawings || h.drawings.length === 0) && h.totalDwg === 300 && h.statusSummary?.approved === 120) {
           delete proj.history[d];
-        }
-      });
-    }
+  }
+  });
+  }
 
     const remainingDates = Object.keys(proj.history).sort();
     if (remainingDates.length === 0) return;
@@ -104,13 +104,13 @@
     proj.completionPct = latest.completionPct !== undefined ? latest.completionPct : proj.completionPct;
     if (latest.modelers && latest.modelers.length > 0) {
       proj.modelers = latest.modelers;
-    }
+  }
     if (latest.notes && latest.notes.length > 0) {
       proj.notes = latest.notes;
-    }
+  }
     if (latest.drawings && latest.drawings.length > 0) {
       proj.drawings = latest.drawings;
-    }
+  }
     if (latest.projectLead) proj.projectLead = latest.projectLead;
     if (latest.projectInCharge) proj.projectInCharge = latest.projectInCharge;
     if (latest.bimCoordinator) proj.bimCoordinator = latest.bimCoordinator;
@@ -137,38 +137,38 @@
       projects = JSON.parse(JSON.stringify(window.DEFAULT_PROJECTS || {}));
       localStorage.setItem('company_dashboard_projects', JSON.stringify(projects));
       localStorage.setItem('dashboard_data_version', currentVersion);
-    } else {
+  } else {
       try {
         const saved = localStorage.getItem('company_dashboard_projects');
         if (saved) {
           projects = JSON.parse(saved);
-        }
-      } catch (e) {
+  }
+  } catch (e) {
         console.warn('Could not read from localStorage', e);
-      }
+  }
 
       if (!projects || Object.keys(projects).length === 0) {
         projects = JSON.parse(JSON.stringify(window.DEFAULT_PROJECTS || {}));
         saveData();
-      }
-    }
+  }
+  }
 
     // Synchronize all projects to their latest report data
     Object.keys(projects).forEach((k) => {
       syncProjectToLatest(projects[k]);
-    });
+  });
 
     if (!projects[currentProjectKey]) {
       currentProjectKey = Object.keys(projects)[0] || 'PH497-SG1';
-    }
+  }
 
     const proj = projects[currentProjectKey];
     if (proj && proj.history) {
       const dates = Object.keys(proj.history).sort();
       if (dates.length > 0) {
         currentDateKey = dates[dates.length - 1];
-      }
-    }
+  }
+  }
 
     loadSavedHeadings();
   }
@@ -177,9 +177,9 @@
   function saveData() {
     try {
       localStorage.setItem('company_dashboard_projects', JSON.stringify(projects));
-    } catch (e) {
+  } catch (e) {
       console.warn('Could not write to localStorage', e);
-    }
+  }
   }
 
   /**
@@ -195,7 +195,7 @@
     if (specificDate) {
       badge.textContent = specificDate;
       return;
-    }
+  }
 
     // Page 1: find the most-recent dateOfReport across all projects
     let maxIso = '';
@@ -211,23 +211,23 @@
             const parts = dateStr.split('/');
             if (parts.length === 3) {
               iso = `${parts[2]}-${parts[1].padStart(2, '0')}-${parts[0].padStart(2, '0')}`;
-            }
-          } else if (dateStr.includes('-')) {
+  }
+  } else if (dateStr.includes('-')) {
             iso = dateStr;
-          }
+  }
           if (iso && (!maxIso || iso > maxIso)) {
             maxIso = iso;
             maxOriginal = entry.dateOfReport || (iso.split('-').length === 3 ? `${iso.split('-')[2]}/${iso.split('-')[1]}/${iso.split('-')[0]}` : iso);
-          }
-        }
-      });
-    });
+  }
+  }
+  });
+  });
 
     if (maxOriginal) {
       badge.textContent = maxOriginal;
-    } else {
-      badge.textContent = '—';
-    }
+  } else {
+      badge.textContent = 'â€”';
+  }
   }
 
 
@@ -238,10 +238,10 @@
       Object.keys(savedHeadings).forEach((id) => {
         const el = document.getElementById(id);
         if (el) el.textContent = savedHeadings[id];
-      });
-    } catch (e) {
+  });
+  } catch (e) {
       console.warn('Could not load custom headings', e);
-    }
+  }
   }
 
   function saveHeading(el) {
@@ -250,9 +250,9 @@
       const savedHeadings = JSON.parse(localStorage.getItem('dashboard_custom_headings') || '{}');
       savedHeadings[el.id] = el.textContent.trim();
       localStorage.setItem('dashboard_custom_headings', JSON.stringify(savedHeadings));
-    } catch (e) {
+  } catch (e) {
       console.warn('Could not save heading', e);
-    }
+  }
   }
 
   // --- Chart Lifecycle ---
@@ -264,28 +264,83 @@
     }
   }
 
-  /**
-   * Sets the inner canvas container width based on data count to allow horizontal scrolling
-   * without compressing labels or changing chart height / visual presentation.
-   */
-  function setChartScrollWidth(innerId, itemCount, minColWidth) {
-    const inner = document.getElementById(innerId);
-    if (!inner) return;
-    const colWidth = minColWidth || 95;
-    const neededWidth = itemCount * colWidth;
-    if (neededWidth > 500) {
-      inner.style.width = `${neededWidth}px`;
-    } else {
-      inner.style.width = '100%';
-    }
-  }
-
   function destroyAllCharts() {
     Object.keys(chartInstances).forEach((key) => {
       chartInstances[key].destroy();
     });
     chartInstances = {};
   }
+
+  /**
+   * Keeps the inner canvas container fitted to 100% of the view frame by default
+   * so all chart details remain visible on load; zoom controls scale from here.
+   */
+  function setChartScrollWidth(innerId) {
+    const inner = document.getElementById(innerId);
+    if (!inner) return;
+    inner.style.width = '100%';
+    inner.style.height = '100%';
+    if (inner.parentElement) {
+      inner.parentElement.scrollLeft = 0;
+      inner.parentElement.scrollTop = 0;
+    }
+  }
+
+  // --- Chart Zoom ---
+
+  /**
+   * Per-chart zoom state: maps innerId → current scale factor.
+   * Default (1.0) fits 100% of the dedicated view frame; zooming scales the
+   * inner container dimensions so Chart.js redraws crisply with scrollbars.
+   */
+  const chartZoomState = {};
+  const ZOOM_STEP = 0.2;   // 20 % per click
+  const ZOOM_MIN  = 0.5;   // 50 % minimum
+  const ZOOM_MAX  = 3.0;   // 300 % maximum
+
+  function applyChartZoom(innerId, dir) {
+    const inner = document.getElementById(innerId);
+    if (!inner) return;
+
+    // Read or initialise current scale
+    let scale = chartZoomState[innerId] || 1;
+
+    if (dir === 'in')    { scale = Math.min(ZOOM_MAX, parseFloat((scale + ZOOM_STEP).toFixed(2))); }
+    else if (dir === 'out')   { scale = Math.max(ZOOM_MIN, parseFloat((scale - ZOOM_STEP).toFixed(2))); }
+    else                 { scale = 1; } // reset to Fit to Frame
+
+    chartZoomState[innerId] = scale;
+
+    const pct = `${Math.round(scale * 100)}%`;
+    inner.style.width = pct;
+    inner.style.height = pct;
+    inner.style.transform = '';
+    inner.style.transformOrigin = '';
+
+    if (scale === 1 && inner.parentElement) {
+      inner.parentElement.scrollLeft = 0;
+      inner.parentElement.scrollTop = 0;
+    }
+  }
+
+  /** Reset all chart zooms to default Fit-to-Frame (100%) */
+  function resetAllChartZooms() {
+    ['chart-inner-monthly', 'chart-inner-utilization', 'chart-inner-programme'].forEach((id) => {
+      const inner = document.getElementById(id);
+      if (inner) {
+        inner.style.width = '100%';
+        inner.style.height = '100%';
+        inner.style.transform = '';
+        inner.style.transformOrigin = '';
+        if (inner.parentElement) {
+          inner.parentElement.scrollLeft = 0;
+          inner.parentElement.scrollTop = 0;
+        }
+      }
+      chartZoomState[id] = 1;
+    });
+  }
+
 
   /**
    * Returns latest or specified report state for a project
@@ -297,8 +352,8 @@
         ...proj,
         ...proj.history[dateKey],
         dateKey: dateKey
-      };
-    }
+  };
+  }
     if (proj.history) {
       const dates = Object.keys(proj.history).sort();
       if (dates.length > 0) {
@@ -307,9 +362,9 @@
           ...proj,
           ...proj.history[latest],
           dateKey: latest
-        };
-      }
-    }
+  };
+  }
+  }
     return proj;
   }
 
@@ -322,17 +377,17 @@
       saveData();
       if (currentProjectKey === key) {
         currentProjectKey = Object.keys(projects)[0] || '';
-      }
+  }
       if (activeView === 'overview') {
         renderOverview();
-      } else {
+  } else {
         if (currentProjectKey) {
           navigateToDetail(currentProjectKey);
-        } else {
+  } else {
           navigateToOverview();
-        }
-      }
-    }
+  }
+  }
+  }
   }
 
   function createManualProject(num, name, pm, totalDwg) {
@@ -400,12 +455,12 @@
             pending,
             submitted: 0,
             notStarted
-          },
+  },
           completionPct: parseFloat(completionPct),
           drawings: []
-        }
-      }
-    };
+  }
+  }
+  };
 
     saveData();
     navigateToDetail(displayName);
@@ -431,7 +486,7 @@
         p.projectLead?.toLowerCase().includes(query) ||
         p.projectName?.toLowerCase().includes(query)
       );
-    });
+  });
 
     if (projectKeys.length === 0) {
       grid.innerHTML = `
@@ -441,7 +496,7 @@
         </div>
       `;
       return;
-    }
+  }
 
     projectKeys.forEach((key) => {
       const rawProj = projects[key];
@@ -455,7 +510,7 @@
         pending: 0,
         notStarted: 0,
         submitted: 0
-      };
+  };
 
       const totalDwg = proj.totalDwg || Object.values(summary).reduce((a, b) => a + b, 0);
       const approvedCount = summary.approved || 0;
@@ -519,7 +574,7 @@
                 <span class="stats-val">: ${summary.submitted}</span>
               </div>`
                 : ''
-            }
+  }
           </div>
 
           <div class="card-chart-container">
@@ -541,13 +596,13 @@
         el.addEventListener('click', (e) => {
           e.preventDefault();
           navigateToDetail(key);
-        });
-      });
+  });
+  });
 
       card.querySelector('[data-delete-project]').addEventListener('click', (e) => {
         e.stopPropagation();
         deleteProject(key);
-      });
+  });
 
       grid.appendChild(card);
 
@@ -574,7 +629,7 @@
           if (summary.submitted) {
             chartData.push(summary.submitted);
             bgColors.push(STATUS_COLORS.submitted);
-          }
+  }
 
           chartInstances[chartId] = new Chart(ctx, {
             type: 'doughnut',
@@ -586,9 +641,9 @@
                   borderWidth: 2,
                   borderColor: '#FFFFFF',
                   hoverOffset: 3
-                }
+  }
               ]
-            },
+  },
             options: {
               responsive: true,
               maintainAspectRatio: false,
@@ -610,26 +665,27 @@
                       const val = c.raw;
                       const pct = totalDwg > 0 ? Math.round((val / totalDwg) * 100) : 0;
                       return ` ${labels[c.dataIndex] || ''}: ${val} (${pct}%)`;
-                    }
-                  }
-                }
-              }
-            }
-          });
-        }
-      }, 0);
-    });
+  }
+  }
+  }
+  }
+  }
+  });
+  }
+  }, 0);
+  });
   }
 
   // --- Rendering: Project In-Depth Detail (Page 2) ---
 
   function renderProjectDetail() {
     destroyAllCharts();
+    resetAllChartZooms();
     const rawProj = projects[currentProjectKey];
     if (!rawProj) {
       navigateToOverview();
       return;
-    }
+  }
 
     // Ensure currentDateKey is valid for this specific project
     if (rawProj.history) {
@@ -637,9 +693,9 @@
       if (!currentDateKey || !rawProj.history[currentDateKey]) {
         if (dates.length > 0) {
           currentDateKey = dates[dates.length - 1];
-        }
-      }
-    }
+  }
+  }
+  }
 
     const proj = getProjectReport(rawProj, currentDateKey);
     updateReportingDateBadge(proj.dateOfReport || currentDateKey);
@@ -648,7 +704,7 @@
     const titleElem = document.getElementById('detail-project-title');
     if (titleElem) {
       titleElem.textContent = `Project Overview (${proj.projectNumber || ''} ${proj.projectName || ''})`;
-    }
+  }
 
     // Correction 2: Populate Date Selector with file name date stamps and file names
     const dateSelect = document.getElementById('detail-date-select');
@@ -664,9 +720,9 @@
         opt.textContent = `${h.dateOfReport || d}${fileTag}`;
         if (d === currentDateKey) opt.selected = true;
         dateSelect.appendChild(opt);
-      });
+  });
       dateSelect.style.display = dates.length >= 1 ? 'inline-block' : 'none';
-    }
+  }
 
     // Key Personnel Block
     document.getElementById('val-incharge').textContent = proj.projectInCharge || 'Rejoe';
@@ -683,7 +739,7 @@
       const modelers = proj.modelers || [];
       if (modelers.length === 0) {
         modelersContainer.innerHTML = '<p style="color: #94A3B8; font-size: 13px;">No modelers listed in Column C.</p>';
-      } else {
+  } else {
         modelers.forEach((m) => {
           const item = document.createElement('div');
           item.className = 'modeler-item';
@@ -692,11 +748,11 @@
             <span class="modeler-date">${m.dateOfJoin}</span>
           `;
           modelersContainer.appendChild(item);
-        });
-      }
-    }
+  });
+  }
+  }
 
-    // Correction 1: Dynamic Calculation of Period of Extension = Planned end Date – Present Date
+    // Correction 1: Dynamic Calculation of Period of Extension = Planned end Date â€“ Present Date
     const plannedEndDate = proj.plannedEndDate || '06/06/2026';
     const presentDate = proj.presentDate || proj.dateOfReport || '05/09/2026';
     const computedExtension = window.ExcelParser.calculatePeriodOfExtension(plannedEndDate, presentDate);
@@ -714,14 +770,14 @@
       const notes = proj.notes || [];
       if (notes.length === 0) {
         notesContainer.innerHTML = '<li style="color: #94A3B8;">No notes or observations entered in Column I of the Excel file.</li>';
-      } else {
+  } else {
         notes.forEach((note) => {
           const li = document.createElement('li');
           li.textContent = note;
           notesContainer.appendChild(li);
-        });
-      }
-    }
+  });
+  }
+  }
 
     // Render Charts
     renderMonthlyChart(rawProj);
@@ -748,7 +804,7 @@
     const labels = sortedDates.map((dk) => {
       const h = historyObj[dk];
       return window.ExcelParser.formatDayMonthYear(h.dateOfReport || dk) || h.monthYearLabel || dk;
-    });
+  });
 
     const approvedData = [];
     const resubData = [];
@@ -767,7 +823,7 @@
       pendingData.push(s.pending || 0);
       notStartedData.push(s.notStarted || 0);
       submittedData.push(s.submitted || 0);
-    });
+  });
 
     chartInstances['monthly'] = new Chart(ctx, {
       type: 'bar',
@@ -778,39 +834,39 @@
             label: 'Approved',
             data: approvedData,
             backgroundColor: STATUS_COLORS.approved
-          },
+  },
           {
             label: 'Appr. W Re.',
             data: resubData,
             backgroundColor: STATUS_COLORS.approvedWithResub
-          },
+  },
           {
             label: 'Rejected',
             data: rejectedData,
             backgroundColor: STATUS_COLORS.rejected
-          },
+  },
           {
             label: 'Under Prep.',
             data: prepData,
             backgroundColor: STATUS_COLORS.underPrep
-          },
+  },
           {
             label: 'Pending',
             data: pendingData,
             backgroundColor: STATUS_COLORS.pending
-          },
+  },
           {
             label: 'Not Started',
             data: notStartedData,
             backgroundColor: STATUS_COLORS.notStarted
-          },
+  },
           {
             label: 'Submitted',
             data: submittedData,
             backgroundColor: STATUS_COLORS.submitted
-          }
+  }
         ]
-      },
+  },
       options: {
         responsive: true,
         maintainAspectRatio: false,
@@ -823,8 +879,8 @@
               boxWidth: 12,
               font: { size: 11, weight: 'bold' },
               color: '#334155'
-            }
-          },
+  }
+  },
           tooltip: {
             mode: 'index',
             intersect: false,
@@ -837,18 +893,18 @@
                 let total = h.totalDwg;
                 if (total === undefined || total === null) {
                   total = items.reduce((sum, item) => sum + (Number(item.raw) || 0), 0);
-                }
+  }
                 return `\nTotal Drawings: ${total}`;
-              }
-            }
-          }
-        },
+  }
+  }
+  }
+  },
         scales: {
           x: {
             stacked: false, // CLUSTERED COLUMN
             grid: { display: false },
             ticks: { font: { weight: 'bold' }, color: '#475569' }
-          },
+  },
           y: {
             stacked: false, // CLUSTERED COLUMN
             beginAtZero: true,
@@ -856,13 +912,14 @@
               display: true,
               text: 'Total Number of Drawings',
               font: { weight: 'bold', size: 12 }
-            },
+  },
             grid: { color: '#F1F5F9' },
             ticks: { precision: 0 }
-          }
-        }
-      }
-    });
+  }
+  }
+  }
+  });
+
   }
 
   /**
@@ -882,12 +939,12 @@
     const labels = sortedDates.map((dk) => {
       const h = historyObj[dk];
       return window.ExcelParser.formatDayMonthYear(h.dateOfReport || dk) || h.monthYearLabel || dk;
-    });
+  });
 
     const resourceCounts = sortedDates.map((dk) => {
       const h = historyObj[dk];
       return h.resourceCount !== undefined ? h.resourceCount : (rawProj.modelers ? rawProj.modelers.length : 4);
-    });
+  });
 
     const maxCount = Math.max(...resourceCounts, 5);
 
@@ -902,29 +959,29 @@
             backgroundColor: '#1F5070',
             barPercentage: 0.5,
             categoryPercentage: 0.7
-          }
+  }
         ]
-      },
+  },
       plugins: [barTipLabelsPlugin],
       options: {
         responsive: true,
         maintainAspectRatio: false,
         layout: {
           padding: { top: 20 }
-        },
+  },
         plugins: {
           legend: { display: false },
           tooltip: {
             callbacks: {
               label: (c) => ` Number of OSR Resources: ${c.raw}`
-            }
-          }
-        },
+  }
+  }
+  },
         scales: {
           x: {
             grid: { display: false },
             ticks: { font: { weight: 'bold' }, color: '#475569' }
-          },
+  },
           y: {
             beginAtZero: true,
             suggestedMax: maxCount + 1,
@@ -932,13 +989,14 @@
               display: true,
               text: 'Number of OSR Resources',
               font: { weight: 'bold', size: 12 }
-            },
+  },
             ticks: { stepSize: 1, precision: 0 },
             grid: { color: '#E2E8F0' }
-          }
-        }
-      }
-    });
+  }
+  }
+  }
+  });
+
   }
 
   /**
@@ -983,8 +1041,8 @@
         const total = h.totalDwg || 1;
         const pct = Math.round((approved / total) * 100);
         actualData[mIdx] = pct;
-      }
-    });
+  }
+  });
 
     const extensionData = new Array(months.length).fill(null);
     extensionData[5] = actualData[5] || 50;
@@ -1005,7 +1063,7 @@
             borderWidth: 2.5,
             tension: 0.2,
             pointRadius: 4
-          },
+  },
           {
             label: `Actual Date (${actualStart} to ${presentDate})`,
             data: actualData,
@@ -1014,7 +1072,7 @@
             borderWidth: 2.5,
             tension: 0.2,
             pointRadius: 4
-          },
+  },
           {
             label: `Period of Extension (${extension})`,
             data: extensionData,
@@ -1025,9 +1083,9 @@
             tension: 0.2,
             pointRadius: 5,
             pointBackgroundColor: STATUS_COLORS.extension
-          }
+  }
         ]
-      },
+  },
       options: {
         responsive: true,
         maintainAspectRatio: false,
@@ -1037,19 +1095,19 @@
             labels: {
               font: { weight: 'bold', size: 11 },
               color: '#334155'
-            }
-          },
+  }
+  },
           tooltip: {
             callbacks: {
               label: (c) => ` ${c.dataset.label.split('(')[0]}: ${c.raw}%`
-            }
-          }
-        },
+  }
+  }
+  },
         scales: {
           x: {
             grid: { display: false },
             ticks: { font: { weight: '600' }, color: '#475569' }
-          },
+  },
           y: {
             beginAtZero: true,
             max: 100,
@@ -1057,16 +1115,17 @@
               display: true,
               text: 'Percentage of Completion (%)',
               font: { weight: 'bold', size: 12 }
-            },
+  },
             ticks: {
               callback: (v) => `${v}%`,
               stepSize: 20
-            },
+  },
             grid: { color: '#F1F5F9' }
-          }
-        }
-      }
-    });
+  }
+  }
+  }
+  });
+
   }
 
   /**
@@ -1086,11 +1145,11 @@
       const matchesFilter =
         drawingFilterStatus === 'ALL' || dwg.status.toLowerCase() === drawingFilterStatus.toLowerCase();
       return matchesSearch && matchesFilter;
-    });
+  });
 
     if (countBadge) {
       countBadge.textContent = `Showing ${filtered.length} of ${drawings.length} drawings`;
-    }
+  }
 
     if (filtered.length === 0) {
       tbody.innerHTML = `
@@ -1101,7 +1160,7 @@
         </tr>
       `;
       return;
-    }
+  }
 
     filtered.slice(0, 500).forEach((dwg, index) => {
       const tr = document.createElement('tr');
@@ -1112,7 +1171,7 @@
         <td><span class="badge ${badgeClass}">${dwg.status}</span></td>
       `;
       tbody.appendChild(tr);
-    });
+  });
   }
 
   function getBadgeClass(status) {
@@ -1139,7 +1198,7 @@
   function navigateToDetail(projectKey) {
     if (projectKey && projects[projectKey]) {
       currentProjectKey = projectKey;
-    }
+  }
     activeView = 'detail';
     document.getElementById('view-overview').classList.remove('active');
     document.getElementById('view-detail').classList.add('active');
@@ -1155,12 +1214,12 @@
     if (!proj) {
       alert('Please select a valid project first.');
       return;
-    }
+  }
 
     const modalTitle = document.getElementById('upload-modal-title');
     if (modalTitle) {
       modalTitle.textContent = `Upload Excel for ${proj.displayName || pKey}`;
-    }
+  }
 
     const targetInfo = document.getElementById('upload-modal-target-info');
     if (targetInfo) {
@@ -1170,13 +1229,13 @@
           Upload the weekly <code>.xlsx</code> file for this project (e.g. <code>${proj.projectNumber}_YYYY-MM-DD.xlsx</code>). The report date, OSR modelers, schedule, and drawings will be extracted automatically.
         </div>
       `;
-    }
+  }
 
     const statusMsg = document.getElementById('upload-status-msg');
     if (statusMsg) {
       statusMsg.style.display = 'none';
       statusMsg.textContent = '';
-    }
+  }
 
     openModal('upload-modal');
   }
@@ -1190,7 +1249,7 @@
       statusMsg.style.display = 'block';
       statusMsg.textContent = `Processing ${files.length} file(s)...`;
       statusMsg.style.color = '#1E3A8A';
-    }
+  }
 
     let loadedCount = 0;
     for (let i = 0; i < files.length; i++) {
@@ -1222,10 +1281,10 @@
 
           if (matchedKey) {
             pKey = matchedKey;
-          } else {
+  } else {
             pKey = parsed.displayName;
-          }
-        }
+  }
+  }
 
         if (!projects[pKey]) {
           projects[pKey] = {
@@ -1233,8 +1292,8 @@
             projectName: parsed.projectName,
             displayName: parsed.displayName,
             history: {}
-          };
-        }
+  };
+  }
 
         // Live update all project properties
         projects[pKey].projectNumber = parsed.projectNumber || projects[pKey].projectNumber;
@@ -1280,7 +1339,7 @@
           plannedStartDate: parsed.plannedStartDate,
           actualStartDate: parsed.actualStartDate,
           drawings: parsed.drawings
-        };
+  };
 
         // Synchronize and clean dummy placeholder records
         syncProjectToLatest(projects[pKey]);
@@ -1288,27 +1347,27 @@
         currentProjectKey = pKey;
         currentDateKey = dateKey;
         loadedCount++;
-      } catch (err) {
+  } catch (err) {
         console.error('Error parsing file:', file.name, err);
-      }
-    }
+  }
+  }
 
     saveData();
 
     if (statusMsg) {
       statusMsg.textContent = `Successfully updated report for ${projects[currentProjectKey]?.displayName || currentProjectKey}!`;
       statusMsg.style.color = '#16A34A';
-    }
+  }
 
     setTimeout(() => {
       closeModal('upload-modal');
       closeModal('add-project-modal');
       if (activeView === 'overview') {
         renderOverview();
-      } else {
+  } else {
         renderProjectDetail();
-      }
-    }, 1200);
+  }
+  }, 1200);
   }
 
   // --- Modal Helpers ---
@@ -1330,7 +1389,7 @@
     if (projectKeys.length === 0) {
       alert('No projects available to export.');
       return;
-    }
+  }
 
     // Ensure every project in memory is synchronized to its latest snapshot and purged of dummy records
     const consolidatedProjects = {};
@@ -1339,7 +1398,7 @@
       if (!proj) return;
       syncProjectToLatest(proj);
       consolidatedProjects[key] = proj;
-    });
+  });
 
     const now = new Date();
     const versionStamp = now.toISOString().replace(/[:.]/g, '-');
@@ -1370,7 +1429,7 @@ window.DEFAULT_PROJECTS = ${JSON.stringify(consolidatedProjects, null, 2)};
     document.body.removeChild(link);
 
     const projectNamesList = Object.keys(consolidatedProjects)
-      .map((k) => `• ${consolidatedProjects[k].displayName || k}`)
+      .map((k) => `â€¢ ${consolidatedProjects[k].displayName || k}`)
       .join('\n');
 
     alert(`sampleData.js exported successfully!\n\nConsolidated data for ${Object.keys(consolidatedProjects).length} project(s):\n${projectNamesList}\n\nAll weekly Excel updates, added projects, and removals are preserved.`);
@@ -1386,7 +1445,7 @@ window.DEFAULT_PROJECTS = ${JSON.stringify(consolidatedProjects, null, 2)};
     let csvContent = 'data:text/csv;charset=utf-8,Row,Drawing Number,Status\r\n';
     drawings.forEach((d, idx) => {
       csvContent += `${idx + 1},"${d.drawingNo}","${d.status}"\r\n`;
-    });
+  });
 
     const encodedUri = encodeURI(csvContent);
     const link = document.createElement('a');
@@ -1403,16 +1462,16 @@ window.DEFAULT_PROJECTS = ${JSON.stringify(consolidatedProjects, null, 2)};
     document.getElementById('back-to-overview')?.addEventListener('click', (e) => {
       e.preventDefault();
       navigateToOverview();
-    });
+  });
 
     document.getElementById('search-projects')?.addEventListener('input', () => {
       renderOverview();
-    });
+  });
 
     // Page 2 Per-Project Upload Button
     document.getElementById('btn-upload-project-excel')?.addEventListener('click', () => {
       openProjectUploadModal(currentProjectKey);
-    });
+  });
 
     // Page 2 Consolidated Export Button
     document.getElementById('btn-export-sample-data-page2')?.addEventListener('click', exportSampleDataJs);
@@ -1435,16 +1494,16 @@ window.DEFAULT_PROJECTS = ${JSON.stringify(consolidatedProjects, null, 2)};
       if (!num || !name) {
         alert('Please provide at least Project Number and Name.');
         return;
-      }
+  }
       createManualProject(num, name, pm, dwg);
       closeModal('add-project-modal');
-    });
+  });
 
     document.getElementById('btn-delete-current-project')?.addEventListener('click', () => {
       if (currentProjectKey) {
         deleteProject(currentProjectKey);
-      }
-    });
+  }
+  });
 
     document.querySelectorAll('.editable-heading').forEach((heading) => {
       heading.setAttribute('contenteditable', 'true');
@@ -1453,27 +1512,27 @@ window.DEFAULT_PROJECTS = ${JSON.stringify(consolidatedProjects, null, 2)};
         if (e.key === 'Enter') {
           e.preventDefault();
           heading.blur();
-        }
-      });
-    });
+  }
+  });
+  });
 
     // Date selector (Page 2): Switch between verified file date stamps
     document.getElementById('detail-date-select')?.addEventListener('change', (e) => {
       currentDateKey = e.target.value;
       renderProjectDetail();
-    });
+  });
 
     document.getElementById('filter-drawing-status')?.addEventListener('change', (e) => {
       drawingFilterStatus = e.target.value;
       const proj = getProjectReport(projects[currentProjectKey], currentDateKey);
       renderDrawingsTable(proj);
-    });
+  });
 
     document.getElementById('search-drawings')?.addEventListener('input', (e) => {
       drawingSearchQuery = e.target.value;
       const proj = getProjectReport(projects[currentProjectKey], currentDateKey);
       renderDrawingsTable(proj);
-    });
+  });
 
     // Export CSV
     document.getElementById('btn-export-csv')?.addEventListener('click', exportDrawingsToCsv);
@@ -1484,10 +1543,10 @@ window.DEFAULT_PROJECTS = ${JSON.stringify(consolidatedProjects, null, 2)};
     // Print Button
     document.getElementById('btn-print-report')?.addEventListener('click', () => {
       window.print();
-    });
+  });
 
     // Horizontal Chart Navigation Buttons (Scroll forward/backward)
-    document.querySelectorAll('.chart-nav-btn').forEach((btn) => {
+    document.querySelectorAll('.chart-nav-btn[data-chart-scroll]').forEach((btn) => {
       btn.addEventListener('click', (e) => {
         e.preventDefault();
         const wrapperId = btn.getAttribute('data-chart-scroll');
@@ -1502,6 +1561,18 @@ window.DEFAULT_PROJECTS = ${JSON.stringify(consolidatedProjects, null, 2)};
       });
     });
 
+    // Chart Zoom Buttons (Zoom In / Zoom Out / Reset)
+    document.querySelectorAll('.chart-zoom-btn').forEach((btn) => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        const targetId = btn.getAttribute('data-zoom-target');
+        const dir = btn.getAttribute('data-zoom-dir');
+        if (targetId && dir) {
+          applyChartZoom(targetId, dir);
+        }
+      });
+    });
+
     const dropZone = document.getElementById('drop-zone');
     const fileInput = document.getElementById('file-input');
 
@@ -1510,30 +1581,31 @@ window.DEFAULT_PROJECTS = ${JSON.stringify(consolidatedProjects, null, 2)};
 
       fileInput.addEventListener('change', (e) => {
         handleFilesUpload(e.target.files);
-      });
+  });
 
       ['dragenter', 'dragover'].forEach((eventName) => {
         dropZone.addEventListener(eventName, (e) => {
           e.preventDefault();
           dropZone.classList.add('dragover');
-        });
-      });
+  });
+  });
 
       ['dragleave', 'drop'].forEach((eventName) => {
         dropZone.addEventListener(eventName, (e) => {
           e.preventDefault();
           dropZone.classList.remove('dragover');
-        });
-      });
+  });
+  });
 
       dropZone.addEventListener('drop', (e) => {
         const dt = e.dataTransfer;
         const files = dt.files;
         handleFilesUpload(files);
-      });
-    }
+  });
+  }
 
     window.addEventListener('hashchange', handleHashRouting);
+
   }
 
   function handleHashRouting() {
@@ -1542,12 +1614,12 @@ window.DEFAULT_PROJECTS = ${JSON.stringify(consolidatedProjects, null, 2)};
       const match = hash.match(/project=([^&]+)/);
       if (match) {
         navigateToDetail(decodeURIComponent(match[1]));
-      } else {
+  } else {
         navigateToDetail(currentProjectKey);
-      }
-    } else {
+  }
+  } else {
       navigateToOverview();
-    }
+  }
   }
 
   // --- Bootstrap ---
@@ -1556,7 +1628,7 @@ window.DEFAULT_PROJECTS = ${JSON.stringify(consolidatedProjects, null, 2)};
     const urlParams = new URLSearchParams(window.location.search);
     if (urlParams.get('mode') === 'review' || urlParams.get('review') === 'true') {
       document.body.classList.add('review-mode');
-    }
+  }
     initData();
     bindEvents();
     handleHashRouting();
